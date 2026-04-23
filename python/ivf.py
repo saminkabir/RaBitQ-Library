@@ -2,6 +2,10 @@ import faiss
 import sys
 from time import time
 from utils.io import read_fvecs, write_fvecs, write_ivecs, read_fbin
+import os
+faiss.omp_set_num_threads(1)
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 5:
