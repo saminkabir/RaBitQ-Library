@@ -201,7 +201,7 @@ inline void one_bit_compact_codes(
 ) {
     constexpr size_t kTypeBits = sizeof(TC) * 8;
 
-#pragma omp parallel for if (Parallel)
+// #pragma omp parallel for if (Parallel)
     for (size_t i = 0; i < num; ++i) {
         one_bit_compact_code(
             data + (padded_dim * i),

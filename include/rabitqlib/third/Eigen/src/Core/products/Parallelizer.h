@@ -148,7 +148,7 @@ void parallelize_gemm(const Functor& func, Index rows, Index cols, Index depth, 
 
   ei_declare_aligned_stack_constructed_variable(GemmParallelInfo<Index>,info,threads,0);
 
-  #pragma omp parallel num_threads(threads)
+  // #pragma omp parallel num_threads(threads)
   {
     Index i = omp_get_thread_num();
     // Note that the actual number of threads might be lower than the number of request ones.

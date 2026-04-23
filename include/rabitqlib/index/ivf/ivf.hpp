@@ -191,7 +191,7 @@ inline void IVF::construct(
     }
 
     /* Quantize each cluster */
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_cluster_; ++i) {
         const float* cur_centroid = centroids + (i * dim_);
         float* cur_rotated_c = &rotated_centroids[i * padded_dim_];

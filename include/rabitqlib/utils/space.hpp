@@ -209,7 +209,7 @@ inline std::vector<T> compute_centroid(
     omp_set_num_threads(static_cast<int>(num_threads));
     std::vector<std::vector<T>> all_results(num_threads, std::vector<T>(dim, 0));
 
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_points; ++i) {
         auto tid = omp_get_thread_num();
         std::vector<T>& cur_results = all_results[tid];
@@ -245,7 +245,7 @@ inline PID exact_nn(
 ) {
     std::vector<AnnCandidate<T, PID>> best_entries(num_threads);
 
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_points; ++i) {
         auto tid = omp_get_thread_num();
         AnnCandidate<T, PID>& cur_entry = best_entries[tid];

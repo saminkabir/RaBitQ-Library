@@ -101,7 +101,7 @@ class QGBuilder {
 
     [[nodiscard]] bool check_dup() const {
         std::atomic<bool> flag(false);
-#pragma omp parallel for
+// // #pragma omp parallel for
         for (size_t i = 0; i < num_nodes_; ++i) {
             std::unordered_set<PID> edges;
             for (auto nei : new_neighbors_[i]) {
@@ -231,7 +231,7 @@ inline void QGBuilder::heuristic_prune(
  * @param refine refine = true means recording pruned candidates
  */
 inline void QGBuilder::search_new_neighbors(bool refine) {
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_nodes_; ++i) {
         PID cur_id = i;
         auto tid = omp_get_thread_num();
@@ -266,7 +266,7 @@ inline void QGBuilder::add_reverse_edges(bool refine) {
     std::vector<std::mutex> locks(num_nodes_);
     std::vector<CandidateList> reverse_buffer(num_nodes_);
 
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (PID data_id = 0; data_id < num_nodes_; ++data_id) {
         for (const auto& nei : new_neighbors_[data_id]) {
             PID dst = nei.id;
@@ -293,7 +293,7 @@ inline void QGBuilder::add_reverse_edges(bool refine) {
         }
     }
 
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (PID data_id = 0; data_id < num_nodes_; ++data_id) {
         CandidateList& tmp_pool = reverse_buffer[data_id];
         tmp_pool.reserve(tmp_pool.size() + degree_bound_);
@@ -308,7 +308,7 @@ inline void QGBuilder::add_reverse_edges(bool refine) {
 inline void QGBuilder::random_init() {
     const PID min_id = 0;
     const PID max_id = num_nodes_ - 1;
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_nodes_; ++i) {
         std::unordered_set<PID> neighbor_set;
         neighbor_set.reserve(degree_bound_);
@@ -340,7 +340,7 @@ inline void QGBuilder::random_init() {
 inline void QGBuilder::graph_refine() {
     std::cout << "Supplementing edges...\n";
 
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_nodes_; ++i) {
         CandidateList& cur_neighbors = new_neighbors_[i];
         size_t cur_degree = cur_neighbors.size();
@@ -415,7 +415,7 @@ inline void QGBuilder::iter(bool refine) {
     }
 
     // update qg
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_nodes_; ++i) {
         qg_.update_qg(i, new_neighbors_[i]);
         degrees_[i] = new_neighbors_[i].size();

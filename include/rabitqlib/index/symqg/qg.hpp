@@ -169,7 +169,7 @@ inline QuantizedGraph<T>::~QuantizedGraph() {
 
 template <typename T>
 inline void QuantizedGraph<T>::copy_vectors(const T* data) {
-#pragma omp parallel for schedule(dynamic)
+// #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < num_points_; ++i) {
         const T* src = data + (dim_ * i);
         T* dst = get_vector(i);
