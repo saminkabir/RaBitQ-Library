@@ -1,0 +1,55 @@
+File /home/cc/datasets/coco-nomic-768-normalized/base.fvecs loaded
+Rows 282360 Cols 768
+File /home/cc/datasets/coco-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/coco-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 57958
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 324.556 secs
+EF	QPS	Recall
+10	13913.1	0.1363
+20	11484.6	0.1996
+40	9942.16	0.2367
+50	8650.44	0.2665
+60	7781.75	0.2926
+80	6505.21	0.333
+100	5869.48	0.3545
+150	4106.58	0.446
+170	3635.22	0.4815
+190	3331.24	0.5051
+200	3176.95	0.5173
+250	2606.9	0.5708
+300	2171.31	0.6114
+400	1651.98	0.6791
+500	1323.58	0.7314
+600	1091.43	0.7704
+700	927.014	0.8041
+800	808.734	0.8247
+1500	394.683	0.9079
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/coco-nomic-768-normalized/base.fvecs /home/cc/datasets/coco-nomic-768-normalized/query.fvecs /home/cc/datasets/coco-nomic-768-normalized/groundtruth.ivecs 64 128"
+	User time (seconds): 326.60
+	System time (seconds): 1.86
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:29.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4597800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 498759
+	Voluntary context switches: 6637
+	Involuntary context switches: 286
+	Swaps: 0
+	File system inputs: 1697064
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

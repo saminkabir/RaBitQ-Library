@@ -1,0 +1,55 @@
+File /home/cc/datasets/seismic1m/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/seismic1m/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/seismic1m/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 661549
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 2052.78 secs
+EF	QPS	Recall
+10	38776.3	0.1171
+20	28648.4	0.156
+40	18722.7	0.2264
+50	16157.4	0.2561
+60	14518	0.2745
+80	11369.1	0.3153
+100	9981.72	0.3402
+150	6830.8	0.405
+170	5989.94	0.4304
+190	5393.1	0.4562
+200	5063.85	0.4634
+250	4136.13	0.5015
+300	3403.2	0.5339
+400	2497.88	0.5752
+500	1980.75	0.603
+600	1615.58	0.619
+700	1365.2	0.6303
+800	1143.02	0.6462
+1500	544.908	0.691
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/seismic1m/base.fvecs /home/cc/datasets/seismic1m/query.fvecs /home/cc/datasets/seismic1m/groundtruth.ivecs 128 256"
+	User time (seconds): 2050.28
+	System time (seconds): 5.38
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 34:15.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12137080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2070514
+	Voluntary context switches: 1
+	Involuntary context switches: 2266
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

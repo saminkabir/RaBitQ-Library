@@ -1,0 +1,55 @@
+File /home/cc/datasets/imagenet-clip-512-normalized/base.fvecs loaded
+Rows 1000000 Cols 512
+File /home/cc/datasets/imagenet-clip-512-normalized/query.fvecs loaded
+Rows 100 Cols 512
+File /home/cc/datasets/imagenet-clip-512-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 367595
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 472.789 secs
+EF	QPS	Recall
+10	23983.5	0.3219
+20	22256.2	0.3672
+40	18788.8	0.4345
+50	17844.1	0.4622
+60	16771.7	0.4927
+80	14527.8	0.5559
+100	12956.3	0.6144
+150	10183.9	0.7277
+170	9318.23	0.7677
+190	8639.17	0.8024
+200	8323.97	0.8183
+250	7014.07	0.8798
+300	5900.48	0.9211
+400	4531.74	0.9636
+500	3688.14	0.9795
+600	3034.59	0.986
+700	2603.16	0.989
+800	2261.09	0.9918
+1500	1114.41	0.9974
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/imagenet-clip-512-normalized/base.fvecs /home/cc/datasets/imagenet-clip-512-normalized/query.fvecs /home/cc/datasets/imagenet-clip-512-normalized/groundtruth.ivecs 32 64"
+	User time (seconds): 471.77
+	System time (seconds): 3.57
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:55.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9388492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1432509
+	Voluntary context switches: 1
+	Involuntary context switches: 458
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/celeba-resnet-2048-cosine/base.fvecs loaded
+Rows 201599 Cols 2048
+File /home/cc/datasets/celeba-resnet-2048-cosine/query.fvecs loaded
+Rows 100 Cols 2048
+File /home/cc/datasets/celeba-resnet-2048-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 97023
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1439.87 secs
+EF	QPS	Recall
+10	6197.94	0.1685
+20	5150.02	0.2169
+40	3958.25	0.2799
+50	3576.48	0.3081
+60	3312.39	0.3338
+80	2833.21	0.3856
+100	2543.45	0.4272
+150	2027.82	0.519
+170	1895.76	0.5468
+190	1774.61	0.5682
+200	1725.44	0.5776
+250	1484.5	0.6183
+300	1300.97	0.6454
+400	1027.56	0.6828
+500	867	0.7004
+600	717.759	0.7183
+700	623.528	0.7229
+800	558.493	0.725
+1500	299.082	0.7404
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/celeba-resnet-2048-cosine/base.fvecs /home/cc/datasets/celeba-resnet-2048-cosine/query.fvecs /home/cc/datasets/celeba-resnet-2048-cosine/groundtruth.ivecs 128 256"
+	User time (seconds): 1440.86
+	System time (seconds): 4.94
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:05.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10901348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 855356
+	Voluntary context switches: 13
+	Involuntary context switches: 1007
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/bigann/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/datasets/bigann/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/bigann/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 89028
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 830.783 secs
+EF	QPS	Recall
+10	37468.6	0.2096
+20	28171.6	0.2693
+40	19993.9	0.381
+50	18077.9	0.4295
+60	16175.4	0.4778
+80	12661.7	0.555
+100	11389.8	0.6208
+150	8643.54	0.7418
+170	8047.31	0.7809
+190	7274.43	0.8124
+200	6900.58	0.8267
+250	5762.49	0.8847
+300	4847.6	0.9204
+400	3688.03	0.9609
+500	2985.84	0.9793
+600	2418.74	0.986
+700	2054.78	0.9907
+800	1799.07	0.9938
+1500	847.962	0.9992
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/bigann/base.fvecs /home/cc/datasets/bigann/query.fvecs /home/cc/datasets/bigann/groundtruth.ivecs 96 192"
+	User time (seconds): 829.47
+	System time (seconds): 3.69
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:56.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7638780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1468159
+	Voluntary context switches: 5264
+	Involuntary context switches: 477
+	Swaps: 0
+	File system inputs: 359752
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/MNIST/base.fvecs loaded
+Rows 69000 Cols 784
+File /home/cc/datasets/MNIST/query.fvecs loaded
+Rows 200 Cols 784
+File /home/cc/datasets/MNIST/groundtruth.ivecs loaded
+Rows 200 Cols 20
+FhtKacRotator is selected
+Setting entry_point to 33205
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 78.7777 secs
+EF	QPS	Recall
+10	24759.6	0.611
+20	22836	0.7455
+40	21077.1	0.90475
+50	19140.9	0.93975
+60	16987.8	0.96525
+80	13834.5	0.98875
+100	11871.9	0.99525
+150	8775.49	0.997
+170	7963.82	0.997
+190	7331.15	0.9975
+200	7050.35	0.9975
+250	5925.75	0.99825
+300	4994.32	0.99825
+400	3872.32	0.999
+500	3166.43	0.99925
+600	2645.21	0.99925
+700	2280.71	0.99925
+800	1989.75	0.99925
+1500	1001.45	0.9995
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/MNIST/base.fvecs /home/cc/datasets/MNIST/query.fvecs /home/cc/datasets/MNIST/groundtruth.ivecs 64 128"
+	User time (seconds): 81.04
+	System time (seconds): 0.41
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1171348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 118151
+	Voluntary context switches: 1
+	Involuntary context switches: 128
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

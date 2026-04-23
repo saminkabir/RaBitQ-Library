@@ -1,0 +1,55 @@
+File /home/cc/datasets/OBST2024/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/OBST2024/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/OBST2024/groundtruth.ivecs loaded
+Rows 300 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 654050
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 504.011 secs
+EF	QPS	Recall
+10	50707	0.103367
+20	40279.8	0.161
+40	30188.3	0.250833
+50	26235.9	0.2909
+60	23381.5	0.323533
+80	18646.1	0.382267
+100	16001.7	0.429933
+150	11481.6	0.519567
+170	10328.1	0.548067
+190	9462.1	0.570267
+200	9076.69	0.581467
+250	7539.13	0.626133
+300	6243.83	0.656133
+400	4821.92	0.686967
+500	3959.91	0.7067
+600	3275.17	0.717633
+700	2836.28	0.7263
+800	2496.3	0.736133
+1500	1153.13	0.838667
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/OBST2024/base.fvecs /home/cc/datasets/OBST2024/query.fvecs /home/cc/datasets/OBST2024/groundtruth.ivecs 32 128"
+	User time (seconds): 505.52
+	System time (seconds): 2.87
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:34.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6396584
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1102109
+	Voluntary context switches: 9207
+	Involuntary context switches: 363
+	Swaps: 0
+	File system inputs: 427704
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/sald1m/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/datasets/sald1m/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/sald1m/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 101708
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 364.414 secs
+EF	QPS	Recall
+10	41126	0.3016
+20	34364.3	0.3422
+40	25515.7	0.4054
+50	25168	0.4326
+60	22264.1	0.4581
+80	19792.7	0.5041
+100	16980.5	0.5643
+150	13250.5	0.6624
+170	12023.9	0.6999
+190	11489.5	0.7335
+200	10860.2	0.7477
+250	9064.73	0.8211
+300	7779.93	0.8747
+400	6014.61	0.9302
+500	4990.67	0.9509
+600	4095.41	0.959
+700	3570.08	0.9632
+800	3082.61	0.9675
+1500	1491.07	0.9772
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/sald1m/base.fvecs /home/cc/datasets/sald1m/query.fvecs /home/cc/datasets/sald1m/groundtruth.ivecs 32 128"
+	User time (seconds): 363.77
+	System time (seconds): 2.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:07.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4886552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1026586
+	Voluntary context switches: 4076
+	Involuntary context switches: 263
+	Swaps: 0
+	File system inputs: 705728
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

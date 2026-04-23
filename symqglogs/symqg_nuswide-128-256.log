@@ -1,0 +1,55 @@
+File /home/cc/datasets/nuswide/base.fvecs loaded
+Rows 268643 Cols 500
+File /home/cc/datasets/nuswide/query.fvecs loaded
+Rows 200 Cols 500
+File /home/cc/datasets/nuswide/groundtruth.ivecs loaded
+Rows 200 Cols 20
+FhtKacRotator is selected
+Setting entry_point to 218754
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 646.928 secs
+EF	QPS	Recall
+10	17871.2	0.32125
+20	19103.1	0.422
+40	11549.5	0.5695
+50	9642.65	0.6155
+60	8402.54	0.64975
+80	6510.35	0.70675
+100	5406.7	0.746
+150	3762.25	0.80875
+170	3363.65	0.824
+190	3054.06	0.839
+200	2904.44	0.8445
+250	2402.4	0.86675
+300	2005.24	0.8835
+400	1517.49	0.9135
+500	1232.54	0.9295
+600	1019.74	0.94175
+700	876.634	0.95175
+800	765.761	0.96075
+1500	386.779	0.97875
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/nuswide/base.fvecs /home/cc/datasets/nuswide/query.fvecs /home/cc/datasets/nuswide/groundtruth.ivecs 128 256"
+	User time (seconds): 651.71
+	System time (seconds): 1.89
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:53.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4819816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 604181
+	Voluntary context switches: 6
+	Involuntary context switches: 950
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

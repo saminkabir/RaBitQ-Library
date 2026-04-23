@@ -1,0 +1,55 @@
+File /home/cc/datasets/sift/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/datasets/sift/query.fvecs loaded
+Rows 10000 Cols 128
+File /home/cc/datasets/sift/groundtruth.ivecs loaded
+Rows 10000 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 123742
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 264.641 secs
+EF	QPS	Recall
+10	41227.8	0.267356
+20	33919.1	0.31784
+40	26256.8	0.404653
+50	23649.8	0.442657
+60	22083.1	0.480862
+80	18212.6	0.548588
+100	16420.3	0.608559
+150	12072.4	0.730158
+170	10826.1	0.768949
+190	9816.69	0.802791
+200	9428.89	0.817487
+250	7835.25	0.874779
+300	6448.2	0.912446
+400	4912.52	0.953499
+500	3958.87	0.972156
+600	3230.16	0.981903
+700	2750.87	0.987324
+800	2383.06	0.990779
+1500	1142.48	0.997959
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/sift/base.fvecs /home/cc/datasets/sift/query.fvecs /home/cc/datasets/sift/groundtruth.ivecs 32 64"
+	User time (seconds): 367.14
+	System time (seconds): 2.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:09.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4900980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1039549
+	Voluntary context switches: 4496
+	Involuntary context switches: 347
+	Swaps: 0
+	File system inputs: 78360
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/ISC_EHB_DepthPhases/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/ISC_EHB_DepthPhases/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs loaded
+Rows 300 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 97
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1180.29 secs
+EF	QPS	Recall
+10	3073.95	0
+20	2281.31	0
+40	1879.79	0
+50	1832.37	0
+60	1691.74	0
+80	1452.75	0
+100	1460.32	0
+150	1226.37	0
+170	1207.99	0
+190	1148.86	0
+200	1121.09	0
+250	1104.72	0
+300	992.624	0
+400	868.236	0
+500	794.254	0
+600	678.505	0
+700	639.006	0
+800	605.937	0
+1500	399.145	0
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/ISC_EHB_DepthPhases/base.fvecs /home/cc/datasets/ISC_EHB_DepthPhases/query.fvecs /home/cc/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs 64 128"
+	User time (seconds): 1194.58
+	System time (seconds): 4.05
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:03.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8261152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1426319
+	Voluntary context switches: 8707
+	Involuntary context switches: 604
+	Swaps: 0
+	File system inputs: 335064
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

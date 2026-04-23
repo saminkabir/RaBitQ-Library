@@ -1,0 +1,55 @@
+File /home/cc/datasets/glove/base.fvecs loaded
+Rows 1192514 Cols 100
+File /home/cc/datasets/glove/query.fvecs loaded
+Rows 200 Cols 100
+File /home/cc/datasets/glove/groundtruth.ivecs loaded
+Rows 200 Cols 20
+FhtKacRotator is selected
+Setting entry_point to 1124124
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 464.818 secs
+EF	QPS	Recall
+10	95757.8	0.22425
+20	69143.2	0.343
+40	38045.7	0.5275
+50	31902.8	0.58475
+60	27025.7	0.62475
+80	20700	0.67
+100	17113	0.6965
+150	11665.1	0.7515
+170	10321.6	0.76275
+190	9741.38	0.77575
+200	9090.76	0.784
+250	7470.73	0.8055
+300	6130.87	0.8185
+400	4673.68	0.84325
+500	3658.38	0.85825
+600	2993.5	0.86975
+700	2552.75	0.877
+800	2188.62	0.885
+1500	1000.38	0.91775
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/glove/base.fvecs /home/cc/datasets/glove/query.fvecs /home/cc/datasets/glove/groundtruth.ivecs 32 128"
+	User time (seconds): 465.18
+	System time (seconds): 2.38
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:47.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5571468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1189780
+	Voluntary context switches: 406
+	Involuntary context switches: 572
+	Swaps: 0
+	File system inputs: 20728
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

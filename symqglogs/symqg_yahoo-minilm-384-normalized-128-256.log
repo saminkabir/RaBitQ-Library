@@ -1,0 +1,55 @@
+File /home/cc/datasets/yahoo-minilm-384-normalized/base.fvecs loaded
+Rows 677305 Cols 384
+File /home/cc/datasets/yahoo-minilm-384-normalized/query.fvecs loaded
+Rows 100 Cols 384
+File /home/cc/datasets/yahoo-minilm-384-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 553852
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1330.3 secs
+EF	QPS	Recall
+10	19324.6	0.2771
+20	15922.9	0.3276
+40	11748.8	0.4183
+50	10219	0.4569
+60	9631.39	0.4929
+80	7955.79	0.5653
+100	6931	0.6236
+150	5414.47	0.7311
+170	5013.12	0.7622
+190	4652.83	0.7931
+200	4459.12	0.8078
+250	3765.86	0.8565
+300	3180.47	0.8935
+400	2453.06	0.9344
+500	1997.42	0.9611
+600	1637.99	0.9742
+700	1427.37	0.9809
+800	1239.55	0.9857
+1500	611.794	0.9978
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/yahoo-minilm-384-normalized/base.fvecs /home/cc/datasets/yahoo-minilm-384-normalized/query.fvecs /home/cc/datasets/yahoo-minilm-384-normalized/groundtruth.ivecs 128 256"
+	User time (seconds): 1316.94
+	System time (seconds): 17.40
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 22:15.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10172860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3514145
+	Voluntary context switches: 6686
+	Involuntary context switches: 2075
+	Swaps: 0
+	File system inputs: 549432
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

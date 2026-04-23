@@ -1,0 +1,8 @@
+File /home/cc/datasets/crawl/base.fvecs loaded
+Rows 1989995 Cols 300
+File /home/cc/datasets/crawl/query.fvecs loaded
+Rows 10000 Cols 300
+File /home/cc/datasets/crawl/groundtruth.ivecs loaded
+Rows 10000 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 1643220

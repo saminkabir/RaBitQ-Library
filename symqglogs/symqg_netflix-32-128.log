@@ -1,0 +1,55 @@
+File /home/cc/datasets/netflix/base.fvecs loaded
+Rows 17770 Cols 300
+File /home/cc/datasets/netflix/query.fvecs loaded
+Rows 1000 Cols 300
+File /home/cc/datasets/netflix/groundtruth.ivecs loaded
+Rows 1000 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 12892
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 7.7092 secs
+EF	QPS	Recall
+10	41638.7	0.39708
+20	37255.6	0.4107
+40	30685.7	0.44545
+50	28491.6	0.46455
+60	26385.6	0.4839
+80	22678.9	0.52347
+100	20244.6	0.56399
+150	15528.6	0.66927
+170	14417	0.71013
+190	13456.7	0.75055
+200	13174	0.76957
+250	11250.9	0.86006
+300	9577.33	0.92557
+400	7371.37	0.98703
+500	5959.82	0.99735
+600	4872.42	0.99872
+700	4118.71	0.99911
+800	3546.4	0.99933
+1500	1674.59	0.99982
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/netflix/base.fvecs /home/cc/datasets/netflix/query.fvecs /home/cc/datasets/netflix/groundtruth.ivecs 32 128"
+	User time (seconds): 14.99
+	System time (seconds): 0.06
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 129556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19694
+	Voluntary context switches: 198
+	Involuntary context switches: 23
+	Swaps: 0
+	File system inputs: 21440
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,8 @@
+File /home/cc/datasets/agnews-mxbai-1024-euclidean/base.fvecs loaded
+Rows 769382 Cols 1024
+File /home/cc/datasets/agnews-mxbai-1024-euclidean/query.fvecs loaded
+Rows 100 Cols 1024
+File /home/cc/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 740181

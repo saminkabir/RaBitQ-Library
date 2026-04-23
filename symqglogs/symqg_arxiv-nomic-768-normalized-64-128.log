@@ -1,0 +1,55 @@
+File /home/cc/datasets/arxiv-nomic-768-normalized/base.fvecs loaded
+Rows 1000000 Cols 768
+File /home/cc/datasets/arxiv-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/arxiv-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 256819
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1366.19 secs
+EF	QPS	Recall
+10	14094.9	0.3068
+20	12379.6	0.3478
+40	10460.8	0.4133
+50	9935.72	0.4371
+60	9353.63	0.4687
+80	8370.84	0.5227
+100	7521.91	0.5792
+150	5988.39	0.7059
+170	5599.25	0.7441
+190	5206.83	0.7809
+200	5007.29	0.799
+250	4263.99	0.8631
+300	3634.12	0.9095
+400	2809.93	0.9611
+500	2289.55	0.9807
+600	1895.69	0.9897
+700	1624.18	0.9933
+800	1412.59	0.9964
+1500	703.793	0.9997
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/arxiv-nomic-768-normalized/base.fvecs /home/cc/datasets/arxiv-nomic-768-normalized/query.fvecs /home/cc/datasets/arxiv-nomic-768-normalized/groundtruth.ivecs 64 128"
+	User time (seconds): 1363.65
+	System time (seconds): 7.29
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 22:53.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16261024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1973266
+	Voluntary context switches: 17276
+	Involuntary context switches: 841
+	Swaps: 0
+	File system inputs: 4409960
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

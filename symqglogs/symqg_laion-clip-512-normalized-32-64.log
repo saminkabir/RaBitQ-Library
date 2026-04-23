@@ -1,0 +1,55 @@
+File /home/cc/datasets/laion-clip-512-normalized/base.fvecs loaded
+Rows 1000000 Cols 512
+File /home/cc/datasets/laion-clip-512-normalized/query.fvecs loaded
+Rows 100 Cols 512
+File /home/cc/datasets/laion-clip-512-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 475915
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 504.113 secs
+EF	QPS	Recall
+10	23679.2	0.1536
+20	20293.4	0.2042
+40	16115.4	0.2908
+50	15095.7	0.3147
+60	13845.6	0.3481
+80	11723.4	0.3973
+100	10228.3	0.4475
+150	7434.66	0.5428
+170	6710.03	0.5761
+190	6106.57	0.5992
+200	5847.46	0.6114
+250	4823.63	0.6611
+300	4005.71	0.6994
+400	3053.48	0.752
+500	2455.8	0.7862
+600	2014.69	0.8085
+700	1707.17	0.8317
+800	1478.73	0.8451
+1500	698.848	0.9024
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/laion-clip-512-normalized/base.fvecs /home/cc/datasets/laion-clip-512-normalized/query.fvecs /home/cc/datasets/laion-clip-512-normalized/groundtruth.ivecs 32 64"
+	User time (seconds): 503.50
+	System time (seconds): 3.79
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:27.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9390272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1428079
+	Voluntary context switches: 1
+	Involuntary context switches: 530
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/enron/base.fvecs loaded
+Rows 94987 Cols 1369
+File /home/cc/datasets/enron/query.fvecs loaded
+Rows 200 Cols 1369
+File /home/cc/datasets/enron/groundtruth.ivecs loaded
+Rows 200 Cols 20
+FhtKacRotator is selected
+Setting entry_point to 89082
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 151.374 secs
+EF	QPS	Recall
+10	23160.1	0.5245
+20	22300.2	0.67475
+40	16742	0.859
+50	14797.6	0.9015
+60	13278	0.925
+80	10759.3	0.95625
+100	9245.57	0.96925
+150	6754.85	0.983
+170	6132.78	0.98525
+190	5638.32	0.987
+200	5411.9	0.9875
+250	4543.04	0.9895
+300	3852.65	0.99
+400	3010.11	0.99325
+500	2470.31	0.99525
+600	2078.54	0.996
+700	1805.72	0.99625
+800	1592.22	0.99625
+1500	845.01	0.99725
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/enron/base.fvecs /home/cc/datasets/enron/query.fvecs /home/cc/datasets/enron/groundtruth.ivecs 32 128"
+	User time (seconds): 154.19
+	System time (seconds): 0.68
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:34.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1867980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 210186
+	Voluntary context switches: 1
+	Involuntary context switches: 154
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

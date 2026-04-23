@@ -1,0 +1,55 @@
+File /home/cc/datasets/vcseis/base.fvecs loaded
+Rows 160178 Cols 256
+File /home/cc/datasets/vcseis/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/vcseis/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 136104
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 48.3337 secs
+EF	QPS	Recall
+10	64883.5	0.0655
+20	47717.6	0.1232
+40	29086.4	0.1994
+50	25994.8	0.2162
+60	22754.3	0.2272
+80	17763.8	0.2496
+100	14937.8	0.2751
+150	9526.34	0.3249
+170	8445.04	0.3429
+190	7661.97	0.3624
+200	7181.55	0.3718
+250	6068.88	0.4096
+300	4988.27	0.4431
+400	3932.99	0.502
+500	3287.6	0.5497
+600	2700.72	0.5733
+700	2337.76	0.5839
+800	2055.58	0.589
+1500	1106.7	0.6044
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/vcseis/base.fvecs /home/cc/datasets/vcseis/query.fvecs /home/cc/datasets/vcseis/groundtruth.ivecs 32 64"
+	User time (seconds): 49.27
+	System time (seconds): 0.42
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:49.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1028600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 165864
+	Voluntary context switches: 1
+	Involuntary context switches: 67
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

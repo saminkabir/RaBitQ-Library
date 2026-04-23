@@ -1,0 +1,55 @@
+File /home/cc/datasets/NEIC/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/NEIC/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/NEIC/groundtruth.ivecs loaded
+Rows 300 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 44139
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1131.86 secs
+EF	QPS	Recall
+10	10071.2	0.238
+20	8632.96	0.2637
+40	6409.01	0.313367
+50	6201.48	0.331
+60	5654.62	0.3511
+80	4899.24	0.385067
+100	4459.04	0.418033
+150	3757.19	0.476567
+170	3607.89	0.496867
+190	3461.36	0.513533
+200	3417.38	0.520867
+250	3066.14	0.555433
+300	2513.27	0.5816
+400	2240.31	0.618267
+500	1895.7	0.640833
+600	1632.03	0.6569
+700	1461.43	0.666333
+800	1321.68	0.672633
+1500	762.989	0.695233
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/NEIC/base.fvecs /home/cc/datasets/NEIC/query.fvecs /home/cc/datasets/NEIC/groundtruth.ivecs 96 192"
+	User time (seconds): 1134.85
+	System time (seconds): 4.80
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 19:02.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10153972
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1635440
+	Voluntary context switches: 8322
+	Involuntary context switches: 629
+	Swaps: 0
+	File system inputs: 941888
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

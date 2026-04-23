@@ -1,0 +1,55 @@
+File /home/cc/datasets/imageNet/base.fvecs loaded
+Rows 2340373 Cols 150
+File /home/cc/datasets/imageNet/query.fvecs loaded
+Rows 200 Cols 150
+File /home/cc/datasets/imageNet/groundtruth.ivecs loaded
+Rows 200 Cols 20
+FhtKacRotator is selected
+Setting entry_point to 942654
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 3317.19 secs
+EF	QPS	Recall
+10	32676.2	0.432
+20	32272.6	0.599
+40	19968.6	0.778
+50	16886.2	0.8285
+60	14731	0.856
+80	11362.4	0.8945
+100	9488.64	0.92125
+150	6669.58	0.95325
+170	6007.23	0.96
+190	5461.45	0.9655
+200	5207.58	0.96725
+250	4296.44	0.9765
+300	3570.65	0.9815
+400	2743.94	0.9875
+500	2212.22	0.991
+600	1814.87	0.9935
+700	1587.55	0.99525
+800	1411.88	0.99625
+1500	714.163	0.99975
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/imageNet/base.fvecs /home/cc/datasets/imageNet/query.fvecs /home/cc/datasets/imageNet/groundtruth.ivecs 128 256"
+	User time (seconds): 3302.91
+	System time (seconds): 19.41
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 55:22.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23828044
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4966104
+	Voluntary context switches: 943
+	Involuntary context switches: 2920
+	Swaps: 0
+	File system inputs: 131576
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

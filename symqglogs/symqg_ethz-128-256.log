@@ -1,0 +1,55 @@
+File /home/cc/datasets/ethz/base.fvecs loaded
+Rows 36643 Cols 256
+File /home/cc/datasets/ethz/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/ethz/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 26008
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 49.8761 secs
+EF	QPS	Recall
+10	26408.8	0.4941
+20	22945.3	0.5109
+40	17586.3	0.5287
+50	16174.6	0.5369
+60	14988	0.5394
+80	12604.8	0.5564
+100	11266.8	0.5723
+150	8736.07	0.6013
+170	8069.04	0.6125
+190	7548.26	0.6259
+200	7364.11	0.6333
+250	6327.48	0.6652
+300	5362.65	0.6969
+400	4337.52	0.7509
+500	3654.11	0.7967
+600	3035.64	0.8348
+700	2606.52	0.8685
+800	2340.57	0.8947
+1500	1221.07	0.9769
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/ethz/base.fvecs /home/cc/datasets/ethz/query.fvecs /home/cc/datasets/ethz/groundtruth.ivecs 128 256"
+	User time (seconds): 50.87
+	System time (seconds): 0.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:51.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 449736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71331
+	Voluntary context switches: 1
+	Involuntary context switches: 72
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/Iquique/base.fvecs loaded
+Rows 578853 Cols 256
+File /home/cc/datasets/Iquique/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/Iquique/groundtruth.ivecs loaded
+Rows 300 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 420768
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 961.063 secs
+EF	QPS	Recall
+10	22727.7	0.186233
+20	17501.8	0.239567
+40	12284.3	0.3229
+50	10938.9	0.358867
+60	9833.2	0.391933
+80	8030.76	0.4487
+100	7096.52	0.495633
+150	5316.26	0.5828
+170	4801.31	0.611867
+190	4377.91	0.637533
+200	4196.56	0.6486
+250	3459.82	0.699967
+300	2904.52	0.737633
+400	2203.43	0.7887
+500	1806.69	0.8175
+600	1502.54	0.8376
+700	1284.17	0.8537
+800	1110.97	0.866033
+1500	534.531	0.907533
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/Iquique/base.fvecs /home/cc/datasets/Iquique/query.fvecs /home/cc/datasets/Iquique/groundtruth.ivecs 128 256"
+	User time (seconds): 965.18
+	System time (seconds): 3.17
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:08.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6980228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1148383
+	Voluntary context switches: 20
+	Involuntary context switches: 888
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

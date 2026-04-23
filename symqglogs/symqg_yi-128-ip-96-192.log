@@ -1,0 +1,55 @@
+File /home/cc/datasets/yi-128-ip/base.fvecs loaded
+Rows 187843 Cols 128
+File /home/cc/datasets/yi-128-ip/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/yi-128-ip/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 48352
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 131.591 secs
+EF	QPS	Recall
+10	50748.3	0.2161
+20	36326.8	0.2762
+40	23362	0.3645
+50	20949.6	0.4004
+60	18316.5	0.4379
+80	14089.3	0.4994
+100	12616.1	0.5473
+150	9009.67	0.6256
+170	8152.75	0.6572
+190	7547.1	0.6832
+200	7197.49	0.6956
+250	6102.17	0.7488
+300	4909.1	0.7938
+400	3786.44	0.8549
+500	3085.8	0.8955
+600	2569.6	0.9211
+700	2179.6	0.9369
+800	1885.56	0.9501
+1500	919.948	0.9813
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/yi-128-ip/base.fvecs /home/cc/datasets/yi-128-ip/query.fvecs /home/cc/datasets/yi-128-ip/groundtruth.ivecs 96 192"
+	User time (seconds): 132.53
+	System time (seconds): 0.49
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:13.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1441596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 219026
+	Voluntary context switches: 127
+	Involuntary context switches: 172
+	Swaps: 0
+	File system inputs: 1856
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

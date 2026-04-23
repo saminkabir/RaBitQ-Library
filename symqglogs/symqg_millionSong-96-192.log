@@ -1,0 +1,55 @@
+File /home/cc/datasets/millionSong/base.fvecs loaded
+Rows 992272 Cols 420
+File /home/cc/datasets/millionSong/query.fvecs loaded
+Rows 200 Cols 420
+File /home/cc/datasets/millionSong/groundtruth.ivecs loaded
+Rows 200 Cols 20
+FhtKacRotator is selected
+Setting entry_point to 650206
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1416.58 secs
+EF	QPS	Recall
+10	23338.7	0.54875
+20	24856.1	0.70875
+40	16622.2	0.88775
+50	14190	0.92975
+60	12538.9	0.951
+80	9936.31	0.972
+100	8467.14	0.98375
+150	6138.08	0.99275
+170	5550.4	0.9935
+190	5115.56	0.9965
+200	4912.67	0.99725
+250	4095.55	0.9985
+300	3462.57	0.999
+400	2679.09	0.9995
+500	2192.75	0.99975
+600	1822.6	0.99975
+700	1572.31	0.99975
+800	1374.66	1
+1500	688.656	1
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/millionSong/base.fvecs /home/cc/datasets/millionSong/query.fvecs /home/cc/datasets/millionSong/groundtruth.ivecs 96 192"
+	User time (seconds): 1416.31
+	System time (seconds): 5.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 23:41.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13567768
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1832540
+	Voluntary context switches: 4
+	Involuntary context switches: 756
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/simplewiki-openai-3072-normalized/base.fvecs loaded
+Rows 260372 Cols 3072
+File /home/cc/datasets/simplewiki-openai-3072-normalized/query.fvecs loaded
+Rows 100 Cols 3072
+File /home/cc/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 199835
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1010.59 secs
+EF	QPS	Recall
+10	6737.13	0.0161
+20	5816.1	0.0234
+40	5055.75	0.0261
+50	4578.94	0.0271
+60	4346.37	0.0283
+80	3836.99	0.0336
+100	3420.9	0.0331
+150	2491.73	0.0463
+170	2120.16	0.0512
+190	1842.42	0.0546
+200	1771.18	0.0554
+250	1444.02	0.0605
+300	1242.54	0.0643
+400	967.179	0.0697
+500	793.618	0.0735
+600	665.416	0.0755
+700	580.77	0.0799
+800	516.146	0.0842
+1500	282.225	0.1044
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/simplewiki-openai-3072-normalized/base.fvecs /home/cc/datasets/simplewiki-openai-3072-normalized/query.fvecs /home/cc/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs 32 128"
+	User time (seconds): 1013.59
+	System time (seconds): 4.13
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:57.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10266484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 1095003
+	Voluntary context switches: 7
+	Involuntary context switches: 896
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

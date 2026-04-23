@@ -1,0 +1,55 @@
+File /home/cc/datasets/geofon/base.fvecs loaded
+Rows 275174 Cols 128
+File /home/cc/datasets/geofon/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/geofon/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 12081
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 90.2216 secs
+EF	QPS	Recall
+10	42163.1	0.3968
+20	34967.4	0.4191
+40	28789.9	0.4551
+50	27677	0.4762
+60	25320.5	0.4932
+80	22119.6	0.5305
+100	19094.8	0.5728
+150	15325.8	0.6747
+170	14332.9	0.718
+190	13090.8	0.7534
+200	12911.8	0.7725
+250	10933.4	0.8473
+300	9325.71	0.9047
+400	7524.17	0.9738
+500	6113.65	0.9943
+600	5047.28	0.9979
+700	4251.66	0.9987
+800	3781.47	0.999
+1500	1854.48	0.9996
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/geofon/base.fvecs /home/cc/datasets/geofon/query.fvecs /home/cc/datasets/geofon/groundtruth.ivecs 32 128"
+	User time (seconds): 90.54
+	System time (seconds): 0.54
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:31.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1348864
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 267666
+	Voluntary context switches: 1
+	Involuntary context switches: 193
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

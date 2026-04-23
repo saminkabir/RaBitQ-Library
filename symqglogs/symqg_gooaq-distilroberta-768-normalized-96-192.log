@@ -1,0 +1,55 @@
+File /home/cc/datasets/gooaq-distilroberta-768-normalized/base.fvecs loaded
+Rows 1000000 Cols 768
+File /home/cc/datasets/gooaq-distilroberta-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 330056
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 2254.32 secs
+EF	QPS	Recall
+10	15473.3	0.2873
+20	13537.1	0.3106
+40	10901.1	0.3525
+50	9915.47	0.3807
+60	9204.82	0.4035
+80	7882.31	0.4512
+100	7015.24	0.4965
+150	5539.97	0.5952
+170	5192.82	0.6281
+190	4828.91	0.6656
+200	4689.42	0.6811
+250	4023.24	0.7567
+300	3507.88	0.8127
+400	2792.5	0.8971
+500	2307.12	0.9377
+600	1915.2	0.9583
+700	1657.3	0.9698
+800	1450.3	0.9773
+1500	721.583	0.9982
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/gooaq-distilroberta-768-normalized/base.fvecs /home/cc/datasets/gooaq-distilroberta-768-normalized/query.fvecs /home/cc/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs 96 192"
+	User time (seconds): 2248.47
+	System time (seconds): 10.75
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 37:47.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20139180
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2871307
+	Voluntary context switches: 28121
+	Involuntary context switches: 1870
+	Swaps: 0
+	File system inputs: 1065296
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+File /home/cc/datasets/movielens/base.fvecs loaded
+Rows 10677 Cols 150
+File /home/cc/datasets/movielens/query.fvecs loaded
+Rows 1000 Cols 150
+File /home/cc/datasets/movielens/groundtruth.ivecs loaded
+Rows 1000 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 6772
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 16.122 secs
+EF	QPS	Recall
+10	37783.3	0.46091
+20	29750.5	0.47891
+40	21387.8	0.51471
+50	18967.1	0.53136
+60	17184.2	0.54726
+80	14126.3	0.57757
+100	12257.8	0.6061
+150	9361.97	0.67024
+170	8572.56	0.69307
+190	8033.12	0.71482
+200	7772.48	0.72535
+250	6702.82	0.77293
+300	5748.58	0.81311
+400	4607.12	0.87554
+500	3835.31	0.91988
+600	3197.68	0.9495
+700	2779.08	0.96901
+800	2427.75	0.98222
+1500	1292.89	0.99926
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/movielens/base.fvecs /home/cc/datasets/movielens/query.fvecs /home/cc/datasets/movielens/groundtruth.ivecs 128 256"
+	User time (seconds): 26.83
+	System time (seconds): 0.06
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 115988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20149
+	Voluntary context switches: 1
+	Involuntary context switches: 50
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

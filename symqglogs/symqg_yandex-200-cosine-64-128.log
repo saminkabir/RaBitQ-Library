@@ -1,0 +1,55 @@
+File /home/cc/datasets/yandex-200-cosine/base.fvecs loaded
+Rows 1000000 Cols 200
+File /home/cc/datasets/yandex-200-cosine/query.fvecs loaded
+Rows 100 Cols 200
+File /home/cc/datasets/yandex-200-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 130673
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 645.154 secs
+EF	QPS	Recall
+10	27167	0.1757
+20	22893.5	0.2395
+40	18607.4	0.3023
+50	16570	0.3381
+60	14843.6	0.3767
+80	12047.8	0.4421
+100	10476.4	0.494
+150	7490.69	0.5938
+170	6794.01	0.6225
+190	6044.15	0.6598
+200	5806.2	0.6735
+250	4785.5	0.729
+300	3919.72	0.779
+400	2957.07	0.8378
+500	2374.6	0.8706
+600	1925.52	0.8952
+700	1649.21	0.9104
+800	1443.48	0.9255
+1500	669.161	0.9694
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/yandex-200-cosine/base.fvecs /home/cc/datasets/yandex-200-cosine/query.fvecs /home/cc/datasets/yandex-200-cosine/groundtruth.ivecs 64 128"
+	User time (seconds): 644.43
+	System time (seconds): 3.21
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:47.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7824548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1318967
+	Voluntary context switches: 1
+	Involuntary context switches: 640
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

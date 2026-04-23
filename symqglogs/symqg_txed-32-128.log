@@ -1,0 +1,55 @@
+File /home/cc/datasets/txed/base.fvecs loaded
+Rows 519589 Cols 256
+File /home/cc/datasets/txed/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/txed/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 29486
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 237.181 secs
+EF	QPS	Recall
+10	29839.5	0.1282
+20	26757.5	0.1595
+40	22120	0.2215
+50	20546.6	0.236
+60	18646	0.2587
+80	15615.5	0.2996
+100	13624.1	0.3348
+150	9708.68	0.3991
+170	8722.96	0.4201
+190	7940.18	0.4437
+200	7635.64	0.4514
+250	6297.6	0.4879
+300	5241.35	0.517
+400	3923.24	0.5667
+500	3134.69	0.6018
+600	2532.11	0.6237
+700	2139.12	0.6422
+800	1840.96	0.6565
+1500	854.479	0.719
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/txed/base.fvecs /home/cc/datasets/txed/query.fvecs /home/cc/datasets/txed/groundtruth.ivecs 32 128"
+	User time (seconds): 237.77
+	System time (seconds): 1.62
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:02.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3322588
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 563474
+	Voluntary context switches: 4386
+	Involuntary context switches: 204
+	Swaps: 0
+	File system inputs: 220216
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

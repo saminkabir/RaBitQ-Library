@@ -1,0 +1,55 @@
+File /home/cc/datasets/Music/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/datasets/Music/query.fvecs loaded
+Rows 100 Cols 100
+File /home/cc/datasets/Music/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 384911
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 267.486 secs
+EF	QPS	Recall
+10	41630.2	0.0461
+20	32560.5	0.0861
+40	23891.1	0.1466
+50	21909.6	0.1735
+60	19936.3	0.1927
+80	15724.2	0.2394
+100	13275.1	0.2742
+150	9230.71	0.3683
+170	8004.34	0.4
+190	7384.5	0.43
+200	7164.24	0.4395
+250	5891.87	0.4923
+300	4828.45	0.5229
+400	3657.03	0.5844
+500	2956.44	0.6357
+600	2402.65	0.666
+700	2008.86	0.6951
+800	1754.51	0.7209
+1500	814.434	0.8253
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/Music/base.fvecs /home/cc/datasets/Music/query.fvecs /home/cc/datasets/Music/groundtruth.ivecs 32 64"
+	User time (seconds): 267.15
+	System time (seconds): 2.29
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:29.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4673300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1079649
+	Voluntary context switches: 159
+	Involuntary context switches: 347
+	Swaps: 0
+	File system inputs: 35880
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

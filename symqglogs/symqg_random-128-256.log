@@ -1,0 +1,55 @@
+File /home/cc/datasets/random/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/datasets/random/query.fvecs loaded
+Rows 200 Cols 100
+File /home/cc/datasets/random/groundtruth.ivecs loaded
+Rows 200 Cols 20
+FhtKacRotator is selected
+Setting entry_point to 617867
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 1007.63 secs
+EF	QPS	Recall
+10	42162.3	0.00975
+20	39838	0.017
+40	21727.7	0.03025
+50	18204	0.03725
+60	15266.6	0.041
+80	11798.6	0.05225
+100	9796.65	0.0615
+150	6457.63	0.082
+170	5686.56	0.08975
+190	5120.78	0.09675
+200	4852.44	0.1015
+250	3865.61	0.1255
+300	3230.27	0.14225
+400	2393.6	0.17425
+500	1883.13	0.20475
+600	1511.45	0.23125
+700	1266.12	0.256
+800	1069.12	0.28125
+1500	479.51	0.4195
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/random/base.fvecs /home/cc/datasets/random/query.fvecs /home/cc/datasets/random/groundtruth.ivecs 128 256"
+	User time (seconds): 1008.40
+	System time (seconds): 4.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:52.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8792388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1807146
+	Voluntary context switches: 1
+	Involuntary context switches: 869
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
