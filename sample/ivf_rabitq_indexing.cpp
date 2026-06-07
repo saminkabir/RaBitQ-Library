@@ -1,5 +1,6 @@
 #include <cstdint>
 #include <iostream>
+#include <vector>
 
 #include "rabitqlib/defines.hpp"
 #include "rabitqlib/index/ivf/ivf.hpp"
@@ -11,6 +12,15 @@ using index_type = rabitqlib::ivf::IVF;
 using data_type = rabitqlib::RowMajorArray<float>;
 using gt_type = rabitqlib::RowMajorArray<uint32_t>;
 
+static std::vector<size_t> get_nprobes(
+    const index_type& ivf,
+    const std::vector<size_t>& all_nprobes,
+    data_type& query,
+    gt_type& gt
+);
+
+static size_t test_round = 5;
+int topk=100;
 int main(int argc, char** argv) {
     if (argc < 6) {
         std::cerr << "Usage: " << argv[0] << " <arg1> <arg2> <arg3> <arg4> <arg5>\n"
@@ -26,44 +36,54 @@ int main(int argc, char** argv) {
     }
 
     rabitqlib::MetricType metric_type = rabitqlib::METRIC_L2;
-    if (argc > 6) {
-        std::string metric_str(argv[6]);
-        if (metric_str == "ip" || metric_str == "IP") {
-            metric_type = rabitqlib::METRIC_IP;
-        }
-    }
-    if (metric_type == rabitqlib::METRIC_IP) {
-        std::cout << "Metric Type: IP\n";
-    } else if (metric_type == rabitqlib::METRIC_L2) {
-        std::cout << "Metric Type: L2\n";
-    }
+    // if (argc > 6) {
+    //     std::string metric_str(argv[6]);
+    //     if (metric_str == "ip" || metric_str == "IP") {
+    //         metric_type = rabitqlib::METRIC_IP;
+    //     }
+    // }
+    // if (metric_type == rabitqlib::METRIC_IP) {
+    //     std::cout << "Metric Type: IP\n";
+    // } else if (metric_type == rabitqlib::METRIC_L2) {
+    //     std::cout << "Metric Type: L2\n";
+    // }
 
     bool faster_quant = false;
-    if (argc > 7) {
-        std::string faster_str(argv[7]);
-        if (faster_str == "true") {
-            faster_quant = true;
-            std::cout << "Using faster quantize for indexing...\n";
-        }
-    }
+    // if (argc > 7) {
+    //     std::string faster_str(argv[7]);
+    //     if (faster_str == "true") {
+    //         faster_quant = true;
+    //         std::cout << "Using faster quantize for indexing...\n";
+    //     }
+    // }
 
     char* data_file = argv[1];
-    char* centroids_file = argv[2];
-    char* cids_file = argv[3];
-    size_t total_bits = atoi(argv[4]);
-    char* index_file = argv[5];
+    char* query_file = argv[2];
+    char* gt_file = argv[3];
+    char* centroids_file = argv[4];
+    char* cids_file = argv[5];
+    size_t total_bits = atoi(argv[6]);
+    bool use_hacc = true;
 
     data_type data;
+    data_type query;
+    gt_type gt;
     data_type centroids;
     gt_type cids;
 
     rabitqlib::load_vecs<float, data_type>(data_file, data);
+    rabitqlib::load_vecs<float, data_type>(query_file, query);
+    rabitqlib::load_vecs<uint32_t, gt_type>(gt_file, gt);
     rabitqlib::load_vecs<float, data_type>(centroids_file, centroids);
     rabitqlib::load_vecs<PID, gt_type>(cids_file, cids);
 
     size_t num_points = data.rows();
     size_t dim = data.cols();
     size_t k = centroids.rows();
+
+    topk = gt.cols();
+    int nq = query.rows();
+    size_t total_count = nq * topk;
 
     std::cout << "data loaded\n";
     std::cout << "\tN: " << num_points << '\n';
@@ -73,10 +93,114 @@ int main(int argc, char** argv) {
     index_type ivf(num_points, dim, k, total_bits, metric_type);
     ivf.construct(data.data(), centroids.data(), cids.data(), faster_quant);
     float miniutes = stopw.get_elapsed_mili() / 1000 / 60;
-    std::cout << "ivf constructed \n";
-    ivf.save(index_file);
-
     std::cout << "Indexing time " << miniutes << '\n';
+    std::vector<size_t> all_nprobes;
+    all_nprobes.push_back(5);
+    for (size_t i = 10; i < 200; i += 10) {
+        all_nprobes.push_back(i);
+    }
+    for (size_t i = 200; i < 400; i += 40) {
+        all_nprobes.push_back(i);
+    }
+    for (size_t i = 400; i <= 1500; i += 100) {
+        all_nprobes.push_back(i);
+    }
+    for (size_t i = 2000; i <= 4000; i += 500) {
+        all_nprobes.push_back(i);
+    }
+
+    all_nprobes.push_back(6000);
+    all_nprobes.push_back(10000);
+    all_nprobes.push_back(15000);
+    auto nprobes = get_nprobes(ivf, all_nprobes, query, gt);
+    size_t length = nprobes.size();
+
+    std::vector<std::vector<float>> all_qps(test_round, std::vector<float>(length));
+    std::vector<std::vector<float>> all_recall(test_round, std::vector<float>(length));
+
+    for (size_t r = 0; r < test_round; r++) {
+        for (size_t l = 0; l < length; ++l) {
+            size_t nprobe = nprobes[l];
+            if (nprobe > ivf.num_clusters()) {
+                std::cout << "nprobe " << nprobe << " is larger than number of clusters, ";
+                std::cout << "will use nprobe = num_cluster (" << ivf.num_clusters() << ").\n";
+            }
+            size_t total_correct = 0;
+            float total_time = 0;
+            std::vector<PID> results(topk);
+            for (size_t i = 0; i < nq; i++) {
+                stopw.reset();
+                ivf.search(&query(i, 0), topk, nprobe, results.data(), use_hacc);
+                total_time += stopw.get_elapsed_micro();
+                for (size_t j = 0; j < topk; j++) {
+                    for (size_t k = 0; k < topk; k++) {
+                        if (gt(i, k) == results[j]) {
+                            total_correct++;
+                            break;
+                        }
+                    }
+                }
+            }
+            float qps = static_cast<float>(nq) / (total_time / 1e6F);
+            float recall =
+                static_cast<float>(total_correct) / static_cast<float>(total_count);
+
+            all_qps[r][l] = qps;
+            all_recall[r][l] = recall;
+        }
+    }
+
+    auto avg_qps = rabitqlib::horizontal_avg(all_qps);
+    auto avg_recall = rabitqlib::horizontal_avg(all_recall);
+
+    std::cout << "nprobe\tQPS\trecall" << '\n';
+
+    for (size_t i = 0; i < length; ++i) {
+        size_t nprobe = nprobes[i];
+        float qps = avg_qps[i];
+        float recall = avg_recall[i];
+
+        std::cout << nprobe << '\t' << qps << '\t' << recall << '\n';
+    }
 
     return 0;
+}
+
+
+static std::vector<size_t> get_nprobes(
+    const index_type& ivf,
+    const std::vector<size_t>& all_nprobes,
+    data_type& query,
+    gt_type& gt
+) {
+    size_t nq = query.rows();
+    size_t total_count = topk * nq;
+    float old_recall = 0;
+    std::vector<size_t> nprobes;
+
+    for (auto nprobe : all_nprobes) {
+        nprobes.push_back(nprobe);
+
+        size_t total_correct = 0;
+        std::vector<PID> results(topk);
+        for (size_t i = 0; i < nq; i++) {
+            ivf.search(&query(i, 0), topk, nprobe, results.data());
+            for (size_t j = 0; j < topk; j++) {
+                for (size_t k = 0; k < topk; k++) {
+                    if (gt(i, k) == results[j]) {
+                        total_correct++;
+                        break;
+                    }
+                }
+            }
+        }
+        float recall = static_cast<float>(total_correct) / static_cast<float>(total_count);
+        if (recall > 0.997 || recall - old_recall < 1e-5) {
+            break;
+        }
+        std::cout << recall << '\t' << nprobe << std::endl << std::flush;
+        old_recall = recall;
+    }
+
+    return nprobes;
 }
