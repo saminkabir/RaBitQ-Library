@@ -1,0 +1,115 @@
+File /home/cc/research/datasets/NEIC/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/NEIC/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/NEIC/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/NEIC_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/NEIC_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.679295
+0.5462	5
+0.6444	10
+0.7366	20
+0.780467	30
+0.8159	40
+0.831933	50
+0.8538	60
+0.877567	70
+0.8878	80
+0.896167	90
+0.9006	100
+0.907333	110
+0.911367	120
+0.915133	130
+0.917867	140
+0.9204	150
+0.9231	160
+0.925667	170
+0.927167	180
+0.929467	190
+0.930967	200
+0.936733	240
+0.94	280
+0.942767	320
+0.945167	360
+0.946833	400
+0.949133	500
+0.9503	600
+0.951033	700
+0.9515	800
+0.951733	900
+0.951967	1000
+0.952167	1100
+0.952333	1200
+0.952567	1300
+0.9527	1400
+nprobe	QPS	recall
+5	3786.45	0.5462
+10	3357.05	0.6444
+20	2853.55	0.7366
+30	2534.93	0.780467
+40	2302.66	0.8159
+50	2114.47	0.831933
+60	1964.83	0.8538
+70	1843.55	0.877567
+80	1736.55	0.8878
+90	1638.16	0.896167
+100	1556.91	0.9006
+110	1486.13	0.907333
+120	1420.88	0.911367
+130	1364.76	0.915133
+140	1312.67	0.917867
+150	1270.14	0.9204
+160	1226.58	0.9231
+170	1197.01	0.925667
+180	1159.04	0.927167
+190	1129.73	0.929467
+200	1099.07	0.930967
+240	990.055	0.936733
+280	897.937	0.94
+320	825.209	0.942767
+360	757.252	0.945167
+400	708.605	0.946833
+500	616.189	0.949133
+600	551.172	0.9503
+700	499.509	0.951033
+800	459.956	0.9515
+900	428.05	0.951733
+1000	397.606	0.951967
+1100	373.112	0.952167
+1200	352.824	0.952333
+1300	335.448	0.952567
+1400	319.621	0.9527
+1500	304.943	0.9527
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/NEIC/base.fvecs /home/cc/research/datasets/NEIC/query.fvecs /home/cc/research/datasets/NEIC/groundtruth.ivecs /home/cc/index/ivf_index/NEIC_centroids_4096.fvecs /home/cc/index/ivf_index/NEIC_clusterids_4096.ivecs 4"
+	User time (seconds): 124.77
+	System time (seconds): 0.73
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:05.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1177600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 295583
+	Voluntary context switches: 1
+	Involuntary context switches: 162
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

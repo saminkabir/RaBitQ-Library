@@ -1,0 +1,81 @@
+File /home/cc/research/datasets/text-to-image/base.fvecs loaded
+Rows 1000000 Cols 200
+File /home/cc/research/datasets/text-to-image/query.fvecs loaded
+Rows 100 Cols 200
+File /home/cc/research/datasets/text-to-image/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/text-to-image_centroids_4096.fvecs loaded
+Rows 4096 Cols 200
+File /home/cc/index/ivf_index/text-to-image_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 200
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.708371
+0.7702	5
+0.8726	10
+0.9259	20
+0.945	30
+0.9546	40
+0.9592	50
+0.962	60
+0.9638	70
+0.9663	80
+0.9669	90
+0.9673	100
+0.9679	110
+0.9686	120
+0.9688	130
+0.969	140
+0.9692	150
+0.9695	160
+0.9696	170
+0.9697	180
+nprobe	QPS	recall
+5	4099.32	0.7702
+10	3779.23	0.8726
+20	3385.42	0.9259
+30	3102.51	0.945
+40	2884.95	0.9546
+50	2700.18	0.9592
+60	2546.18	0.962
+70	2399.68	0.9638
+80	2281.56	0.9663
+90	2170.93	0.9669
+100	2073.99	0.9673
+110	1988.47	0.9679
+120	1905.11	0.9686
+130	1830.39	0.9688
+140	1765.38	0.969
+150	1701.25	0.9692
+160	1639.17	0.9695
+170	1585.87	0.9696
+180	1538.05	0.9697
+190	1494.79	0.9697
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/text-to-image/base.fvecs /home/cc/research/datasets/text-to-image/query.fvecs /home/cc/research/datasets/text-to-image/groundtruth.ivecs /home/cc/index/ivf_index/text-to-image_centroids_4096.fvecs /home/cc/index/ivf_index/text-to-image_clusterids_4096.ivecs 4"
+	User time (seconds): 48.16
+	System time (seconds): 0.55
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 957440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 240312
+	Voluntary context switches: 1
+	Involuntary context switches: 118
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

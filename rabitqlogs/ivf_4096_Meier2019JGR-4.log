@@ -1,0 +1,107 @@
+File /home/cc/research/datasets/Meier2019JGR/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/Meier2019JGR/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/Meier2019JGR/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/Meier2019JGR_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/Meier2019JGR_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.682399
+0.686167	5
+0.7999	10
+0.847067	20
+0.8622	30
+0.870567	40
+0.875833	50
+0.879133	60
+0.881267	70
+0.882633	80
+0.883933	90
+0.885233	100
+0.8859	110
+0.886467	120
+0.8869	130
+0.887433	140
+0.8878	150
+0.888233	160
+0.8886	170
+0.889	180
+0.889333	190
+0.8895	200
+0.890033	240
+0.890833	280
+0.891033	320
+0.891467	360
+0.891667	400
+0.892033	500
+0.892133	600
+0.892333	700
+0.892467	800
+0.892633	900
+0.892733	1000
+nprobe	QPS	recall
+5	4905.87	0.686167
+10	4622.36	0.7999
+20	4355.57	0.847067
+30	4163.2	0.8622
+40	3964.37	0.870567
+50	3848.56	0.875833
+60	3706.76	0.879133
+70	3584.01	0.881267
+80	3466.18	0.882633
+90	3357.64	0.883933
+100	3249.94	0.885233
+110	3175.69	0.8859
+120	3057.54	0.886467
+130	2990.6	0.8869
+140	2909.3	0.887433
+150	2830.23	0.8878
+160	2738.71	0.888233
+170	2683.15	0.8886
+180	2608.89	0.889
+190	2543.61	0.889333
+200	2478.65	0.8895
+240	2239.47	0.890033
+280	2065.18	0.890833
+320	1905.24	0.891033
+360	1760.28	0.891467
+400	1632.86	0.891667
+500	1379.47	0.892033
+600	1179.47	0.892133
+700	1025.84	0.892333
+800	902.771	0.892467
+900	783.015	0.892633
+1000	683.839	0.892733
+1100	606.349	0.892733
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/Meier2019JGR/base.fvecs /home/cc/research/datasets/Meier2019JGR/query.fvecs /home/cc/research/datasets/Meier2019JGR/groundtruth.ivecs /home/cc/index/ivf_index/Meier2019JGR_centroids_4096.fvecs /home/cc/index/ivf_index/Meier2019JGR_clusterids_4096.ivecs 4"
+	User time (seconds): 72.29
+	System time (seconds): 0.71
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:13.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1202628
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 306066
+	Voluntary context switches: 1
+	Involuntary context switches: 72
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

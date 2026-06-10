@@ -1,0 +1,36 @@
+WARNING clustering 136736 points to 4096 centroids: please provide at least 159744 training points
+Using L2 metric by default
+Reading File - /home/cc/research/datasets/yahoomusic/base.fvecs
+	/home/cc/research/datasets/yahoomusic/base.fvecs readed
+Time for training ivf 165.8668942451477 secs
+Writing File - /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs
+	/home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs wrote
+Writing File - /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs
+	/home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs wrote
+Training level-1 quantizer
+Training level-1 quantizer on 136736 vectors in 300D
+Training IVF residual
+IndexIVF: no residual training
+	Command being timed: "taskset --cpu-list 1-1 python ./python/ivf.py /home/cc/research/datasets/yahoomusic/base.fvecs 4096 /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs"
+	User time (seconds): 183.12
+	System time (seconds): 0.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:03.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 392304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 21449
+	Voluntary context switches: 6
+	Involuntary context switches: 186
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 11792
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

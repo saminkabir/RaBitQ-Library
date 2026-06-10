@@ -1,0 +1,111 @@
+File /home/cc/research/datasets/PNW/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/PNW/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/PNW/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/PNW_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/PNW_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.585979
+0.565233	5
+0.6109	10
+0.718967	20
+0.825367	30
+0.863033	40
+0.892	50
+0.902567	60
+0.9212	70
+0.926867	80
+0.933033	90
+0.938067	100
+0.941967	110
+0.945333	120
+0.9497	130
+0.952267	140
+0.954367	150
+0.956367	160
+0.958633	170
+0.960567	180
+0.9629	190
+0.9645	200
+0.9694	240
+0.9719	280
+0.973433	320
+0.974667	360
+0.9754	400
+0.9763	500
+0.976867	600
+0.9771	700
+0.977433	800
+0.977533	900
+0.977567	1000
+0.9776	1100
+0.977633	1200
+nprobe	QPS	recall
+5	122.959	0.565233
+10	117.119	0.6109
+20	97.963	0.718967
+30	82.6475	0.825367
+40	78.3694	0.863033
+50	75.2868	0.892
+60	74.4414	0.902567
+70	72.4806	0.9212
+80	71.8768	0.926867
+90	71.2527	0.933033
+100	70.8479	0.938067
+110	70.2732	0.941967
+120	70.1168	0.945333
+130	69.6915	0.9497
+140	69.5693	0.952267
+150	69.463	0.954367
+160	69.3665	0.956367
+170	69.2684	0.958633
+180	69.1535	0.960567
+190	69.0684	0.9629
+200	69.0612	0.9645
+240	68.6432	0.9694
+280	68.2534	0.9719
+320	67.8867	0.973433
+360	67.5373	0.974667
+400	67.2145	0.9754
+500	66.457	0.9763
+600	65.6831	0.976867
+700	64.8705	0.9771
+800	64.1528	0.977433
+900	63.4349	0.977533
+1000	62.6356	0.977567
+1100	62.0833	0.9776
+1200	61.5305	0.977633
+1300	61.0137	0.977633
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/PNW/base.fvecs /home/cc/research/datasets/PNW/query.fvecs /home/cc/research/datasets/PNW/groundtruth.ivecs /home/cc/index/ivf_index/PNW_centroids_4096.fvecs /home/cc/index/ivf_index/PNW_clusterids_4096.ivecs 4"
+	User time (seconds): 925.12
+	System time (seconds): 1.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:26.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1344000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 341758
+	Voluntary context switches: 1
+	Involuntary context switches: 347
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 200
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,69 @@
+File /home/cc/research/datasets/imageNet/base.fvecs loaded
+Rows 2340373 Cols 150
+File /home/cc/research/datasets/imageNet/query.fvecs loaded
+Rows 200 Cols 150
+File /home/cc/research/datasets/imageNet/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/imageNet_centroids_4096.fvecs loaded
+Rows 4096 Cols 150
+File /home/cc/index/ivf_index/imageNet_clusterids_4096.ivecs loaded
+Rows 2340373 Cols 1
+data loaded
+	N: 2340373
+	DIM: 150
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 1.15696
+0.5625	5
+0.71525	10
+0.8365	20
+0.87675	30
+0.896	40
+0.90475	50
+0.91325	60
+0.9175	70
+0.91975	80
+0.92125	90
+0.922	100
+0.9235	110
+0.92475	120
+nprobe	QPS	recall
+5	5022.42	0.5625
+10	4217.57	0.71525
+20	3289.78	0.8365
+30	2740.29	0.87675
+40	2357.12	0.896
+50	2082.06	0.90475
+60	1848.21	0.91325
+70	1668.15	0.9175
+80	1545.88	0.91975
+90	1420	0.92125
+100	1329.46	0.922
+110	1238.89	0.9235
+120	1169.36	0.92475
+130	1106.34	0.92475
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/imageNet/base.fvecs /home/cc/research/datasets/imageNet/query.fvecs /home/cc/research/datasets/imageNet/groundtruth.ivecs /home/cc/index/ivf_index/imageNet_centroids_4096.fvecs /home/cc/index/ivf_index/imageNet_clusterids_4096.ivecs 4"
+	User time (seconds): 77.72
+	System time (seconds): 2.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:19.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1683136
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 787763
+	Voluntary context switches: 1
+	Involuntary context switches: 167
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

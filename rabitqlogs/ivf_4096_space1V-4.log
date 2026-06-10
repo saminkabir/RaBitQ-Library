@@ -1,0 +1,125 @@
+File /home/cc/research/datasets/space1V/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/research/datasets/space1V/query.fvecs loaded
+Rows 100 Cols 100
+File /home/cc/research/datasets/space1V/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/space1V_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/space1V_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.304388
+0.2597	5
+0.3445	10
+0.4367	20
+0.4896	30
+0.5361	40
+0.5705	50
+0.5961	60
+0.619	70
+0.6374	80
+0.6525	90
+0.6678	100
+0.6823	110
+0.6963	120
+0.7048	130
+0.7193	140
+0.7283	150
+0.7351	160
+0.7426	170
+0.751	180
+0.757	190
+0.7629	200
+0.783	240
+0.7995	280
+0.8126	320
+0.821	360
+0.8284	400
+0.846	500
+0.856	600
+0.8636	700
+0.8697	800
+0.8761	900
+0.8809	1000
+0.8832	1100
+0.8852	1200
+0.8862	1300
+0.8877	1400
+0.8891	1500
+0.8931	2000
+0.8948	2500
+0.8952	3000
+0.8955	3500
+nprobe	QPS	recall
+5	6620.32	0.2597
+10	5621.64	0.3445
+20	4495.41	0.4367
+30	3835.62	0.4896
+40	3378.38	0.5361
+50	2986.21	0.5705
+60	2768.17	0.5961
+70	2566.74	0.619
+80	2378.54	0.6374
+90	2227.54	0.6525
+100	2104.11	0.6678
+110	1986.83	0.6823
+120	1875.52	0.6963
+130	1786.59	0.7048
+140	1673.43	0.7193
+150	1572.33	0.7283
+160	1520.28	0.7351
+170	1431.86	0.7426
+180	1414.32	0.751
+190	1376.95	0.757
+200	1329.51	0.7629
+240	1255.85	0.783
+280	1117.11	0.7995
+320	1021.71	0.8126
+360	938.21	0.821
+400	867.129	0.8284
+500	743.481	0.846
+600	652.433	0.856
+700	586.084	0.8636
+800	534.139	0.8697
+900	489.122	0.8761
+1000	451.242	0.8809
+1100	419.576	0.8832
+1200	392.748	0.8852
+1300	371.331	0.8862
+1400	352.27	0.8877
+1500	335.451	0.8891
+2000	269.8	0.8931
+2500	226.494	0.8948
+3000	195.464	0.8952
+3500	172.522	0.8955
+4000	153.998	0.8955
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/space1V/base.fvecs /home/cc/research/datasets/space1V/query.fvecs /home/cc/research/datasets/space1V/groundtruth.ivecs /home/cc/index/ivf_index/space1V_centroids_4096.fvecs /home/cc/index/ivf_index/space1V_clusterids_4096.ivecs 4"
+	User time (seconds): 56.75
+	System time (seconds): 0.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:57.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 497920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 124583
+	Voluntary context switches: 1
+	Involuntary context switches: 53
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

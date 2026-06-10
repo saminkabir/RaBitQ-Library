@@ -1,0 +1,35 @@
+Using L2 metric by default
+Reading File - /home/cc/research/datasets/agnews-mxbai-1024-euclidean/base.fvecs
+	/home/cc/research/datasets/agnews-mxbai-1024-euclidean/base.fvecs readed
+Time for training ivf 3119.44020485878 secs
+Writing File - /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_clusterids_4096.ivecs
+	/home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_clusterids_4096.ivecs wrote
+Writing File - /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_centroids_4096.fvecs
+	/home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_centroids_4096.fvecs wrote
+Training level-1 quantizer
+Training level-1 quantizer on 769382 vectors in 1024D
+Training IVF residual
+IndexIVF: no residual training
+	Command being timed: "taskset --cpu-list 54-54 python ./python/ivf.py /home/cc/research/datasets/agnews-mxbai-1024-euclidean/base.fvecs 4096 /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_centroids_4096.fvecs /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_clusterids_4096.ivecs"
+	User time (seconds): 3432.19
+	System time (seconds): 7.09
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 57:19.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6262672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 67764
+	Voluntary context switches: 3
+	Involuntary context switches: 1706
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 44832
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

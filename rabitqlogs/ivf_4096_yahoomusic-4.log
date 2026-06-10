@@ -1,0 +1,91 @@
+File /home/cc/research/datasets/yahoomusic/base.fvecs loaded
+Rows 136736 Cols 300
+File /home/cc/research/datasets/yahoomusic/query.fvecs loaded
+Rows 100 Cols 300
+File /home/cc/research/datasets/yahoomusic/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs loaded
+Rows 136736 Cols 1
+data loaded
+	N: 136736
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.122926
+0.5214	5
+0.7102	10
+0.8532	20
+0.9061	30
+0.9313	40
+0.9469	50
+0.9577	60
+0.9625	70
+0.9666	80
+0.9712	90
+0.9737	100
+0.9749	110
+0.9758	120
+0.9766	130
+0.9776	140
+0.978	150
+0.9785	160
+0.9787	170
+0.9789	180
+0.9792	190
+0.9793	200
+0.9803	240
+0.9806	280
+0.9807	320
+nprobe	QPS	recall
+5	4405.77	0.5214
+10	4199.69	0.7102
+20	3981.65	0.8532
+30	3837.87	0.9061
+40	3720.78	0.9313
+50	3614.59	0.9469
+60	3517.78	0.9577
+70	3429.27	0.9625
+80	3349.19	0.9666
+90	3270.68	0.9712
+100	3198.26	0.9737
+110	3133.17	0.9749
+120	3067.73	0.9758
+130	3003.46	0.9766
+140	2947.45	0.9776
+150	2895.45	0.978
+160	2841.76	0.9785
+170	2793.28	0.9787
+180	2743.76	0.9789
+190	2697.46	0.9792
+200	2653.93	0.9793
+240	2486.99	0.9803
+280	2346.95	0.9806
+320	2225.2	0.9807
+360	2115.07	0.9807
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/yahoomusic/base.fvecs /home/cc/research/datasets/yahoomusic/query.fvecs /home/cc/research/datasets/yahoomusic/groundtruth.ivecs /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs 4"
+	User time (seconds): 12.41
+	System time (seconds): 0.11
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 207360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51516
+	Voluntary context switches: 1
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

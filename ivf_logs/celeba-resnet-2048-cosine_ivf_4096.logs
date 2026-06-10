@@ -1,0 +1,35 @@
+Using L2 metric by default
+Reading File - /home/cc/research/datasets/celeba-resnet-2048-cosine/base.fvecs
+	/home/cc/research/datasets/celeba-resnet-2048-cosine/base.fvecs readed
+Time for training ivf 1633.4714603424072 secs
+Writing File - /home/cc/index/ivf_index/celeba-resnet-2048-cosine_clusterids_4096.ivecs
+	/home/cc/index/ivf_index/celeba-resnet-2048-cosine_clusterids_4096.ivecs wrote
+Writing File - /home/cc/index/ivf_index/celeba-resnet-2048-cosine_centroids_4096.fvecs
+	/home/cc/index/ivf_index/celeba-resnet-2048-cosine_centroids_4096.fvecs wrote
+Training level-1 quantizer
+Training level-1 quantizer on 201599 vectors in 2048D
+Training IVF residual
+IndexIVF: no residual training
+	Command being timed: "taskset --cpu-list 47-47 python ./python/ivf.py /home/cc/research/datasets/celeba-resnet-2048-cosine/base.fvecs 4096 /home/cc/index/ivf_index/celeba-resnet-2048-cosine_centroids_4096.fvecs /home/cc/index/ivf_index/celeba-resnet-2048-cosine_clusterids_4096.ivecs"
+	User time (seconds): 1796.30
+	System time (seconds): 1.75
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 29:58.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3354692
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 45041
+	Voluntary context switches: 2
+	Involuntary context switches: 693
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 68728
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,83 @@
+File /home/cc/research/datasets/ethz/base.fvecs loaded
+Rows 36643 Cols 256
+File /home/cc/research/datasets/ethz/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/research/datasets/ethz/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/ethz_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/ethz_clusterids_4096.ivecs loaded
+Rows 36643 Cols 1
+data loaded
+	N: 36643
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0243282
+0.5648	5
+0.7942	10
+0.9379	20
+0.9601	30
+0.9638	40
+0.9667	50
+0.9684	60
+0.9699	70
+0.9712	80
+0.972	90
+0.973	100
+0.9741	110
+0.9746	120
+0.975	130
+0.9764	140
+0.9768	150
+0.9771	160
+0.9775	170
+0.9777	180
+0.9778	190
+nprobe	QPS	recall
+5	4777.91	0.5648
+10	4559.95	0.7942
+20	4299.66	0.9379
+30	4132.16	0.9601
+40	4006.19	0.9638
+50	3890.56	0.9667
+60	3781.23	0.9684
+70	3685.15	0.9699
+80	3599.96	0.9712
+90	3524.63	0.972
+100	3444.17	0.973
+110	3386.33	0.9741
+120	3315.51	0.9746
+130	3250.37	0.975
+140	3190.21	0.9764
+150	3135.19	0.9768
+160	3079.64	0.9771
+170	3027.62	0.9775
+180	2978.43	0.9777
+190	2933.72	0.9778
+200	2891.24	0.9778
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/ethz/base.fvecs /home/cc/research/datasets/ethz/query.fvecs /home/cc/research/datasets/ethz/groundtruth.ivecs /home/cc/index/ivf_index/ethz_centroids_4096.fvecs /home/cc/index/ivf_index/ethz_clusterids_4096.ivecs 4"
+	User time (seconds): 5.13
+	System time (seconds): 0.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 61440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15390
+	Voluntary context switches: 39
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 8800
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

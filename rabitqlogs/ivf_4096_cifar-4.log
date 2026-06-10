@@ -1,0 +1,107 @@
+File /home/cc/research/datasets/cifar/base.fvecs loaded
+Rows 50000 Cols 512
+File /home/cc/research/datasets/cifar/query.fvecs loaded
+Rows 200 Cols 512
+File /home/cc/research/datasets/cifar/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/cifar_centroids_4096.fvecs loaded
+Rows 4096 Cols 512
+File /home/cc/index/ivf_index/cifar_clusterids_4096.ivecs loaded
+Rows 50000 Cols 1
+data loaded
+	N: 50000
+	DIM: 512
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0764029
+0.37175	5
+0.51975	10
+0.66875	20
+0.751	30
+0.8055	40
+0.841	50
+0.8665	60
+0.88625	70
+0.9	80
+0.9115	90
+0.918	100
+0.9245	110
+0.93	120
+0.9345	130
+0.937	140
+0.93975	150
+0.943	160
+0.9465	170
+0.9475	180
+0.949	190
+0.951	200
+0.95425	240
+0.9565	280
+0.957	320
+0.9575	360
+0.95825	400
+0.9595	500
+0.96	600
+0.96025	700
+0.9605	800
+0.96075	900
+0.961	1000
+nprobe	QPS	recall
+5	2693.16	0.37175
+10	2640.85	0.51975
+20	2565.04	0.66875
+30	2503.39	0.751
+40	2450.35	0.8055
+50	2402.14	0.841
+60	2358.22	0.8665
+70	2316.81	0.88625
+80	2276.54	0.9
+90	2241.3	0.9115
+100	2207.79	0.918
+110	2176.75	0.9245
+120	2145.76	0.93
+130	2114.54	0.9345
+140	2090.84	0.937
+150	2062.85	0.93975
+160	2037.03	0.943
+170	2011.33	0.9465
+180	1992.92	0.9475
+190	1967.35	0.949
+200	1944.12	0.951
+240	1849.23	0.95425
+280	1766.49	0.9565
+320	1690.18	0.957
+360	1607.89	0.9575
+400	1540.88	0.95825
+500	1312.25	0.9595
+600	1255.29	0.96
+700	1212.36	0.96025
+800	1160.54	0.9605
+900	1125.96	0.96075
+1000	1089.05	0.961
+1100	1051.7	0.961
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/cifar/base.fvecs /home/cc/research/datasets/cifar/query.fvecs /home/cc/research/datasets/cifar/groundtruth.ivecs /home/cc/index/ivf_index/cifar_centroids_4096.fvecs /home/cc/index/ivf_index/cifar_clusterids_4096.ivecs 4"
+	User time (seconds): 26.71
+	System time (seconds): 0.07
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 148480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36707
+	Voluntary context switches: 1
+	Involuntary context switches: 35
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

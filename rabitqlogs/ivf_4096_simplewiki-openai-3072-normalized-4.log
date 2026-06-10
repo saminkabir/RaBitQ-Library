@@ -1,0 +1,132 @@
+File /home/cc/research/datasets/simplewiki-openai-3072-normalized/base.fvecs loaded
+Rows 260372 Cols 3072
+File /home/cc/research/datasets/simplewiki-openai-3072-normalized/query.fvecs loaded
+Rows 100 Cols 3072
+File /home/cc/research/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 3072
+File /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_clusterids_4096.ivecs loaded
+Rows 260372 Cols 1
+data loaded
+	N: 260372
+	DIM: 3072
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 2.64679
+0.6165	5
+0.72	10
+0.797	20
+0.8408	30
+0.8649	40
+0.8803	50
+0.892	60
+0.9022	70
+0.9117	80
+0.9176	90
+0.9211	100
+0.9243	110
+0.9267	120
+0.9304	130
+0.9327	140
+0.9369	150
+0.9408	160
+0.9429	170
+0.9451	180
+0.9481	190
+0.9502	200
+0.9564	240
+0.961	280
+0.9642	320
+0.9665	360
+0.9676	400
+0.9718	500
+0.9747	600
+0.9764	700
+0.9775	800
+0.9786	900
+0.9793	1000
+0.9801	1100
+0.9805	1200
+0.9813	1300
+0.9818	1400
+0.982	1500
+0.9835	2000
+0.9841	2500
+0.9844	3000
+0.9847	3500
+0.9848	4000
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe	QPS	recall
+5	268.765	0.6165
+10	269.66	0.72
+20	263.874	0.797
+30	258.725	0.8408
+40	254.443	0.8649
+50	251.343	0.8803
+60	248.999	0.892
+70	244.993	0.9022
+80	241.445	0.9117
+90	238.008	0.9176
+100	234.099	0.9211
+110	232.327	0.9243
+120	229.025	0.9267
+130	227.802	0.9304
+140	224.953	0.9327
+150	222.486	0.9369
+160	220.655	0.9408
+170	218.013	0.9429
+180	215.462	0.9451
+190	213.079	0.9481
+200	211.162	0.9502
+240	201.694	0.9564
+280	194.531	0.961
+320	188.915	0.9642
+360	183.497	0.9665
+400	177.697	0.9676
+500	164.532	0.9718
+600	153.577	0.9747
+700	144.304	0.9764
+800	136.015	0.9775
+900	129.152	0.9786
+1000	123.163	0.9793
+1100	117.091	0.9801
+1200	111.806	0.9805
+1300	107.036	0.9813
+1400	102.664	0.9818
+1500	98.6742	0.982
+2000	82.9228	0.9835
+2500	71.7385	0.9841
+3000	63.5443	0.9844
+3500	57.1126	0.9847
+4000	52.3121	0.9848
+6000	51.5846	0.9848
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/simplewiki-openai-3072-normalized/base.fvecs /home/cc/research/datasets/simplewiki-openai-3072-normalized/query.fvecs /home/cc/research/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_clusterids_4096.ivecs 4"
+	User time (seconds): 339.68
+	System time (seconds): 6.56
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:55.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3701208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1461784
+	Voluntary context switches: 14516
+	Involuntary context switches: 396
+	Swaps: 0
+	File system inputs: 4401048
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

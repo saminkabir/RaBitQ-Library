@@ -1,0 +1,101 @@
+File /home/cc/research/datasets/landmark-dino-768-cosine/base.fvecs loaded
+Rows 760757 Cols 768
+File /home/cc/research/datasets/landmark-dino-768-cosine/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/research/datasets/landmark-dino-768-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs loaded
+Rows 760757 Cols 1
+data loaded
+	N: 760757
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 1.69902
+0.5695	5
+0.7048	10
+0.8201	20
+0.8665	30
+0.8908	40
+0.911	50
+0.9236	60
+0.9328	70
+0.9386	80
+0.9429	90
+0.9473	100
+0.9501	110
+0.9533	120
+0.9557	130
+0.9566	140
+0.9579	150
+0.959	160
+0.9599	170
+0.9605	180
+0.961	190
+0.9615	200
+0.9628	240
+0.9634	280
+0.964	320
+0.9643	360
+0.9647	400
+0.9654	500
+0.9661	600
+0.9664	700
+nprobe	QPS	recall
+5	1576.13	0.5695
+10	1491.71	0.7048
+20	1372.37	0.8201
+30	1263.49	0.8665
+40	1233.06	0.8908
+50	1176.69	0.911
+60	1126.05	0.9236
+70	1081.65	0.9328
+80	1037.52	0.9386
+90	1005.1	0.9429
+100	972.151	0.9473
+110	942.387	0.9501
+120	896.103	0.9533
+130	885.972	0.9557
+140	863.805	0.9566
+150	825.877	0.9579
+160	817.239	0.959
+170	797.152	0.9599
+180	762.019	0.9605
+190	757.705	0.961
+200	740.023	0.9615
+240	675.018	0.9628
+280	609.161	0.9634
+320	552.843	0.964
+360	529.55	0.9643
+400	502.938	0.9647
+500	435.741	0.9654
+600	395.68	0.9661
+700	355.473	0.9664
+800	326.397	0.9663
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/landmark-dino-768-cosine/base.fvecs /home/cc/research/datasets/landmark-dino-768-cosine/query.fvecs /home/cc/research/datasets/landmark-dino-768-cosine/groundtruth.ivecs /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs 4"
+	User time (seconds): 126.31
+	System time (seconds): 1.98
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:08.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2640192
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 662016
+	Voluntary context switches: 1
+	Involuntary context switches: 204
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

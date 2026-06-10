@@ -1,0 +1,71 @@
+File /home/cc/research/datasets/random/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/research/datasets/random/query.fvecs loaded
+Rows 200 Cols 100
+File /home/cc/research/datasets/random/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/random_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/random_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.30432
+0.33925	5
+0.4895	10
+0.6525	20
+0.734	30
+0.77825	40
+0.80375	50
+0.817	60
+0.82325	70
+0.83025	80
+0.835	90
+0.83725	100
+0.838	110
+0.8385	120
+0.83875	130
+nprobe	QPS	recall
+5	2878.05	0.33925
+10	2013.58	0.4895
+20	1386.87	0.6525
+30	1091.58	0.734
+40	928.15	0.77825
+50	832.398	0.80375
+60	772.108	0.817
+70	729.17	0.82325
+80	693.07	0.83025
+90	665.059	0.835
+100	638.337	0.83725
+110	615.499	0.838
+120	593.818	0.8385
+130	576.036	0.83875
+140	563.894	0.8385
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/random/base.fvecs /home/cc/research/datasets/random/query.fvecs /home/cc/research/datasets/random/groundtruth.ivecs /home/cc/index/ivf_index/random_centroids_4096.fvecs /home/cc/index/ivf_index/random_clusterids_4096.ivecs 4"
+	User time (seconds): 40.53
+	System time (seconds): 0.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 502684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134667
+	Voluntary context switches: 1
+	Involuntary context switches: 32
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

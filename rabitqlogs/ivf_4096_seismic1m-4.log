@@ -1,0 +1,125 @@
+File /home/cc/research/datasets/seismic1m/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/seismic1m/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/research/datasets/seismic1m/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/seismic1m_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/seismic1m_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.704983
+0.2081	5
+0.2857	10
+0.3372	20
+0.357	30
+0.3666	40
+0.3708	50
+0.3805	60
+0.3892	70
+0.3923	80
+0.4075	90
+0.4142	100
+0.4196	110
+0.4227	120
+0.426	130
+0.4287	140
+0.4317	150
+0.435	160
+0.4383	170
+0.4422	180
+0.4457	190
+0.4533	200
+0.4577	240
+0.4741	280
+0.4821	320
+0.4933	360
+0.5309	400
+0.5663	500
+0.5786	600
+0.5802	700
+0.5886	800
+0.5991	900
+0.6126	1000
+0.6174	1100
+0.6197	1200
+0.6297	1300
+0.6393	1400
+0.644	1500
+0.7791	2000
+0.822	2500
+0.8251	3000
+0.8274	3500
+nprobe	QPS	recall
+5	4172.4	0.2081
+10	3711.45	0.2857
+20	3114.59	0.3372
+30	2722	0.357
+40	2420.44	0.3666
+50	2196.94	0.3708
+60	2043.28	0.3805
+70	1897.75	0.3892
+80	1774.24	0.3923
+90	1649.76	0.4075
+100	1559.72	0.4142
+110	1482.45	0.4196
+120	1394.26	0.4227
+130	1335.66	0.426
+140	1272.18	0.4287
+150	1219.26	0.4317
+160	1165.68	0.435
+170	1119.6	0.4383
+180	1062.01	0.4422
+190	1030.05	0.4457
+200	979.844	0.4533
+240	861.789	0.4577
+280	774.755	0.4741
+320	692.286	0.4821
+360	632.337	0.4933
+400	577.933	0.5309
+500	480.784	0.5663
+600	412.363	0.5786
+700	361.649	0.5802
+800	323.267	0.5886
+900	292.029	0.5991
+1000	269.317	0.6126
+1100	249.449	0.6174
+1200	231.714	0.6197
+1300	218.236	0.6297
+1400	205.029	0.6393
+1500	192.663	0.644
+2000	156.019	0.7791
+2500	126.551	0.822
+3000	109.288	0.8251
+3500	93.8921	0.8274
+4000	80.4247	0.8274
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/seismic1m/base.fvecs /home/cc/research/datasets/seismic1m/query.fvecs /home/cc/research/datasets/seismic1m/groundtruth.ivecs /home/cc/index/ivf_index/seismic1m_centroids_4096.fvecs /home/cc/index/ivf_index/seismic1m_clusterids_4096.ivecs 4"
+	User time (seconds): 106.46
+	System time (seconds): 0.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:47.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1176320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 333224
+	Voluntary context switches: 1
+	Involuntary context switches: 147
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

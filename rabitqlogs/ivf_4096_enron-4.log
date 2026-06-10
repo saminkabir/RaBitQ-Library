@@ -1,0 +1,93 @@
+File /home/cc/research/datasets/enron/base.fvecs loaded
+Rows 94987 Cols 1369
+File /home/cc/research/datasets/enron/query.fvecs loaded
+Rows 200 Cols 1369
+File /home/cc/research/datasets/enron/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/enron_centroids_4096.fvecs loaded
+Rows 4096 Cols 1369
+File /home/cc/index/ivf_index/enron_clusterids_4096.ivecs loaded
+Rows 94987 Cols 1
+data loaded
+	N: 94987
+	DIM: 1369
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.411006
+0.5945	5
+0.7105	10
+0.81775	20
+0.871	30
+0.89975	40
+0.92025	50
+0.93275	60
+0.94125	70
+0.946	80
+0.952	90
+0.95525	100
+0.95775	110
+0.959	120
+0.95925	130
+0.961	140
+0.9625	150
+0.96575	160
+0.96625	170
+0.9685	180
+0.96875	190
+0.969	200
+0.971	240
+0.97225	280
+0.97275	320
+0.973	360
+nprobe	QPS	recall
+5	915.622	0.5945
+10	903.26	0.7105
+20	881.577	0.81775
+30	871.934	0.871
+40	863.102	0.89975
+50	842.603	0.92025
+60	822.135	0.93275
+70	796.544	0.94125
+80	779.859	0.946
+90	768.603	0.952
+100	752.2	0.95525
+110	744.021	0.95775
+120	735.688	0.959
+130	720.301	0.95925
+140	708.443	0.961
+150	687.501	0.9625
+160	671.685	0.96575
+170	660.003	0.96625
+180	648.001	0.9685
+190	640.051	0.96875
+200	634.281	0.969
+240	602.078	0.971
+280	578.534	0.97225
+320	557.685	0.97275
+360	539.716	0.973
+400	525.365	0.973
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/enron/base.fvecs /home/cc/research/datasets/enron/query.fvecs /home/cc/research/datasets/enron/groundtruth.ivecs /home/cc/index/ivf_index/enron_centroids_4096.fvecs /home/cc/index/ivf_index/enron_clusterids_4096.ivecs 4"
+	User time (seconds): 68.53
+	System time (seconds): 0.41
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:08.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 661760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 166182
+	Voluntary context switches: 1
+	Involuntary context switches: 88
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

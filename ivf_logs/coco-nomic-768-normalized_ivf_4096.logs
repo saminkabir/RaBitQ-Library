@@ -1,0 +1,35 @@
+Using L2 metric by default
+Reading File - /home/cc/research/datasets/coco-nomic-768-normalized/base.fvecs
+	/home/cc/research/datasets/coco-nomic-768-normalized/base.fvecs readed
+Time for training ivf 869.5017144680023 secs
+Writing File - /home/cc/index/ivf_index/coco-nomic-768-normalized_clusterids_4096.ivecs
+	/home/cc/index/ivf_index/coco-nomic-768-normalized_clusterids_4096.ivecs wrote
+Writing File - /home/cc/index/ivf_index/coco-nomic-768-normalized_centroids_4096.fvecs
+	/home/cc/index/ivf_index/coco-nomic-768-normalized_centroids_4096.fvecs wrote
+Training level-1 quantizer
+Training level-1 quantizer on 282360 vectors in 768D
+Training IVF residual
+IndexIVF: no residual training
+	Command being timed: "taskset --cpu-list 32-32 python ./python/ivf.py /home/cc/research/datasets/coco-nomic-768-normalized/base.fvecs 4096 /home/cc/index/ivf_index/coco-nomic-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/coco-nomic-768-normalized_clusterids_4096.ivecs"
+	User time (seconds): 956.75
+	System time (seconds): 0.82
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:57.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1784884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33512
+	Voluntary context switches: 4
+	Involuntary context switches: 402
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 29032
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
