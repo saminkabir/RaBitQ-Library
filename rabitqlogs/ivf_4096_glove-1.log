@@ -1,0 +1,57 @@
+File /home/cc/research/datasets/glove/base.fvecs loaded
+Rows 1192514 Cols 100
+File /home/cc/research/datasets/glove/query.fvecs loaded
+Rows 200 Cols 100
+File /home/cc/research/datasets/glove/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/glove_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/glove_clusterids_4096.ivecs loaded
+Rows 1192514 Cols 1
+data loaded
+	N: 1192514
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0143165
+0.38275	5
+0.4255	10
+0.45075	20
+0.45925	30
+0.46425	40
+0.46725	50
+0.46775	60
+nprobe	QPS	recall
+5	8512.85	0.38275
+10	7225	0.4255
+20	5826.35	0.45075
+30	4961.94	0.45925
+40	4262.9	0.46425
+50	3730.74	0.46725
+60	3337.07	0.46775
+70	3003.46	0.46625
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/glove/base.fvecs /home/cc/research/datasets/glove/query.fvecs /home/cc/research/datasets/glove/groundtruth.ivecs /home/cc/index/ivf_index/glove_centroids_4096.fvecs /home/cc/index/ivf_index/glove_clusterids_4096.ivecs 1"
+	User time (seconds): 3.06
+	System time (seconds): 0.33
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 526080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131875
+	Voluntary context switches: 1
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

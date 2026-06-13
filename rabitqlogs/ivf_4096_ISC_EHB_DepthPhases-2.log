@@ -1,0 +1,105 @@
+File /home/cc/research/datasets/ISC_EHB_DepthPhases/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/ISC_EHB_DepthPhases/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/ISC_EHB_DepthPhases_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/ISC_EHB_DepthPhases_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.419784
+0.7892	5
+0.843467	10
+0.870733	20
+0.883433	30
+0.890233	40
+0.894667	50
+0.8981	60
+0.900467	70
+0.902367	80
+0.9041	90
+0.905167	100
+0.9063	110
+0.9072	120
+0.9081	130
+0.9088	140
+0.9096	150
+0.909967	160
+0.9104	170
+0.911	180
+0.911167	190
+0.911433	200
+0.9125	240
+0.913	280
+0.913667	320
+0.913867	360
+0.913933	400
+0.9143	500
+0.9144	600
+0.914467	700
+0.9146	800
+0.914667	900
+nprobe	QPS	recall
+5	3998	0.7892
+10	3577.32	0.843467
+20	2978.8	0.870733
+30	2566.71	0.883433
+40	2298.76	0.890233
+50	2071.62	0.894667
+60	1888.19	0.8981
+70	1724.09	0.900467
+80	1600.33	0.902367
+90	1512.77	0.9041
+100	1425.73	0.905167
+110	1346.26	0.9063
+120	1278.58	0.9072
+130	1220.68	0.9081
+140	1179.93	0.9088
+150	1140.53	0.9096
+160	1096.54	0.909967
+170	1057.78	0.9104
+180	1019.49	0.911
+190	978.945	0.911167
+200	948.296	0.911433
+240	845.979	0.9125
+280	771.187	0.913
+320	709.434	0.913667
+360	658.549	0.913867
+400	617.198	0.913933
+500	536.865	0.9143
+600	478.735	0.9144
+700	431.171	0.914467
+800	397.175	0.9146
+900	367.05	0.914667
+1000	343.65	0.914667
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/ISC_EHB_DepthPhases/base.fvecs /home/cc/research/datasets/ISC_EHB_DepthPhases/query.fvecs /home/cc/research/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs /home/cc/index/ivf_index/ISC_EHB_DepthPhases_centroids_4096.fvecs /home/cc/index/ivf_index/ISC_EHB_DepthPhases_clusterids_4096.ivecs 2"
+	User time (seconds): 90.41
+	System time (seconds): 0.82
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:31.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1115628
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 280725
+	Voluntary context switches: 1
+	Involuntary context switches: 75
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

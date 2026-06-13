@@ -1,0 +1,65 @@
+File /home/cc/research/datasets/word2vec/base.fvecs loaded
+Rows 1000000 Cols 300
+File /home/cc/research/datasets/word2vec/query.fvecs loaded
+Rows 1000 Cols 300
+File /home/cc/research/datasets/word2vec/groundtruth.ivecs loaded
+Rows 1000 Cols 100
+File /home/cc/index/ivf_index/word2vec_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/word2vec_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0298669
+0.43622	5
+0.5419	10
+0.60617	20
+0.62242	30
+0.63003	40
+0.63368	50
+0.63523	60
+0.63627	70
+0.63693	80
+0.63711	90
+0.6374	100
+nprobe	QPS	recall
+5	3153.03	0.43622
+10	2664.3	0.5419
+20	2029.33	0.60617
+30	1622.99	0.62242
+40	1352.48	0.63003
+50	1135.95	0.63368
+60	982.617	0.63523
+70	863.136	0.63627
+80	791.945	0.63693
+90	722.242	0.63711
+100	665.25	0.6374
+110	589.259	0.6374
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/word2vec/base.fvecs /home/cc/research/datasets/word2vec/query.fvecs /home/cc/research/datasets/word2vec/groundtruth.ivecs /home/cc/index/ivf_index/word2vec_centroids_4096.fvecs /home/cc/index/ivf_index/word2vec_clusterids_4096.ivecs 1"
+	User time (seconds): 70.63
+	System time (seconds): 0.88
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:11.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1266472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 321875
+	Voluntary context switches: 1
+	Involuntary context switches: 59
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,75 @@
+File /home/cc/research/datasets/text-to-image/base.fvecs loaded
+Rows 1000000 Cols 200
+File /home/cc/research/datasets/text-to-image/query.fvecs loaded
+Rows 100 Cols 200
+File /home/cc/research/datasets/text-to-image/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/text-to-image_centroids_4096.fvecs loaded
+Rows 4096 Cols 200
+File /home/cc/index/ivf_index/text-to-image_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 200
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.389394
+0.7505	5
+0.8357	10
+0.8758	20
+0.8883	30
+0.8942	40
+0.8972	50
+0.8993	60
+0.9005	70
+0.9019	80
+0.9024	90
+0.9028	100
+0.9033	110
+0.9035	120
+0.9037	130
+0.9039	140
+0.9041	150
+nprobe	QPS	recall
+5	4210.14	0.7505
+10	3888.5	0.8357
+20	3499.37	0.8758
+30	3198.84	0.8883
+40	2973.33	0.8942
+50	2782.35	0.8972
+60	2622.98	0.8993
+70	2471.96	0.9005
+80	2343.31	0.9019
+90	2229.31	0.9024
+100	2130.03	0.9028
+110	2040.97	0.9033
+120	1943.18	0.9035
+130	1866.28	0.9037
+140	1789.8	0.9039
+150	1723.12	0.9041
+160	1663.67	0.9041
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/text-to-image/base.fvecs /home/cc/research/datasets/text-to-image/query.fvecs /home/cc/research/datasets/text-to-image/groundtruth.ivecs /home/cc/index/ivf_index/text-to-image_centroids_4096.fvecs /home/cc/index/ivf_index/text-to-image_clusterids_4096.ivecs 2"
+	User time (seconds): 27.77
+	System time (seconds): 0.58
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 894720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 224683
+	Voluntary context switches: 1
+	Involuntary context switches: 36
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

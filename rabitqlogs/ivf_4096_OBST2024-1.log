@@ -1,0 +1,83 @@
+File /home/cc/research/datasets/OBST2024/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/OBST2024/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/OBST2024/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/OBST2024_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/OBST2024_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0208161
+0.3186	5
+0.376533	10
+0.430133	20
+0.501467	30
+0.532767	40
+0.552367	50
+0.5657	60
+0.569867	70
+0.5728	80
+0.5741	90
+0.574667	100
+0.574967	110
+0.575567	120
+0.575733	130
+0.575867	140
+0.5759	150
+0.576167	160
+0.5764	170
+0.576567	180
+0.576667	190
+nprobe	QPS	recall
+5	4531.24	0.3186
+10	4088.93	0.376533
+20	3574.9	0.430133
+30	3117.35	0.501467
+40	2854.16	0.532767
+50	2609.66	0.552367
+60	2393.53	0.5657
+70	2221.49	0.569867
+80	2066.48	0.5728
+90	1937.7	0.5741
+100	1792.91	0.574667
+110	1670.06	0.574967
+120	1556.86	0.575567
+130	1464.57	0.575733
+140	1397.55	0.575867
+150	1360.02	0.5759
+160	1340.25	0.576167
+170	1315.02	0.5764
+180	1272.8	0.576567
+190	1222.59	0.576667
+200	1172.95	0.5766
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/OBST2024/base.fvecs /home/cc/research/datasets/OBST2024/query.fvecs /home/cc/research/datasets/OBST2024/groundtruth.ivecs /home/cc/index/ivf_index/OBST2024_centroids_4096.fvecs /home/cc/index/ivf_index/OBST2024_clusterids_4096.ivecs 1"
+	User time (seconds): 22.63
+	System time (seconds): 0.67
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1077088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 273155
+	Voluntary context switches: 1
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

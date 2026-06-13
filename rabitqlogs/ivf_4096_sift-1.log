@@ -1,0 +1,69 @@
+File /home/cc/research/datasets/sift/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/research/datasets/sift/query.fvecs loaded
+Rows 10000 Cols 128
+File /home/cc/research/datasets/sift/groundtruth.ivecs loaded
+Rows 10000 Cols 100
+File /home/cc/index/ivf_index/sift_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/sift_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0123998
+0.451147	5
+0.542592	10
+0.599857	20
+0.619178	30
+0.627982	40
+0.632411	50
+0.635036	60
+0.636333	70
+0.637205	80
+0.637648	90
+0.637843	100
+0.637971	110
+0.638001	120
+nprobe	QPS	recall
+5	8022.66	0.451147
+10	7190.53	0.542592
+20	6087.92	0.599857
+30	5383.3	0.619178
+40	4810.57	0.627982
+50	4411.74	0.632411
+60	4078.95	0.635036
+70	3742.18	0.636333
+80	3433.08	0.637205
+90	3191.38	0.637648
+100	3011.36	0.637843
+110	2824.74	0.637971
+120	2677.03	0.638001
+130	2546.28	0.637935
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/sift/base.fvecs /home/cc/research/datasets/sift/query.fvecs /home/cc/research/datasets/sift/groundtruth.ivecs /home/cc/index/ivf_index/sift_centroids_4096.fvecs /home/cc/index/ivf_index/sift_clusterids_4096.ivecs 1"
+	User time (seconds): 221.50
+	System time (seconds): 0.52
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:42.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 561920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 151690
+	Voluntary context switches: 1
+	Involuntary context switches: 179
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

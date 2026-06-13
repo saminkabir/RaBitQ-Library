@@ -1,0 +1,123 @@
+File /home/cc/research/datasets/crawl/base.fvecs loaded
+Rows 1989995 Cols 300
+File /home/cc/research/datasets/crawl/query.fvecs loaded
+Rows 10000 Cols 300
+File /home/cc/research/datasets/crawl/groundtruth.ivecs loaded
+Rows 10000 Cols 100
+File /home/cc/index/ivf_index/crawl_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/crawl_clusterids_4096.ivecs loaded
+Rows 1989995 Cols 1
+data loaded
+	N: 1989995
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 1.09584
+0.628335	5
+0.708878	10
+0.764929	20
+0.788952	30
+0.803021	40
+0.812137	50
+0.818686	60
+0.823591	70
+0.827534	80
+0.830575	90
+0.833164	100
+0.835492	110
+0.83715	120
+0.838683	130
+0.84009	140
+0.841196	150
+0.842242	160
+0.843173	170
+0.84397	180
+0.844783	190
+0.845549	200
+0.847693	240
+0.849118	280
+0.850122	320
+0.850949	360
+0.851629	400
+0.852754	500
+0.853493	600
+0.853978	700
+0.854349	800
+0.854608	900
+0.85482	1000
+0.85496	1100
+0.855099	1200
+0.855187	1300
+0.855265	1400
+0.855326	1500
+0.855494	2000
+0.855569	2500
+0.855584	3000
+nprobe	QPS	recall
+5	3091.17	0.628335
+10	2735.23	0.708878
+20	2279.17	0.764929
+30	1969.8	0.788952
+40	1746.65	0.803021
+50	1575.54	0.812137
+60	1446.37	0.818686
+70	1344.38	0.823591
+80	1258.8	0.827534
+90	1182.86	0.830575
+100	1107.69	0.833164
+110	1037.77	0.835492
+120	976.807	0.83715
+130	922.373	0.838683
+140	873.768	0.84009
+150	832.974	0.841196
+160	796.43	0.842242
+170	765.079	0.843173
+180	735.329	0.84397
+190	707.735	0.844783
+200	683.709	0.845549
+240	600.414	0.847693
+280	535.895	0.849118
+320	483.717	0.850122
+360	442.309	0.850949
+400	409.066	0.851629
+500	342.786	0.852754
+600	295.888	0.853493
+700	260.567	0.853978
+800	232.773	0.854349
+900	210.618	0.854608
+1000	192.192	0.85482
+1100	176.831	0.85496
+1200	163.49	0.855099
+1300	152.068	0.855187
+1400	141.522	0.855265
+1500	133.14	0.855326
+2000	102.819	0.855494
+2500	84.2745	0.855569
+3000	72.5197	0.855584
+3500	64.7813	0.855589
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/crawl/base.fvecs /home/cc/research/datasets/crawl/query.fvecs /home/cc/research/datasets/crawl/groundtruth.ivecs /home/cc/index/ivf_index/crawl_centroids_4096.fvecs /home/cc/index/ivf_index/crawl_clusterids_4096.ivecs 2"
+	User time (seconds): 8350.26
+	System time (seconds): 18.17
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:19:28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2594612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 654134
+	Voluntary context switches: 1
+	Involuntary context switches: 11632
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 328
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

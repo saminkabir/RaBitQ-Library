@@ -1,0 +1,91 @@
+File /home/cc/research/datasets/arxiv-nomic-768-normalized/base.fvecs loaded
+Rows 1000000 Cols 768
+File /home/cc/research/datasets/arxiv-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/research/datasets/arxiv-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/arxiv-nomic-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/arxiv-nomic-768-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 1.3127
+0.6794	5
+0.7657	10
+0.8364	20
+0.862	30
+0.8777	40
+0.8864	50
+0.8927	60
+0.896	70
+0.9004	80
+0.9017	90
+0.9036	100
+0.9047	110
+0.9066	120
+0.9076	130
+0.9093	140
+0.911	150
+0.9116	160
+0.9121	170
+0.9123	180
+0.9127	190
+0.9129	200
+0.914	240
+0.9144	280
+0.9149	320
+nprobe	QPS	recall
+5	1367.2	0.6794
+10	1312.39	0.7657
+20	1180.55	0.8364
+30	1080.7	0.862
+40	1001.74	0.8777
+50	937.091	0.8864
+60	882.787	0.8927
+70	829.196	0.896
+80	786.762	0.9004
+90	751.467	0.9017
+100	719.803	0.9036
+110	690.8	0.9047
+120	669.248	0.9066
+130	641.208	0.9076
+140	621.806	0.9093
+150	601.108	0.911
+160	582.512	0.9116
+170	561.248	0.9121
+180	543.819	0.9123
+190	527.857	0.9127
+200	512.84	0.9129
+240	460.533	0.914
+280	421.178	0.9144
+320	386.394	0.9149
+360	358.065	0.9149
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/arxiv-nomic-768-normalized/base.fvecs /home/cc/research/datasets/arxiv-nomic-768-normalized/query.fvecs /home/cc/research/datasets/arxiv-nomic-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/arxiv-nomic-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/arxiv-nomic-768-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 102.08
+	System time (seconds): 2.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:44.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3268564
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 820651
+	Voluntary context switches: 1
+	Involuntary context switches: 124
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

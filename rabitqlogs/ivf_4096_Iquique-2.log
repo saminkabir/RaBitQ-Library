@@ -1,0 +1,132 @@
+File /home/cc/research/datasets/Iquique/base.fvecs loaded
+Rows 578853 Cols 256
+File /home/cc/research/datasets/Iquique/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/Iquique/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/Iquique_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/Iquique_clusterids_4096.ivecs loaded
+Rows 578853 Cols 1
+data loaded
+	N: 578853
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.218936
+0.2784	5
+0.353633	10
+0.439733	20
+0.486133	30
+0.515967	40
+0.5452	50
+0.5621	60
+0.578	70
+0.5914	80
+0.602833	90
+0.611567	100
+0.619067	110
+0.625467	120
+0.631667	130
+0.636667	140
+0.641167	150
+0.646	160
+0.649733	170
+0.653933	180
+0.6581	190
+0.661733	200
+0.673233	240
+0.6834	280
+0.6927	320
+0.6984	360
+0.7052	400
+0.718	500
+0.726667	600
+0.732867	700
+0.737533	800
+0.741567	900
+0.7456	1000
+0.748767	1100
+0.752067	1200
+0.7564	1300
+0.758667	1400
+0.761033	1500
+0.7703	2000
+0.775333	2500
+0.7792	3000
+0.781333	3500
+0.781533	4000
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe	QPS	recall
+5	4758.56	0.2784
+10	4357.05	0.353633
+20	3875.2	0.439733
+30	3555.08	0.486133
+40	3308.3	0.515967
+50	3093.75	0.5452
+60	2919.91	0.5621
+70	2768.2	0.578
+80	2643.14	0.5914
+90	2528.58	0.602833
+100	2425.77	0.611567
+110	2323.87	0.619067
+120	2249.76	0.625467
+130	2173.87	0.631667
+140	2103.17	0.636667
+150	2042.3	0.641167
+160	1981.49	0.646
+170	1928.92	0.649733
+180	1878.25	0.653933
+190	1833.24	0.6581
+200	1777.09	0.661733
+240	1619.13	0.673233
+280	1494.3	0.6834
+320	1394.71	0.6927
+360	1306.4	0.6984
+400	1229.61	0.7052
+500	1074.92	0.718
+600	947.409	0.726667
+700	829.863	0.732867
+800	753.576	0.737533
+900	696.032	0.741567
+1000	638.063	0.7456
+1100	589.723	0.748767
+1200	552.073	0.752067
+1300	519.885	0.7564
+1400	495.16	0.758667
+1500	466.857	0.761033
+2000	371.379	0.7703
+2500	309.575	0.775333
+3000	266.037	0.7792
+3500	227.648	0.781333
+4000	186.43	0.781533
+6000	172.12	0.781533
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/Iquique/base.fvecs /home/cc/research/datasets/Iquique/query.fvecs /home/cc/research/datasets/Iquique/groundtruth.ivecs /home/cc/index/ivf_index/Iquique_centroids_4096.fvecs /home/cc/index/ivf_index/Iquique_clusterids_4096.ivecs 2"
+	User time (seconds): 112.64
+	System time (seconds): 0.48
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:53.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 654080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 164089
+	Voluntary context switches: 1
+	Involuntary context switches: 79
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

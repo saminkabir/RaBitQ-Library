@@ -1,0 +1,61 @@
+File /home/cc/research/datasets/uqv/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/uqv/query.fvecs loaded
+Rows 10000 Cols 256
+File /home/cc/research/datasets/uqv/groundtruth.ivecs loaded
+Rows 10000 Cols 100
+File /home/cc/index/ivf_index/uqv_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/uqv_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0220677
+0.722721	5
+0.780815	10
+0.804105	20
+0.808774	30
+0.809859	40
+0.810067	50
+0.810195	60
+0.81024	70
+0.810328	80
+nprobe	QPS	recall
+5	4687.88	0.722721
+10	4358.76	0.780815
+20	3852.62	0.804105
+30	3468.86	0.808774
+40	3157.87	0.809859
+50	2907.38	0.810067
+60	2688.62	0.810195
+70	2498.57	0.81024
+80	2327.47	0.810328
+90	2187.05	0.810325
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/uqv/base.fvecs /home/cc/research/datasets/uqv/query.fvecs /home/cc/research/datasets/uqv/groundtruth.ivecs /home/cc/index/ivf_index/uqv_centroids_4096.fvecs /home/cc/index/ivf_index/uqv_clusterids_4096.ivecs 1"
+	User time (seconds): 203.21
+	System time (seconds): 0.86
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:24.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1089524
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 273209
+	Voluntary context switches: 1
+	Involuntary context switches: 95
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

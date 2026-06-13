@@ -1,0 +1,67 @@
+File /home/cc/research/datasets/Meier2019JGR/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/Meier2019JGR/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/Meier2019JGR/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/Meier2019JGR_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/Meier2019JGR_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0218197
+0.6495	5
+0.742867	10
+0.784567	20
+0.796267	30
+0.801833	40
+0.8051	50
+0.8066	60
+0.807833	70
+0.8084	80
+0.809067	90
+0.809567	100
+0.81	110
+nprobe	QPS	recall
+5	5256.88	0.6495
+10	4996.52	0.742867
+20	4685.11	0.784567
+30	4466.63	0.796267
+40	4272.38	0.801833
+50	4036.69	0.8051
+60	3908.52	0.8066
+70	3746	0.807833
+80	3590.99	0.8084
+90	3453.17	0.809067
+100	3320.08	0.809567
+110	3207.53	0.81
+120	3095.63	0.809933
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/Meier2019JGR/base.fvecs /home/cc/research/datasets/Meier2019JGR/query.fvecs /home/cc/research/datasets/Meier2019JGR/groundtruth.ivecs /home/cc/index/ivf_index/Meier2019JGR_centroids_4096.fvecs /home/cc/index/ivf_index/Meier2019JGR_clusterids_4096.ivecs 1"
+	User time (seconds): 7.53
+	System time (seconds): 0.69
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1102432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 280674
+	Voluntary context switches: 1
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

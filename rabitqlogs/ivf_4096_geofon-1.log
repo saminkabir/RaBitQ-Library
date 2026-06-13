@@ -1,0 +1,69 @@
+File /home/cc/research/datasets/geofon/base.fvecs loaded
+Rows 275174 Cols 128
+File /home/cc/research/datasets/geofon/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/research/datasets/geofon/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/geofon_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/geofon_clusterids_4096.ivecs loaded
+Rows 275174 Cols 1
+data loaded
+	N: 275174
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0039532
+0.6982	5
+0.8135	10
+0.8498	20
+0.8568	30
+0.86	40
+0.862	50
+0.8621	60
+0.8623	70
+0.8624	80
+0.8626	90
+0.8628	100
+0.8629	110
+0.863	120
+nprobe	QPS	recall
+5	8719.26	0.6982
+10	8117.3	0.8135
+20	7203.84	0.8498
+30	6570.18	0.8568
+40	6077.78	0.86
+50	5655.33	0.862
+60	5279.54	0.8621
+70	4965.58	0.8623
+80	4692.78	0.8624
+90	4442.11	0.8626
+100	4227.09	0.8628
+110	4024.33	0.8629
+120	3805.41	0.863
+130	3689.26	0.8628
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/geofon/base.fvecs /home/cc/research/datasets/geofon/query.fvecs /home/cc/research/datasets/geofon/groundtruth.ivecs /home/cc/index/ivf_index/geofon_centroids_4096.fvecs /home/cc/index/ivf_index/geofon_clusterids_4096.ivecs 1"
+	User time (seconds): 1.93
+	System time (seconds): 0.11
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 160000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39843
+	Voluntary context switches: 2
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

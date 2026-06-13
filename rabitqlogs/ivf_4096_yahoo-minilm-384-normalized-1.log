@@ -1,0 +1,77 @@
+File /home/cc/research/datasets/yahoo-minilm-384-normalized/base.fvecs loaded
+Rows 677305 Cols 384
+File /home/cc/research/datasets/yahoo-minilm-384-normalized/query.fvecs loaded
+Rows 100 Cols 384
+File /home/cc/research/datasets/yahoo-minilm-384-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yahoo-minilm-384-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 384
+File /home/cc/index/ivf_index/yahoo-minilm-384-normalized_clusterids_4096.ivecs loaded
+Rows 677305 Cols 1
+data loaded
+	N: 677305
+	DIM: 384
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0205016
+0.5866	5
+0.6602	10
+0.7058	20
+0.7209	30
+0.7311	40
+0.7376	50
+0.7412	60
+0.7437	70
+0.7455	80
+0.7462	90
+0.7482	100
+0.7492	110
+0.7511	120
+0.7524	130
+0.7528	140
+0.7536	150
+0.7544	160
+nprobe	QPS	recall
+5	3170.1	0.5866
+10	2934.97	0.6602
+20	2739.52	0.7058
+30	2528.87	0.7209
+40	2311.46	0.7311
+50	2201.9	0.7376
+60	2070.4	0.7412
+70	1925.84	0.7437
+80	1847.36	0.7455
+90	1752.97	0.7462
+100	1668.11	0.7482
+110	1590.33	0.7492
+120	1520.8	0.7511
+130	1458.25	0.7524
+140	1399.04	0.7528
+150	1347.17	0.7536
+160	1296.74	0.7544
+170	1251	0.7543
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/yahoo-minilm-384-normalized/base.fvecs /home/cc/research/datasets/yahoo-minilm-384-normalized/query.fvecs /home/cc/research/datasets/yahoo-minilm-384-normalized/groundtruth.ivecs /home/cc/index/ivf_index/yahoo-minilm-384-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/yahoo-minilm-384-normalized_clusterids_4096.ivecs 1"
+	User time (seconds): 7.38
+	System time (seconds): 0.71
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1090560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 273036
+	Voluntary context switches: 1
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

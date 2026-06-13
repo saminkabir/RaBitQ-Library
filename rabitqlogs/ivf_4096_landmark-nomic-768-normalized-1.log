@@ -1,0 +1,71 @@
+File /home/cc/research/datasets/landmark-nomic-768-normalized/base.fvecs loaded
+Rows 760757 Cols 768
+File /home/cc/research/datasets/landmark-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/research/datasets/landmark-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/landmark-nomic-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/landmark-nomic-768-normalized_clusterids_4096.ivecs loaded
+Rows 760757 Cols 1
+data loaded
+	N: 760757
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.035323
+0.7305	5
+0.8264	10
+0.8644	20
+0.8758	30
+0.8802	40
+0.8835	50
+0.8854	60
+0.8862	70
+0.8864	80
+0.8865	90
+0.8873	100
+0.8875	110
+0.8879	120
+0.888	130
+nprobe	QPS	recall
+5	1266.09	0.7305
+10	1259.09	0.8264
+20	1151.83	0.8644
+30	1089.54	0.8758
+40	1019.86	0.8802
+50	953.55	0.8835
+60	903.218	0.8854
+70	841.708	0.8862
+80	821.483	0.8864
+90	788.364	0.8865
+100	741.585	0.8873
+110	728.733	0.8875
+120	703.598	0.8879
+130	687.811	0.888
+140	662.506	0.888
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/landmark-nomic-768-normalized/base.fvecs /home/cc/research/datasets/landmark-nomic-768-normalized/query.fvecs /home/cc/research/datasets/landmark-nomic-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/landmark-nomic-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/landmark-nomic-768-normalized_clusterids_4096.ivecs 1"
+	User time (seconds): 12.69
+	System time (seconds): 1.47
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2421496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 608081
+	Voluntary context switches: 1
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

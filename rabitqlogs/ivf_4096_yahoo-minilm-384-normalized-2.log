@@ -1,0 +1,107 @@
+File /home/cc/research/datasets/yahoo-minilm-384-normalized/base.fvecs loaded
+Rows 677305 Cols 384
+File /home/cc/research/datasets/yahoo-minilm-384-normalized/query.fvecs loaded
+Rows 100 Cols 384
+File /home/cc/research/datasets/yahoo-minilm-384-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yahoo-minilm-384-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 384
+File /home/cc/index/ivf_index/yahoo-minilm-384-normalized_clusterids_4096.ivecs loaded
+Rows 677305 Cols 1
+data loaded
+	N: 677305
+	DIM: 384
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.441288
+0.6166	5
+0.7184	10
+0.7837	20
+0.808	30
+0.8228	40
+0.8341	50
+0.8414	60
+0.846	70
+0.8499	80
+0.8511	90
+0.8543	100
+0.8562	110
+0.8582	120
+0.8601	130
+0.8614	140
+0.8626	150
+0.8633	160
+0.8637	170
+0.8648	180
+0.8651	190
+0.8659	200
+0.8675	240
+0.8689	280
+0.8699	320
+0.8707	360
+0.872	400
+0.8739	500
+0.8748	600
+0.8762	700
+0.8774	800
+0.8785	900
+0.8788	1000
+nprobe	QPS	recall
+5	3045.65	0.6166
+10	2867.16	0.7184
+20	2600.3	0.7837
+30	2363.91	0.808
+40	2248.38	0.8228
+50	2120.15	0.8341
+60	2006.66	0.8414
+70	1908.59	0.846
+80	1817.75	0.8499
+90	1734.71	0.8511
+100	1663.75	0.8543
+110	1597.43	0.8562
+120	1535.14	0.8582
+130	1479.5	0.8601
+140	1408.21	0.8614
+150	1374.24	0.8626
+160	1326.56	0.8633
+170	1286.06	0.8637
+180	1245.31	0.8648
+190	1206.9	0.8651
+200	1173.47	0.8659
+240	1056.84	0.8675
+280	965.628	0.8689
+320	887.938	0.8699
+360	817.243	0.8707
+400	756.076	0.872
+500	641.002	0.8739
+600	561.935	0.8748
+700	499.95	0.8762
+800	451.785	0.8774
+900	412.701	0.8785
+1000	379.801	0.8788
+1100	352.43	0.8788
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/yahoo-minilm-384-normalized/base.fvecs /home/cc/research/datasets/yahoo-minilm-384-normalized/query.fvecs /home/cc/research/datasets/yahoo-minilm-384-normalized/groundtruth.ivecs /home/cc/index/ivf_index/yahoo-minilm-384-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/yahoo-minilm-384-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 47.09
+	System time (seconds): 0.75
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1127680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 282303
+	Voluntary context switches: 1
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

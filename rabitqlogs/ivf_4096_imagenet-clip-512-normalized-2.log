@@ -1,0 +1,71 @@
+File /home/cc/research/datasets/imagenet-clip-512-normalized/base.fvecs loaded
+Rows 1000000 Cols 512
+File /home/cc/research/datasets/imagenet-clip-512-normalized/query.fvecs loaded
+Rows 100 Cols 512
+File /home/cc/research/datasets/imagenet-clip-512-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/imagenet-clip-512-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 512
+File /home/cc/index/ivf_index/imagenet-clip-512-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 512
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.858056
+0.677	5
+0.7725	10
+0.8414	20
+0.8653	30
+0.8757	40
+0.8817	50
+0.8869	60
+0.8899	70
+0.8929	80
+0.8944	90
+0.895	100
+0.8967	110
+0.8985	120
+0.8994	130
+nprobe	QPS	recall
+5	2147.67	0.677
+10	2027.31	0.7725
+20	1818.32	0.8414
+30	1667.21	0.8653
+40	1540.32	0.8757
+50	1435.49	0.8817
+60	1342.05	0.8869
+70	1256.27	0.8899
+80	1177.16	0.8929
+90	1106.93	0.8944
+100	1053.6	0.895
+110	1001.3	0.8967
+120	949.644	0.8985
+130	903.863	0.8994
+140	870.46	0.8992
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/imagenet-clip-512-normalized/base.fvecs /home/cc/research/datasets/imagenet-clip-512-normalized/query.fvecs /home/cc/research/datasets/imagenet-clip-512-normalized/groundtruth.ivecs /home/cc/index/ivf_index/imagenet-clip-512-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/imagenet-clip-512-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 57.13
+	System time (seconds): 3.21
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2190080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1017192
+	Voluntary context switches: 1
+	Involuntary context switches: 79
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

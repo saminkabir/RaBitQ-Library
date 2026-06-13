@@ -1,0 +1,101 @@
+File /home/cc/research/datasets/word2vec/base.fvecs loaded
+Rows 1000000 Cols 300
+File /home/cc/research/datasets/word2vec/query.fvecs loaded
+Rows 1000 Cols 300
+File /home/cc/research/datasets/word2vec/groundtruth.ivecs loaded
+Rows 1000 Cols 100
+File /home/cc/index/ivf_index/word2vec_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/word2vec_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.541184
+0.49012	5
+0.63779	10
+0.7456	20
+0.77809	30
+0.79258	40
+0.80017	50
+0.80431	60
+0.80684	70
+0.80854	80
+0.80977	90
+0.81046	100
+0.81105	110
+0.81143	120
+0.81184	130
+0.81222	140
+0.81239	150
+0.81254	160
+0.81267	170
+0.81277	180
+0.81288	190
+0.81295	200
+0.81328	240
+0.81349	280
+0.81358	320
+0.81361	360
+0.81366	400
+0.81376	500
+0.81378	600
+0.81379	700
+nprobe	QPS	recall
+5	2725.7	0.49012
+10	2307.82	0.63779
+20	1834.98	0.7456
+30	1545.18	0.77809
+40	1353.2	0.79258
+50	1195.26	0.80017
+60	1064.18	0.80431
+70	962.798	0.80684
+80	880.135	0.80854
+90	816.011	0.80977
+100	764.772	0.81046
+110	718.262	0.81105
+120	678.868	0.81143
+130	643.135	0.81184
+140	613.692	0.81222
+150	584.009	0.81239
+160	562.505	0.81254
+170	535.459	0.81267
+180	513.074	0.81277
+190	498.381	0.81288
+200	481.128	0.81295
+240	416.547	0.81328
+280	367.678	0.81349
+320	332.805	0.81358
+360	301.023	0.81361
+400	279.216	0.81366
+500	239.076	0.81376
+600	212.86	0.81378
+700	195.168	0.81379
+800	180.845	0.81378
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/word2vec/base.fvecs /home/cc/research/datasets/word2vec/query.fvecs /home/cc/research/datasets/word2vec/groundtruth.ivecs /home/cc/index/ivf_index/word2vec_centroids_4096.fvecs /home/cc/index/ivf_index/word2vec_clusterids_4096.ivecs 2"
+	User time (seconds): 417.96
+	System time (seconds): 1.45
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:59.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1311512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 333594
+	Voluntary context switches: 1
+	Involuntary context switches: 185
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 136
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

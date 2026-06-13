@@ -1,0 +1,79 @@
+File /home/cc/research/datasets/agnews-mxbai-1024-euclidean/base.fvecs loaded
+Rows 769382 Cols 1024
+File /home/cc/research/datasets/agnews-mxbai-1024-euclidean/query.fvecs loaded
+Rows 100 Cols 1024
+File /home/cc/research/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_centroids_4096.fvecs loaded
+Rows 4096 Cols 1024
+File /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_clusterids_4096.ivecs loaded
+Rows 769382 Cols 1
+data loaded
+	N: 769382
+	DIM: 1024
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0572557
+0.6958	5
+0.7568	10
+0.8037	20
+0.8195	30
+0.8312	40
+0.8363	50
+0.84	60
+0.8434	70
+0.8459	80
+0.8472	90
+0.8487	100
+0.8505	110
+0.8516	120
+0.8517	130
+0.8526	140
+0.8542	150
+0.8548	160
+0.8552	170
+nprobe	QPS	recall
+5	973.372	0.6958
+10	980.955	0.7568
+20	896.424	0.8037
+30	816.916	0.8195
+40	762.545	0.8312
+50	718.846	0.8363
+60	660.909	0.84
+70	634.188	0.8434
+80	602.139	0.8459
+90	583.289	0.8472
+100	559.226	0.8487
+110	541.532	0.8505
+120	519.93	0.8516
+130	497.763	0.8517
+140	478.906	0.8526
+150	464.636	0.8542
+160	457.005	0.8548
+170	445.619	0.8552
+180	431.186	0.8551
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/agnews-mxbai-1024-euclidean/base.fvecs /home/cc/research/datasets/agnews-mxbai-1024-euclidean/query.fvecs /home/cc/research/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_centroids_4096.fvecs /home/cc/index/ivf_index/agnews-mxbai-1024-euclidean_clusterids_4096.ivecs 1"
+	User time (seconds): 23.24
+	System time (seconds): 2.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3257376
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 817467
+	Voluntary context switches: 1
+	Involuntary context switches: 33
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

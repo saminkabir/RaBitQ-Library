@@ -1,0 +1,69 @@
+File /home/cc/research/datasets/uqv/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/uqv/query.fvecs loaded
+Rows 10000 Cols 256
+File /home/cc/research/datasets/uqv/groundtruth.ivecs loaded
+Rows 10000 Cols 100
+File /home/cc/index/ivf_index/uqv_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/uqv_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.417517
+0.757082	5
+0.838534	10
+0.876788	20
+0.885725	30
+0.888767	40
+0.890004	50
+0.890557	60
+0.89084	70
+0.891041	80
+0.891113	90
+0.891163	100
+0.89118	110
+0.891198	120
+nprobe	QPS	recall
+5	4210.61	0.757082
+10	3910.74	0.838534
+20	3498.78	0.876788
+30	3169.1	0.885725
+40	2923.84	0.888767
+50	2718.41	0.890004
+60	2560.32	0.890557
+70	2416.2	0.89084
+80	2288.31	0.891041
+90	2176.86	0.891113
+100	2062.08	0.891163
+110	1972.23	0.89118
+120	1908.15	0.891198
+130	1832.69	0.891199
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/uqv/base.fvecs /home/cc/research/datasets/uqv/query.fvecs /home/cc/research/datasets/uqv/groundtruth.ivecs /home/cc/index/ivf_index/uqv_centroids_4096.fvecs /home/cc/index/ivf_index/uqv_clusterids_4096.ivecs 2"
+	User time (seconds): 367.49
+	System time (seconds): 1.73
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:09.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1128300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 721947
+	Voluntary context switches: 1
+	Involuntary context switches: 336
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

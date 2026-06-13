@@ -1,0 +1,63 @@
+File /home/cc/research/datasets/imageNet/base.fvecs loaded
+Rows 2340373 Cols 150
+File /home/cc/research/datasets/imageNet/query.fvecs loaded
+Rows 200 Cols 150
+File /home/cc/research/datasets/imageNet/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/imageNet_centroids_4096.fvecs loaded
+Rows 4096 Cols 150
+File /home/cc/index/ivf_index/imageNet_clusterids_4096.ivecs loaded
+Rows 2340373 Cols 1
+data loaded
+	N: 2340373
+	DIM: 150
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.627775
+0.53175	5
+0.652	10
+0.73	20
+0.75425	30
+0.76525	40
+0.77075	50
+0.77425	60
+0.77525	70
+0.7775	80
+0.77925	90
+nprobe	QPS	recall
+5	5099.46	0.53175
+10	4259.73	0.652
+20	3288.52	0.73
+30	2661.95	0.75425
+40	2297.74	0.76525
+50	2010.33	0.77075
+60	1758.25	0.77425
+70	1596.08	0.77525
+80	1452.12	0.7775
+90	1333.47	0.77925
+100	1255.64	0.779
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/imageNet/base.fvecs /home/cc/research/datasets/imageNet/query.fvecs /home/cc/research/datasets/imageNet/groundtruth.ivecs /home/cc/index/ivf_index/imageNet_centroids_4096.fvecs /home/cc/index/ivf_index/imageNet_clusterids_4096.ivecs 2"
+	User time (seconds): 44.32
+	System time (seconds): 1.11
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1574636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 397669
+	Voluntary context switches: 1
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

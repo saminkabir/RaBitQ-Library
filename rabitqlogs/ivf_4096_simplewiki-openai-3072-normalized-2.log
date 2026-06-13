@@ -1,0 +1,125 @@
+File /home/cc/research/datasets/simplewiki-openai-3072-normalized/base.fvecs loaded
+Rows 260372 Cols 3072
+File /home/cc/research/datasets/simplewiki-openai-3072-normalized/query.fvecs loaded
+Rows 100 Cols 3072
+File /home/cc/research/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 3072
+File /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_clusterids_4096.ivecs loaded
+Rows 260372 Cols 1
+data loaded
+	N: 260372
+	DIM: 3072
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 1.52164
+0.6149	5
+0.7163	10
+0.7904	20
+0.8318	30
+0.8524	40
+0.8663	50
+0.8766	60
+0.8854	70
+0.8939	80
+0.899	90
+0.9023	100
+0.9053	110
+0.9068	120
+0.9096	130
+0.9114	140
+0.9156	150
+0.9185	160
+0.9201	170
+0.9217	180
+0.9239	190
+0.9256	200
+0.9309	240
+0.9341	280
+0.9366	320
+0.9387	360
+0.9395	400
+0.9431	500
+0.9455	600
+0.9469	700
+0.9477	800
+0.9484	900
+0.9492	1000
+0.9495	1100
+0.95	1200
+0.9503	1300
+0.9506	1400
+0.9508	1500
+0.952	2000
+0.9524	2500
+0.9527	3000
+0.9529	3500
+nprobe	QPS	recall
+5	285.524	0.6149
+10	282.104	0.7163
+20	277.408	0.7904
+30	273.467	0.8318
+40	269.287	0.8524
+50	263.596	0.8663
+60	257.162	0.8766
+70	254.391	0.8854
+80	252.54	0.8939
+90	250.263	0.899
+100	248.361	0.9023
+110	245.293	0.9053
+120	241.896	0.9068
+130	237.162	0.9096
+140	234.927	0.9114
+150	233.278	0.9156
+160	231.893	0.9185
+170	229.822	0.9201
+180	228.041	0.9217
+190	225.043	0.9239
+200	222.432	0.9256
+240	212.867	0.9309
+280	204.774	0.9341
+320	199.567	0.9366
+360	192.767	0.9387
+400	185.133	0.9395
+500	170.595	0.9431
+600	157.492	0.9455
+700	148.524	0.9469
+800	139.701	0.9477
+900	132.624	0.9484
+1000	124.51	0.9492
+1100	119.388	0.9495
+1200	113.75	0.95
+1300	108.857	0.9503
+1400	103.891	0.9506
+1500	100.092	0.9508
+2000	83.4308	0.952
+2500	72.2386	0.9524
+3000	63.8269	0.9527
+3500	57.418	0.9529
+4000	52.2844	0.9529
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/simplewiki-openai-3072-normalized/base.fvecs /home/cc/research/datasets/simplewiki-openai-3072-normalized/query.fvecs /home/cc/research/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 260.48
+	System time (seconds): 3.17
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:23.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3507684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 880298
+	Voluntary context switches: 1
+	Involuntary context switches: 224
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

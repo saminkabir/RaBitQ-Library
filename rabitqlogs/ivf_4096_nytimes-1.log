@@ -1,0 +1,59 @@
+File /home/cc/research/datasets/nytimes/base.fvecs loaded
+Rows 290000 Cols 256
+File /home/cc/research/datasets/nytimes/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/research/datasets/nytimes/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/nytimes_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/nytimes_clusterids_4096.ivecs loaded
+Rows 290000 Cols 1
+data loaded
+	N: 290000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00661847
+0.1821	5
+0.3354	10
+0.5924	20
+0.821	30
+0.9084	40
+0.9276	50
+0.9636	60
+0.9815	70
+nprobe	QPS	recall
+5	3851.88	0.1821
+10	3145.51	0.3354
+20	2393.78	0.5924
+30	1961.29	0.821
+40	1696.81	0.9084
+50	1489.45	0.9276
+60	1328.85	0.9636
+70	1231.96	0.9815
+80	1140.83	0.9815
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/nytimes/base.fvecs /home/cc/research/datasets/nytimes/query.fvecs /home/cc/research/datasets/nytimes/groundtruth.ivecs /home/cc/index/ivf_index/nytimes_centroids_4096.fvecs /home/cc/index/ivf_index/nytimes_clusterids_4096.ivecs 1"
+	User time (seconds): 3.58
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 328564
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 83970
+	Voluntary context switches: 1
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

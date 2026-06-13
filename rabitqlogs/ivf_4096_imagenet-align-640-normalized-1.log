@@ -1,0 +1,109 @@
+File /home/cc/research/datasets/imagenet-align-640-normalized/base.fvecs loaded
+Rows 1000000 Cols 640
+File /home/cc/research/datasets/imagenet-align-640-normalized/query.fvecs loaded
+Rows 100 Cols 640
+File /home/cc/research/datasets/imagenet-align-640-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 640
+File /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 640
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.04106
+0.0025	5
+0.0203	10
+0.0621	20
+0.1011	30
+0.1233	40
+0.151	50
+0.1776	60
+0.1951	70
+0.2101	80
+0.2325	90
+0.25	100
+0.2809	110
+0.2957	120
+0.3025	130
+0.311	140
+0.3135	150
+0.3193	160
+0.3242	170
+0.3334	180
+0.3346	190
+0.3375	200
+0.3526	240
+0.3644	280
+0.3788	320
+0.3867	360
+0.3944	400
+0.4028	500
+0.4087	600
+0.4168	700
+0.4233	800
+0.4256	900
+0.4292	1000
+0.4294	1100
+nprobe	QPS	recall
+5	1728.88	0.0025
+10	1667.39	0.0203
+20	1522.39	0.0621
+30	1460.8	0.1011
+40	1373.26	0.1233
+50	1300.12	0.151
+60	1241.44	0.1776
+70	1173.68	0.1951
+80	1091.65	0.2101
+90	1065.56	0.2325
+100	1025.22	0.25
+110	975.341	0.2809
+120	946.678	0.2957
+130	911.244	0.3025
+140	872.74	0.311
+150	814.352	0.3135
+160	800.036	0.3193
+170	773.03	0.3242
+180	749.774	0.3334
+190	733.125	0.3346
+200	719.609	0.3375
+240	647.793	0.3526
+280	585.559	0.3644
+320	541.058	0.3788
+360	501.603	0.3867
+400	463.873	0.3944
+500	396.205	0.4028
+600	348.461	0.4087
+700	311.833	0.4168
+800	279.482	0.4233
+900	251.797	0.4256
+1000	230.008	0.4292
+1100	212.744	0.4294
+1200	194.903	0.4293
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/imagenet-align-640-normalized/base.fvecs /home/cc/research/datasets/imagenet-align-640-normalized/query.fvecs /home/cc/research/datasets/imagenet-align-640-normalized/groundtruth.ivecs /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs 1"
+	User time (seconds): 38.81
+	System time (seconds): 1.84
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2644496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 664457
+	Voluntary context switches: 1
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

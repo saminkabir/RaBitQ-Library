@@ -1,0 +1,89 @@
+File /home/cc/research/datasets/enron/base.fvecs loaded
+Rows 94987 Cols 1369
+File /home/cc/research/datasets/enron/query.fvecs loaded
+Rows 200 Cols 1369
+File /home/cc/research/datasets/enron/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/enron_centroids_4096.fvecs loaded
+Rows 4096 Cols 1369
+File /home/cc/index/ivf_index/enron_clusterids_4096.ivecs loaded
+Rows 94987 Cols 1
+data loaded
+	N: 94987
+	DIM: 1369
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.252954
+0.5925	5
+0.702	10
+0.79825	20
+0.844	30
+0.8695	40
+0.8875	50
+0.89525	60
+0.9	70
+0.9045	80
+0.909	90
+0.91	100
+0.912	110
+0.913	120
+0.9135	130
+0.915	140
+0.916	150
+0.919	160
+0.91925	170
+0.92075	180
+0.9215	190
+0.92175	200
+0.92325	240
+0.924	280
+nprobe	QPS	recall
+5	552.93	0.5925
+10	535.227	0.702
+20	528.192	0.79825
+30	521.779	0.844
+40	521.853	0.8695
+50	519.235	0.8875
+60	513.082	0.89525
+70	505.324	0.9
+80	496.096	0.9045
+90	498.056	0.909
+100	492.237	0.91
+110	487.666	0.912
+120	480.707	0.913
+130	477.892	0.9135
+140	473.748	0.915
+150	475.329	0.916
+160	468.658	0.919
+170	462.687	0.91925
+180	445.164	0.92075
+190	445.922	0.9215
+200	436.577	0.92175
+240	415.386	0.92325
+280	397.19	0.924
+320	380.293	0.92375
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/enron/base.fvecs /home/cc/research/datasets/enron/query.fvecs /home/cc/research/datasets/enron/groundtruth.ivecs /home/cc/index/ivf_index/enron_centroids_4096.fvecs /home/cc/index/ivf_index/enron_clusterids_4096.ivecs 2"
+	User time (seconds): 74.49
+	System time (seconds): 0.91
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 628480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 300048
+	Voluntary context switches: 1
+	Involuntary context switches: 76
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

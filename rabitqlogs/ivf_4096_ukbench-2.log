@@ -1,0 +1,63 @@
+File /home/cc/research/datasets/ukbench/base.fvecs loaded
+Rows 1097907 Cols 128
+File /home/cc/research/datasets/ukbench/query.fvecs loaded
+Rows 200 Cols 128
+File /home/cc/research/datasets/ukbench/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/ukbench_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/ukbench_clusterids_4096.ivecs loaded
+Rows 1097907 Cols 1
+data loaded
+	N: 1097907
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.187167
+0.644	5
+0.72725	10
+0.7715	20
+0.78725	30
+0.79275	40
+0.7945	50
+0.7975	60
+0.79825	70
+0.80025	80
+0.80175	90
+nprobe	QPS	recall
+5	8625.03	0.644
+10	7622.25	0.72725
+20	6384.21	0.7715
+30	5559.62	0.78725
+40	4949.74	0.79275
+50	4470.01	0.7945
+60	4079.89	0.7975
+70	3760.16	0.79825
+80	3494.71	0.80025
+90	3265.75	0.80175
+100	3060.04	0.80125
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/ukbench/base.fvecs /home/cc/research/datasets/ukbench/query.fvecs /home/cc/research/datasets/ukbench/groundtruth.ivecs /home/cc/index/ivf_index/ukbench_centroids_4096.fvecs /home/cc/index/ivf_index/ukbench_clusterids_4096.ivecs 2"
+	User time (seconds): 14.21
+	System time (seconds): 0.43
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 631040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 158060
+	Voluntary context switches: 1
+	Involuntary context switches: 20
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

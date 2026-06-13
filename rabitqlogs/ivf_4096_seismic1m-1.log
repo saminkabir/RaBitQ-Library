@@ -1,0 +1,99 @@
+File /home/cc/research/datasets/seismic1m/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/seismic1m/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/research/datasets/seismic1m/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/seismic1m_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/seismic1m_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0232927
+0.1935	5
+0.245	10
+0.271	20
+0.2785	30
+0.2803	40
+0.2811	50
+0.2869	60
+0.2927	70
+0.2939	80
+0.3047	90
+0.3073	100
+0.3097	110
+0.3114	120
+0.3118	130
+0.3138	140
+0.3148	150
+0.3151	160
+0.3155	170
+0.3179	180
+0.3201	190
+0.3242	200
+0.3256	240
+0.3329	280
+0.3352	320
+0.3364	360
+0.3584	400
+0.371	500
+0.3725	600
+nprobe	QPS	recall
+5	4752.54	0.1935
+10	4479.32	0.245
+20	3998.55	0.271
+30	3631.82	0.2785
+40	3328.5	0.2803
+50	3069.32	0.2811
+60	2848.98	0.2869
+70	2655.24	0.2927
+80	2447.97	0.2939
+90	2343.12	0.3047
+100	2202.99	0.3073
+110	2091.23	0.3097
+120	1974.35	0.3114
+130	1872.62	0.3118
+140	1784.9	0.3138
+150	1700.8	0.3148
+160	1624.05	0.3151
+170	1556.55	0.3155
+180	1486.38	0.3179
+190	1424.78	0.3201
+200	1352.08	0.3242
+240	1146.92	0.3256
+280	1004.76	0.3329
+320	880.667	0.3352
+360	780.585	0.3364
+400	701.711	0.3584
+500	585.365	0.371
+600	498.615	0.3725
+700	434.135	0.3721
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/seismic1m/base.fvecs /home/cc/research/datasets/seismic1m/query.fvecs /home/cc/research/datasets/seismic1m/groundtruth.ivecs /home/cc/index/ivf_index/seismic1m_centroids_4096.fvecs /home/cc/index/ivf_index/seismic1m_clusterids_4096.ivecs 1"
+	User time (seconds): 14.40
+	System time (seconds): 0.73
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1075200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 269355
+	Voluntary context switches: 1
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

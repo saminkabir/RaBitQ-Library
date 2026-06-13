@@ -1,0 +1,65 @@
+File /home/cc/research/datasets/MNIST/base.fvecs loaded
+Rows 69000 Cols 784
+File /home/cc/research/datasets/MNIST/query.fvecs loaded
+Rows 200 Cols 784
+File /home/cc/research/datasets/MNIST/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/MNIST_centroids_4096.fvecs loaded
+Rows 4096 Cols 784
+File /home/cc/index/ivf_index/MNIST_clusterids_4096.ivecs loaded
+Rows 69000 Cols 1
+data loaded
+	N: 69000
+	DIM: 784
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00440291
+0.6655	5
+0.807	10
+0.874	20
+0.8865	30
+0.89275	40
+0.89525	50
+0.89625	60
+0.89725	70
+0.898	80
+0.89825	90
+0.8985	100
+nprobe	QPS	recall
+5	1341.33	0.6655
+10	1290.72	0.807
+20	1277.14	0.874
+30	1225.14	0.8865
+40	1187.31	0.89275
+50	1146.94	0.89525
+60	1158.41	0.89625
+70	1128.15	0.89725
+80	1113.55	0.898
+90	1097.3	0.89825
+100	1095.14	0.8985
+110	1098.26	0.8985
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/MNIST/base.fvecs /home/cc/research/datasets/MNIST/query.fvecs /home/cc/research/datasets/MNIST/groundtruth.ivecs /home/cc/index/ivf_index/MNIST_centroids_4096.fvecs /home/cc/index/ivf_index/MNIST_clusterids_4096.ivecs 1"
+	User time (seconds): 12.37
+	System time (seconds): 0.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 67183
+	Voluntary context switches: 1
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

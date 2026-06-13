@@ -1,0 +1,89 @@
+File /home/cc/research/datasets/stead/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/stead/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/research/datasets/stead/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/stead_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/stead_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.395175
+0.5105	5
+0.5803	10
+0.6487	20
+0.6821	30
+0.6985	40
+0.7082	50
+0.7169	60
+0.7238	70
+0.7275	80
+0.731	90
+0.7348	100
+0.7371	110
+0.74	120
+0.7417	130
+0.7438	140
+0.7453	150
+0.7456	160
+0.7468	170
+0.7481	180
+0.7485	190
+0.7492	200
+0.752	240
+0.7527	280
+nprobe	QPS	recall
+5	2901.07	0.5105
+10	2071.96	0.5803
+20	1290.93	0.6487
+30	943.153	0.6821
+40	749.046	0.6985
+50	635.887	0.7082
+60	558.095	0.7169
+70	503.685	0.7238
+80	462.04	0.7275
+90	427.294	0.731
+100	398.127	0.7348
+110	379.018	0.7371
+120	361.203	0.74
+130	346.151	0.7417
+140	333.441	0.7438
+150	322.732	0.7453
+160	312.717	0.7456
+170	304.115	0.7468
+180	294.682	0.7481
+190	288.346	0.7485
+200	281.581	0.7492
+240	261.52	0.752
+280	244.882	0.7527
+320	232.648	0.7527
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/stead/base.fvecs /home/cc/research/datasets/stead/query.fvecs /home/cc/research/datasets/stead/groundtruth.ivecs /home/cc/index/ivf_index/stead_centroids_4096.fvecs /home/cc/index/ivf_index/stead_clusterids_4096.ivecs 2"
+	User time (seconds): 59.59
+	System time (seconds): 0.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1133368
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 317182
+	Voluntary context switches: 3
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

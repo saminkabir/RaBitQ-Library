@@ -1,0 +1,45 @@
+File /home/cc/research/datasets/llama-128-ip/base.fvecs loaded
+Rows 256921 Cols 128
+File /home/cc/research/datasets/llama-128-ip/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/research/datasets/llama-128-ip/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/llama-128-ip_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/llama-128-ip_clusterids_4096.ivecs loaded
+Rows 256921 Cols 1
+data loaded
+	N: 256921
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.043868
+0.8651	5
+nprobe	QPS	recall
+5	7888.02	0.8651
+10	7588.69	0.8637
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/llama-128-ip/base.fvecs /home/cc/research/datasets/llama-128-ip/query.fvecs /home/cc/research/datasets/llama-128-ip/groundtruth.ivecs /home/cc/index/ivf_index/llama-128-ip_centroids_4096.fvecs /home/cc/index/ivf_index/llama-128-ip_clusterids_4096.ivecs 2"
+	User time (seconds): 2.80
+	System time (seconds): 0.11
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 156160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38597
+	Voluntary context switches: 1
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

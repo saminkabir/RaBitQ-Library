@@ -1,0 +1,113 @@
+File /home/cc/research/datasets/crawl/base.fvecs loaded
+Rows 1989995 Cols 300
+File /home/cc/research/datasets/crawl/query.fvecs loaded
+Rows 10000 Cols 300
+File /home/cc/research/datasets/crawl/groundtruth.ivecs loaded
+Rows 10000 Cols 100
+File /home/cc/index/ivf_index/crawl_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/crawl_clusterids_4096.ivecs loaded
+Rows 1989995 Cols 1
+data loaded
+	N: 1989995
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.05853
+0.575015	5
+0.631105	10
+0.666435	20
+0.680511	30
+0.688586	40
+0.693885	50
+0.697447	60
+0.700148	70
+0.702244	80
+0.70372	90
+0.70503	100
+0.706095	110
+0.70685	120
+0.707633	130
+0.708271	140
+0.708848	150
+0.709367	160
+0.709807	170
+0.710199	180
+0.71056	190
+0.710908	200
+0.711851	240
+0.712511	280
+0.712956	320
+0.713319	360
+0.713598	400
+0.713937	500
+0.714179	600
+0.714331	700
+0.714426	800
+0.714534	900
+0.714579	1000
+0.714616	1100
+0.714627	1200
+0.714656	1300
+nprobe	QPS	recall
+5	3490.4	0.575015
+10	3103.72	0.631105
+20	2565.37	0.666435
+30	2201.4	0.680511
+40	1919.61	0.688586
+50	1696.74	0.693885
+60	1538.85	0.697447
+70	1417.7	0.700148
+80	1321.37	0.702244
+90	1236.62	0.70372
+100	1160.44	0.70503
+110	1085.87	0.706095
+120	1016.63	0.70685
+130	955.119	0.707633
+140	902.256	0.708271
+150	855.046	0.708848
+160	814.203	0.709367
+170	779.72	0.709807
+180	747.943	0.710199
+190	718.765	0.71056
+200	692.164	0.710908
+240	603.504	0.711851
+280	534.898	0.712511
+320	481.163	0.712956
+360	438.549	0.713319
+400	403.694	0.713598
+500	336.617	0.713937
+600	289.581	0.714179
+700	254.505	0.714331
+800	227.335	0.714426
+900	205.35	0.714534
+1000	187.25	0.714579
+1100	172.176	0.714616
+1200	159.6	0.714627
+1300	148.295	0.714656
+1400	138.455	0.714661
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/crawl/base.fvecs /home/cc/research/datasets/crawl/query.fvecs /home/cc/research/datasets/crawl/groundtruth.ivecs /home/cc/index/ivf_index/crawl_centroids_4096.fvecs /home/cc/index/ivf_index/crawl_clusterids_4096.ivecs 1"
+	User time (seconds): 4836.64
+	System time (seconds): 9.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:20:46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2501188
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 628769
+	Voluntary context switches: 1
+	Involuntary context switches: 7511
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 296
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

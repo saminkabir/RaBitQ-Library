@@ -1,0 +1,81 @@
+File /home/cc/research/datasets/glove/base.fvecs loaded
+Rows 1192514 Cols 100
+File /home/cc/research/datasets/glove/query.fvecs loaded
+Rows 200 Cols 100
+File /home/cc/research/datasets/glove/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/glove_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/glove_clusterids_4096.ivecs loaded
+Rows 1192514 Cols 1
+data loaded
+	N: 1192514
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.218445
+0.48175	5
+0.5575	10
+0.6135	20
+0.63925	30
+0.65325	40
+0.6665	50
+0.67175	60
+0.679	70
+0.68475	80
+0.68725	90
+0.689	100
+0.6905	110
+0.69075	120
+0.692	130
+0.6935	140
+0.69525	150
+0.69725	160
+0.698	170
+0.69825	180
+nprobe	QPS	recall
+5	7819.4	0.48175
+10	6720.52	0.5575
+20	5424.52	0.6135
+30	4580.3	0.63925
+40	3982.12	0.65325
+50	3528.2	0.6665
+60	3178.4	0.67175
+70	2893.62	0.679
+80	2657.05	0.68475
+90	2462.51	0.68725
+100	2292.01	0.689
+110	2143.22	0.6905
+120	2010.46	0.69075
+130	1898.37	0.692
+140	1798.67	0.6935
+150	1713.36	0.69525
+160	1632.76	0.69725
+170	1557.84	0.698
+180	1497.56	0.69825
+190	1443.62	0.698
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/glove/base.fvecs /home/cc/research/datasets/glove/query.fvecs /home/cc/research/datasets/glove/groundtruth.ivecs /home/cc/index/ivf_index/glove_centroids_4096.fvecs /home/cc/index/ivf_index/glove_clusterids_4096.ivecs 2"
+	User time (seconds): 23.14
+	System time (seconds): 0.36
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 554240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 138862
+	Voluntary context switches: 1
+	Involuntary context switches: 30
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

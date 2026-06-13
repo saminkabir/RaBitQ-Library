@@ -1,0 +1,65 @@
+File /home/cc/research/datasets/yi-128-ip/base.fvecs loaded
+Rows 187843 Cols 128
+File /home/cc/research/datasets/yi-128-ip/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/research/datasets/yi-128-ip/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yi-128-ip_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/yi-128-ip_clusterids_4096.ivecs loaded
+Rows 187843 Cols 1
+data loaded
+	N: 187843
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0318327
+0.4557	5
+0.6358	10
+0.7523	20
+0.7742	30
+0.7831	40
+0.791	50
+0.7946	60
+0.7963	70
+0.7978	80
+0.8001	90
+0.8008	100
+nprobe	QPS	recall
+5	9072.92	0.4557
+10	8216.61	0.6358
+20	7374.49	0.7523
+30	6839.41	0.7742
+40	6429.12	0.7831
+50	6020.77	0.791
+60	5800.45	0.7946
+70	5519.89	0.7963
+80	5273.69	0.7978
+90	5040.84	0.8001
+100	4737.75	0.8008
+110	4568.01	0.8007
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/yi-128-ip/base.fvecs /home/cc/research/datasets/yi-128-ip/query.fvecs /home/cc/research/datasets/yi-128-ip/groundtruth.ivecs /home/cc/index/ivf_index/yi-128-ip_centroids_4096.fvecs /home/cc/index/ivf_index/yi-128-ip_clusterids_4096.ivecs 2"
+	User time (seconds): 3.16
+	System time (seconds): 0.07
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 116480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28807
+	Voluntary context switches: 1
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

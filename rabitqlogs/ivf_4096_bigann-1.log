@@ -1,0 +1,63 @@
+File /home/cc/research/datasets/bigann/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/research/datasets/bigann/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/research/datasets/bigann/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/bigann_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/bigann_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0134606
+0.4809	5
+0.5706	10
+0.6203	20
+0.6421	30
+0.6481	40
+0.6529	50
+0.6542	60
+0.6548	70
+0.6567	80
+0.6579	90
+nprobe	QPS	recall
+5	7879.05	0.4809
+10	6810.97	0.5706
+20	5895.91	0.6203
+30	5063.03	0.6421
+40	4521.64	0.6481
+50	4159.58	0.6529
+60	3752.81	0.6542
+70	3487.15	0.6548
+80	3156.23	0.6567
+90	2960.94	0.6579
+100	2786.12	0.6572
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/bigann/base.fvecs /home/cc/research/datasets/bigann/query.fvecs /home/cc/research/datasets/bigann/groundtruth.ivecs /home/cc/index/ivf_index/bigann_centroids_4096.fvecs /home/cc/index/ivf_index/bigann_clusterids_4096.ivecs 1"
+	User time (seconds): 2.51
+	System time (seconds): 0.37
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 552960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 138135
+	Voluntary context switches: 1
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

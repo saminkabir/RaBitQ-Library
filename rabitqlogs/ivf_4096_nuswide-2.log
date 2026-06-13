@@ -1,0 +1,93 @@
+File /home/cc/research/datasets/nuswide/base.fvecs loaded
+Rows 268643 Cols 500
+File /home/cc/research/datasets/nuswide/query.fvecs loaded
+Rows 200 Cols 500
+File /home/cc/research/datasets/nuswide/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/nuswide_centroids_4096.fvecs loaded
+Rows 4096 Cols 500
+File /home/cc/index/ivf_index/nuswide_clusterids_4096.ivecs loaded
+Rows 268643 Cols 1
+data loaded
+	N: 268643
+	DIM: 500
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.236655
+0.288	5
+0.3945	10
+0.49975	20
+0.55425	30
+0.59275	40
+0.62175	50
+0.6485	60
+0.6595	70
+0.67025	80
+0.681	90
+0.68975	100
+0.69575	110
+0.6995	120
+0.70575	130
+0.7105	140
+0.717	150
+0.7225	160
+0.72425	170
+0.7255	180
+0.727	190
+0.7275	200
+0.7335	240
+0.73875	280
+0.743	320
+0.74575	360
+nprobe	QPS	recall
+5	2486.2	0.288
+10	2358.41	0.3945
+20	2163.55	0.49975
+30	2017.52	0.55425
+40	1894.82	0.59275
+50	1792.8	0.62175
+60	1694.84	0.6485
+70	1631.88	0.6595
+80	1564.3	0.67025
+90	1502.26	0.681
+100	1438.77	0.68975
+110	1377.92	0.69575
+120	1347.61	0.6995
+130	1303.45	0.70575
+140	1261.9	0.7105
+150	1227.34	0.717
+160	1190.75	0.7225
+170	1159.51	0.72425
+180	1127.92	0.7255
+190	1096.1	0.727
+200	1071.27	0.7275
+240	975.12	0.7335
+280	900.823	0.73875
+320	836.388	0.743
+360	780.688	0.74575
+400	730.068	0.7455
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/nuswide/base.fvecs /home/cc/research/datasets/nuswide/query.fvecs /home/cc/research/datasets/nuswide/groundtruth.ivecs /home/cc/index/ivf_index/nuswide_centroids_4096.fvecs /home/cc/index/ivf_index/nuswide_clusterids_4096.ivecs 2"
+	User time (seconds): 38.69
+	System time (seconds): 0.39
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 602020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 152403
+	Voluntary context switches: 1
+	Involuntary context switches: 51
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

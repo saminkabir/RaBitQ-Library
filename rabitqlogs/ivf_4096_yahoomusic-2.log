@@ -1,0 +1,89 @@
+File /home/cc/research/datasets/yahoomusic/base.fvecs loaded
+Rows 136736 Cols 300
+File /home/cc/research/datasets/yahoomusic/query.fvecs loaded
+Rows 100 Cols 300
+File /home/cc/research/datasets/yahoomusic/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs loaded
+Rows 136736 Cols 1
+data loaded
+	N: 136736
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0699481
+0.5214	5
+0.707	10
+0.8386	20
+0.8843	30
+0.903	40
+0.9143	50
+0.9216	60
+0.9243	70
+0.9272	80
+0.9306	90
+0.9322	100
+0.933	110
+0.934	120
+0.9349	130
+0.9358	140
+0.9359	150
+0.936	160
+0.9364	170
+0.9365	180
+0.9368	190
+0.9369	200
+0.9376	240
+0.9377	280
+nprobe	QPS	recall
+5	4101.82	0.5214
+10	3891.75	0.707
+20	3651.15	0.8386
+30	3491.16	0.8843
+40	3351.01	0.903
+50	3229.63	0.9143
+60	3126.1	0.9216
+70	3033.42	0.9243
+80	2944.97	0.9272
+90	2872.07	0.9306
+100	2801.25	0.9322
+110	2735.14	0.933
+120	2679.2	0.934
+130	2613.66	0.9349
+140	2558.67	0.9358
+150	2511.67	0.9359
+160	2458.95	0.936
+170	2413	0.9364
+180	2364.48	0.9365
+190	2326.4	0.9368
+200	2285.3	0.9369
+240	2136.49	0.9376
+280	2010.08	0.9377
+320	1899.53	0.9377
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/yahoomusic/base.fvecs /home/cc/research/datasets/yahoomusic/query.fvecs /home/cc/research/datasets/yahoomusic/groundtruth.ivecs /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs 2"
+	User time (seconds): 9.62
+	System time (seconds): 0.13
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 195840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 48847
+	Voluntary context switches: 1
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,125 @@
+File /home/cc/research/datasets/imagenet-align-640-normalized/base.fvecs loaded
+Rows 1000000 Cols 640
+File /home/cc/research/datasets/imagenet-align-640-normalized/query.fvecs loaded
+Rows 100 Cols 640
+File /home/cc/research/datasets/imagenet-align-640-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 640
+File /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 640
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 1.08759
+0.0025	5
+0.0227	10
+0.0706	20
+0.1172	30
+0.1439	40
+0.1804	50
+0.2196	60
+0.2444	70
+0.2656	80
+0.2969	90
+0.3204	100
+0.3627	110
+0.3856	120
+0.3957	130
+0.4089	140
+0.4168	150
+0.4257	160
+0.4342	170
+0.453	180
+0.456	190
+0.4614	200
+0.4899	240
+0.5172	280
+0.5448	320
+0.5629	360
+0.5803	400
+0.6048	500
+0.6184	600
+0.6364	700
+0.6504	800
+0.6566	900
+0.663	1000
+0.6662	1100
+0.668	1200
+0.6693	1300
+0.6704	1400
+0.6733	1500
+0.6804	2000
+0.6815	2500
+0.6828	3000
+0.6829	3500
+nprobe	QPS	recall
+5	1842.49	0.0025
+10	1712.69	0.0227
+20	1503.17	0.0706
+30	1368.19	0.1172
+40	1267.54	0.1439
+50	1183.84	0.1804
+60	1116.14	0.2196
+70	1059.74	0.2444
+80	1011.84	0.2656
+90	966.992	0.2969
+100	928.601	0.3204
+110	891.908	0.3627
+120	855.814	0.3856
+130	816.589	0.3957
+140	791.442	0.4089
+150	767.78	0.4168
+160	745.144	0.4257
+170	724.745	0.4342
+180	703.466	0.453
+190	670.086	0.456
+200	641.158	0.4614
+240	576.229	0.4899
+280	514.641	0.5172
+320	473.041	0.5448
+360	439.068	0.5629
+400	410.695	0.5803
+500	353.577	0.6048
+600	309.587	0.6184
+700	275.01	0.6364
+800	248.745	0.6504
+900	228.026	0.6566
+1000	209.783	0.663
+1100	195.274	0.6662
+1200	181.722	0.668
+1300	170.182	0.6693
+1400	159.782	0.6704
+1500	150.778	0.6733
+2000	117.42	0.6804
+2500	96.0518	0.6815
+3000	80.7121	0.6828
+3500	69.1841	0.6829
+4000	60.1168	0.6829
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/imagenet-align-640-normalized/base.fvecs /home/cc/research/datasets/imagenet-align-640-normalized/query.fvecs /home/cc/research/datasets/imagenet-align-640-normalized/groundtruth.ivecs /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 154.93
+	System time (seconds): 2.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:37.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2732020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 733793
+	Voluntary context switches: 1
+	Involuntary context switches: 162
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

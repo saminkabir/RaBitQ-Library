@@ -1,0 +1,69 @@
+File /home/cc/research/datasets/space1V/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/research/datasets/space1V/query.fvecs loaded
+Rows 100 Cols 100
+File /home/cc/research/datasets/space1V/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/space1V_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/space1V_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0125256
+0.236	5
+0.2877	10
+0.3323	20
+0.3493	30
+0.3669	40
+0.3769	50
+0.3819	60
+0.3858	70
+0.3888	80
+0.3915	90
+0.3936	100
+0.3962	110
+0.3973	120
+nprobe	QPS	recall
+5	8099.44	0.236
+10	7287.07	0.2877
+20	6189.23	0.3323
+30	5474.04	0.3493
+40	4918.23	0.3669
+50	4479.44	0.3769
+60	4104.29	0.3819
+70	3802.18	0.3858
+80	3480.02	0.3888
+90	3251.45	0.3915
+100	3112.95	0.3936
+110	2939.38	0.3962
+120	2766.93	0.3973
+130	2622.82	0.3969
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/space1V/base.fvecs /home/cc/research/datasets/space1V/query.fvecs /home/cc/research/datasets/space1V/groundtruth.ivecs /home/cc/index/ivf_index/space1V_centroids_4096.fvecs /home/cc/index/ivf_index/space1V_clusterids_4096.ivecs 1"
+	User time (seconds): 2.99
+	System time (seconds): 0.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 442880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 110910
+	Voluntary context switches: 1
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,61 @@
+File /home/cc/research/datasets/deep/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/deep/query.fvecs loaded
+Rows 200 Cols 256
+File /home/cc/research/datasets/deep/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/deep_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/deep_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0206099
+0.46175	5
+0.53075	10
+0.58225	20
+0.59725	30
+0.60775	40
+0.6125	50
+0.618	60
+0.6195	70
+0.621	80
+nprobe	QPS	recall
+5	4883.62	0.46175
+10	4552.53	0.53075
+20	4068.8	0.58225
+30	3701.5	0.59725
+40	3391.46	0.60775
+50	3132.76	0.6125
+60	2913.45	0.618
+70	2728.43	0.6195
+80	2527.74	0.621
+90	2390.46	0.6205
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/deep/base.fvecs /home/cc/research/datasets/deep/query.fvecs /home/cc/research/datasets/deep/groundtruth.ivecs /home/cc/index/ivf_index/deep_centroids_4096.fvecs /home/cc/index/ivf_index/deep_clusterids_4096.ivecs 1"
+	User time (seconds): 5.01
+	System time (seconds): 0.69
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1075200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 269344
+	Voluntary context switches: 1
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

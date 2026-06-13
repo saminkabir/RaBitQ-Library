@@ -1,0 +1,71 @@
+File /home/cc/research/datasets/landmark-dino-768-cosine/base.fvecs loaded
+Rows 760757 Cols 768
+File /home/cc/research/datasets/landmark-dino-768-cosine/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/research/datasets/landmark-dino-768-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs loaded
+Rows 760757 Cols 1
+data loaded
+	N: 760757
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0396726
+0.5487	5
+0.6539	10
+0.7279	20
+0.7549	30
+0.7655	40
+0.7759	50
+0.7831	60
+0.7868	70
+0.7898	80
+0.7911	90
+0.7931	100
+0.7937	110
+0.7945	120
+0.7962	130
+nprobe	QPS	recall
+5	1623.72	0.5487
+10	1568.8	0.6539
+20	1463.75	0.7279
+30	1351.59	0.7549
+40	1313.61	0.7655
+50	1223.41	0.7759
+60	1184.63	0.7831
+70	1137.96	0.7868
+80	1092.98	0.7898
+90	1035.02	0.7911
+100	1005.28	0.7931
+110	969.921	0.7937
+120	929.136	0.7945
+130	898.114	0.7962
+140	870.084	0.7959
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/landmark-dino-768-cosine/base.fvecs /home/cc/research/datasets/landmark-dino-768-cosine/query.fvecs /home/cc/research/datasets/landmark-dino-768-cosine/groundtruth.ivecs /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs 1"
+	User time (seconds): 10.65
+	System time (seconds): 1.46
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2421636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 607032
+	Voluntary context switches: 1
+	Involuntary context switches: 15
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

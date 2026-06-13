@@ -1,0 +1,77 @@
+File /home/cc/research/datasets/enron/base.fvecs loaded
+Rows 94987 Cols 1369
+File /home/cc/research/datasets/enron/query.fvecs loaded
+Rows 200 Cols 1369
+File /home/cc/research/datasets/enron/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/enron_centroids_4096.fvecs loaded
+Rows 4096 Cols 1369
+File /home/cc/index/ivf_index/enron_clusterids_4096.ivecs loaded
+Rows 94987 Cols 1
+data loaded
+	N: 94987
+	DIM: 1369
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00903765
+0.58475	5
+0.68375	10
+0.76575	20
+0.803	30
+0.823	40
+0.83525	50
+0.842	60
+0.8465	70
+0.84875	80
+0.8515	90
+0.85175	100
+0.8535	110
+0.85525	120
+0.8555	130
+0.85625	140
+0.8565	150
+0.8585	160
+nprobe	QPS	recall
+5	701.074	0.58475
+10	701.424	0.68375
+20	687.672	0.76575
+30	677.107	0.803
+40	671.353	0.823
+50	663.49	0.83525
+60	653.225	0.842
+70	642.005	0.8465
+80	633.154	0.84875
+90	623.927	0.8515
+100	612.157	0.85175
+110	601.422	0.8535
+120	577.944	0.85525
+130	554.828	0.8555
+140	548.006	0.85625
+150	544.137	0.8565
+160	541.087	0.8585
+170	535.851	0.858
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/enron/base.fvecs /home/cc/research/datasets/enron/query.fvecs /home/cc/research/datasets/enron/groundtruth.ivecs /home/cc/index/ivf_index/enron_centroids_4096.fvecs /home/cc/index/ivf_index/enron_clusterids_4096.ivecs 1"
+	User time (seconds): 35.91
+	System time (seconds): 0.45
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 613120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 153734
+	Voluntary context switches: 1
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

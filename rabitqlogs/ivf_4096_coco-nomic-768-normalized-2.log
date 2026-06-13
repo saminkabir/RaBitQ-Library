@@ -1,0 +1,103 @@
+File /home/cc/research/datasets/coco-nomic-768-normalized/base.fvecs loaded
+Rows 282360 Cols 768
+File /home/cc/research/datasets/coco-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/research/datasets/coco-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/coco-nomic-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/coco-nomic-768-normalized_clusterids_4096.ivecs loaded
+Rows 282360 Cols 1
+data loaded
+	N: 282360
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.375692
+0.0727	5
+0.1367	10
+0.2351	20
+0.2911	30
+0.3349	40
+0.362	50
+0.3835	60
+0.4106	70
+0.4252	80
+0.4391	90
+0.4517	100
+0.4598	110
+0.4702	120
+0.4774	130
+0.4838	140
+0.4885	150
+0.4938	160
+0.4973	170
+0.5011	180
+0.5063	190
+0.5086	200
+0.5183	240
+0.5217	280
+0.5271	320
+0.5301	360
+0.5337	400
+0.5366	500
+0.5369	600
+0.5381	700
+0.5385	800
+nprobe	QPS	recall
+5	1441.21	0.0727
+10	1418.58	0.1367
+20	1303.43	0.2351
+30	1211.75	0.2911
+40	1152.12	0.3349
+50	1100.39	0.362
+60	1039.95	0.3835
+70	997.283	0.4106
+80	951.324	0.4252
+90	918.26	0.4391
+100	886.937	0.4517
+110	846.385	0.4598
+120	795.997	0.4702
+130	781.502	0.4774
+140	752.328	0.4838
+150	735.237	0.4885
+160	717.182	0.4938
+170	696.876	0.4973
+180	691.335	0.5011
+190	678.564	0.5063
+200	654.793	0.5086
+240	605.297	0.5183
+280	554.457	0.5217
+320	504.841	0.5271
+360	478.439	0.5301
+400	453.793	0.5337
+500	408.519	0.5366
+600	374.864	0.5369
+700	350.068	0.5381
+800	326.96	0.5385
+900	308.517	0.5383
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/coco-nomic-768-normalized/base.fvecs /home/cc/research/datasets/coco-nomic-768-normalized/query.fvecs /home/cc/research/datasets/coco-nomic-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/coco-nomic-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/coco-nomic-768-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 50.92
+	System time (seconds): 0.69
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:51.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 957440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 239719
+	Voluntary context switches: 1
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

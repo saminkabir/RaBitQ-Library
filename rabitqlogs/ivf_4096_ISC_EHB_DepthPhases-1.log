@@ -1,0 +1,81 @@
+File /home/cc/research/datasets/ISC_EHB_DepthPhases/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/research/datasets/ISC_EHB_DepthPhases/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/research/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/ISC_EHB_DepthPhases_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/ISC_EHB_DepthPhases_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0206734
+0.7357	5
+0.777333	10
+0.8006	20
+0.810567	30
+0.815667	40
+0.819433	50
+0.8217	60
+0.823667	70
+0.825067	80
+0.825867	90
+0.826667	100
+0.8272	110
+0.8279	120
+0.8286	130
+0.828733	140
+0.829333	150
+0.829733	160
+0.829833	170
+0.830233	180
+nprobe	QPS	recall
+5	4298.54	0.7357
+10	3813.97	0.777333
+20	3159.07	0.8006
+30	2755.62	0.810567
+40	2429.64	0.815667
+50	2168.18	0.819433
+60	1954.05	0.8217
+70	1752.52	0.823667
+80	1598.16	0.825067
+90	1526.41	0.825867
+100	1458.08	0.826667
+110	1393.19	0.8272
+120	1337.35	0.8279
+130	1257.11	0.8286
+140	1210.2	0.828733
+150	1159	0.829333
+160	1117.86	0.829733
+170	1073.74	0.829833
+180	1037.19	0.830233
+190	1004.11	0.830233
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/research/datasets/ISC_EHB_DepthPhases/base.fvecs /home/cc/research/datasets/ISC_EHB_DepthPhases/query.fvecs /home/cc/research/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs /home/cc/index/ivf_index/ISC_EHB_DepthPhases_centroids_4096.fvecs /home/cc/index/ivf_index/ISC_EHB_DepthPhases_clusterids_4096.ivecs 1"
+	User time (seconds): 24.62
+	System time (seconds): 0.71
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1076360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 270958
+	Voluntary context switches: 1
+	Involuntary context switches: 34
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
