@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
 
     index_type qg(data.rows(), data.cols(), degree, metric_type);
 
-    rabitqlib::symqg::QGBuilder builder(qg, ef, data.data());
+    rabitqlib::symqg::QGBuilder builder(qg, ef, data.data(), 16);
 
     // 3 iters, refine at last iter
     builder.build();
