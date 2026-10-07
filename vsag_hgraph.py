@@ -6,14 +6,12 @@ import argparse
 import time
 import os
 
-os.environ["OMP_NUM_THREADS"] = "1"
-os.environ["OPENBLAS_NUM_THREADS"] = "1"
-os.environ["MKL_NUM_THREADS"] = "1"
+
 
 def calculate_recall_at(ground_truth, I, k1, k2):
     return ps.k_recall_at(ground_truth, I, k1, k2)
 
-def hgraph_example(m, dataset_name, ef_search = 8, ef_construction = 64):
+def hgraph_example(m, dataset_name, ef_search = 8, ef_construction = 64, cpu = 16):
     data,query,gts=get_data_common(dataset_name)
     dim = data.shape[1]
     num_elements = data.shape[0]
@@ -34,7 +32,7 @@ def hgraph_example(m, dataset_name, ef_search = 8, ef_construction = 64):
                 "neighbor_sample_rate": 0.2, 
                 "precise_quantization_type":"fp32", 
                 "use_reorder":True,
-                "build_thread_count":1
+                "build_thread_count":cpu
             }
         }
     )
@@ -43,7 +41,7 @@ def hgraph_example(m, dataset_name, ef_search = 8, ef_construction = 64):
     train_start_time = time.time();
     index.build(vectors=data, ids=ids, num_elements=num_elements, dim=dim)
     train_end_time = time.time();
-    search_params = json.dumps({"hgraph": {"ef_search": ef_search},"num_threads_searching": 1})
+    search_params = json.dumps({"hgraph": {"ef_search": ef_search},"num_threads_searching": cpu})
     all_results=[]
     cnt=0
     search_start_time = time.time()
@@ -80,8 +78,12 @@ parser.add_argument("--ef_search", type=int, required=True,
                     help="Threshold value for autotune sample (e.g. 0.8)")
 parser.add_argument("--ef_construction", type=int, required=True,
                     help="Threshold value for autotune sample (e.g. 0.8)")
+parser.add_argument("--cpu", type=int, required=True,
+                    help="Threshold value for autotune sample (e.g. 0.8)")
 args = parser.parse_args()
 
-hgraph_example(args.m,dataset_name=args.dataset,ef_search=args.ef_search,ef_construction=args.ef_construction)
+os.environ["OMP_NUM_THREADS"] = str(args.cpu)
+os.environ["OPENBLAS_NUM_THREADS"] = str(args.cpu)
+os.environ["MKL_NUM_THREADS"] = str(args.cpu)
 
-
+hgraph_example(args.m,dataset_name=args.dataset,ef_search=args.ef_search,ef_construction=args.ef_construction,cpu=args.cpu)
