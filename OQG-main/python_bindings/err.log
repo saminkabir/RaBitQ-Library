@@ -1,0 +1,228 @@
+In file included from ../oqglib/oqg_multi.h:19,
+                 from mn_bindings.hpp:16,
+                 from bindings.cpp:17:
+../oqglib/distance.h:164:24: warning: ‘kernal16Latency’ initialized and declared ‘extern’
+  164 | extern volatile double kernal16Latency = 0;
+      |                        ^~~~~~~~~~~~~~~
+In file included from ../oqglib/oqg_multi.h:20:
+../oqglib/oqg.h: In member function ‘gg::GlobalGraph<batchSize, numCentroids, numSubspaces, dim>::dist_t gg::GlobalGraph<batchSize, numCentroids, numSubspaces, dim>::computePQDistance(const dist_t*, const code_t*, dist_t*)’:
+../oqglib/oqg.h:544:5: warning: no return statement in function returning non-void [-Wreturn-type]
+  544 |     }
+      |     ^
+../oqglib/oqg_multi.h: In member function ‘gg::MultiNodesOQG<batchSize, numCentroids, numSubspaces, dim, numLevel0Edges>::dist_t gg::MultiNodesOQG<batchSize, numCentroids, numSubspaces, dim, numLevel0Edges>::computePQDistance(const dist_t*, const code_t*, dist_t*)’:
+../oqglib/oqg_multi.h:434:5: warning: no return statement in function returning non-void [-Wreturn-type]
+  434 |     }
+      |     ^
+mn_bindings.hpp: In function ‘void get_input_array_shapes(const pybind11::buffer_info&, size_t*, size_t*)’:
+mn_bindings.hpp:94:13: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long int’ [-Wformat=]
+   94 |             "Input vector data wrong shape. Number of dimensions %d. Data must be a 1D or 2D array.",
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   95 |             buffer.ndim);
+      |             ~~~~~~~~~~~
+      |                    |
+      |                    long int
+mn_bindings.hpp: In function ‘std::vector<long unsigned int> get_input_ids_and_check_shapes(const pybind11::object&, size_t)’:
+mn_bindings.hpp:117:17: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘pybind11::ssize_t’ {aka ‘long int’} [-Wformat=]
+  117 |                 "The input label shape %d does not match the input data vector shape %d",
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  118 |                 ids_numpy.ndim, feature_rows);
+      |                 ~~~~~~~~~~~~~~
+      |                           |
+      |                           pybind11::ssize_t {aka long int}
+mn_bindings.hpp:117:17: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  117 |                 "The input label shape %d does not match the input data vector shape %d",
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  118 |                 ids_numpy.ndim, feature_rows);
+      |                                 ~~~~~~~~~~~~
+      |                                 |
+      |                                 size_t {aka long unsigned int}
+bindings.cpp: In member function ‘void GGIndex::load(pybind11::object, pybind11::object)’:
+bindings.cpp:565:26: warning: ‘GGIndex::load(pybind11::object, pybind11::object)::<lambda(auto:89&)>’ declared with greater visibility than the type of its field ‘GGIndex::load(pybind11::object, pybind11::object)::<lambda(auto:89&)>::<rv capture>’ [-Wattributes]
+  565 |             std::visit([&](auto& x){ x.setRawVectors(rv.data()); }, impl);
+      |                          ^
+bindings.cpp: In member function ‘size_t GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)’:
+bindings.cpp:572:29: warning: ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>’ declared with greater visibility than the type of its field ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>::<pqCentroids capture>’ [-Wattributes]
+  572 |         return std::visit([&](auto& x){ return x.addPoints(pqCentroids, pqCodes, numVectors, rawVectors, toExternalID); }, impl);
+      |                             ^
+bindings.cpp:572:29: warning: ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>’ declared with greater visibility than the type of its field ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>::<pqCodes capture>’ [-Wattributes]
+bindings.cpp:572:29: warning: ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>’ declared with greater visibility than the type of its field ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>::<rawVectors capture>’ [-Wattributes]
+bindings.cpp:572:29: warning: ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>’ declared with greater visibility than the type of its field ‘GGIndex::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:90&)>::<toExternalID capture>’ [-Wattributes]
+bindings.cpp: In member function ‘pybind11::object GGIndex::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)’:
+bindings.cpp:576:29: warning: ‘GGIndex::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:91&)>’ declared with greater visibility than the type of its field ‘GGIndex::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:91&)>::<rot capture>’ [-Wattributes]
+  576 |         return std::visit([&](auto& x){ return x.searchKNNPQ(rot, oQueries, efSearch, k, numRefine); }, impl);
+      |                             ^
+bindings.cpp:576:29: warning: ‘GGIndex::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:91&)>’ declared with greater visibility than the type of its field ‘GGIndex::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:91&)>::<oQueries capture>’ [-Wattributes]
+bindings.cpp: In member function ‘pybind11::object GGIndex::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)’:
+bindings.cpp:580:29: warning: ‘GGIndex::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:92&)>’ declared with greater visibility than the type of its field ‘GGIndex::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:92&)>::<queries capture>’ [-Wattributes]
+  580 |         return std::visit([&](auto& x){ return x.searchKNNPQ16(queries, oQueries, efSearch, k, numRefine); }, impl);
+      |                             ^
+bindings.cpp:580:29: warning: ‘GGIndex::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:92&)>’ declared with greater visibility than the type of its field ‘GGIndex::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:92&)>::<oQueries capture>’ [-Wattributes]
+bindings.cpp: In member function ‘pybind11::object GGIndex::searchKNN(pybind11::array, size_t, size_t)’:
+bindings.cpp:585:29: warning: ‘GGIndex::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:93&)>’ declared with greater visibility than the type of its field ‘GGIndex::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:93&)>::<oQueries capture>’ [-Wattributes]
+  585 |         return std::visit([&](auto& x){ return x.searchKNN(oQueries, efSearch, k); }, impl);
+      |                             ^
+In file included from /home/cc/miniconda3/envs/oqg/lib/python3.10/site-packages/pybind11/include/pybind11/attr.h:13,
+                 from /home/cc/miniconda3/envs/oqg/lib/python3.10/site-packages/pybind11/include/pybind11/detail/class.h:12,
+                 from /home/cc/miniconda3/envs/oqg/lib/python3.10/site-packages/pybind11/include/pybind11/pybind11.h:12,
+                 from /home/cc/miniconda3/envs/oqg/lib/python3.10/site-packages/pybind11/include/pybind11/functional.h:12,
+                 from bindings.cpp:2:
+bindings.cpp: In function ‘PyObject* PyInit_oqglib()’:
+/home/cc/miniconda3/envs/oqg/lib/python3.10/site-packages/pybind11/include/pybind11/detail/common.h:415:33: warning: ‘PyObject* pybind11_init()’ is deprecated: PYBIND11_PLUGIN is deprecated, use PYBIND11_MODULE [-Wdeprecated-declarations]
+  415 |             return pybind11_init();                                                               \
+      |                    ~~~~~~~~~~~~~^~
+bindings.cpp:614:1: note: in expansion of macro ‘PYBIND11_PLUGIN’
+  614 | PYBIND11_PLUGIN(oqglib) {
+      | ^~~~~~~~~~~~~~~
+/home/cc/miniconda3/envs/oqg/lib/python3.10/site-packages/pybind11/include/pybind11/detail/common.h:410:22: note: declared here
+  410 |     static PyObject *pybind11_init();                                                             \
+      |                      ^~~~~~~~~~~~~
+bindings.cpp:614:1: note: in expansion of macro ‘PYBIND11_PLUGIN’
+  614 | PYBIND11_PLUGIN(oqglib) {
+      | ^~~~~~~~~~~~~~~
+bindings.cpp: In function ‘PyObject* pybind11_init()’:
+bindings.cpp:615:30: warning: ‘pybind11::module_::module_(const char*, const char*)’ is deprecated: Use PYBIND11_MODULE or module_::create_extension_module instead [-Wdeprecated-declarations]
+  615 |         py::module m("oqglib");
+      |                              ^
+/home/cc/miniconda3/envs/oqg/lib/python3.10/site-packages/pybind11/include/pybind11/pybind11.h:1425:14: note: declared here
+ 1425 |     explicit module_(const char *name, const char *doc = nullptr) {
+      |              ^~~~~~~
+mn_bindings.hpp: In instantiation of ‘void MNGGIndexT<batchSizeT, numLevel0EdgesT>::load(pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 16]’:
+bindings.cpp:605:63:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 16>; pybind11::module = pybind11::module_]’
+bindings.cpp:634:37:   required from here
+mn_bindings.hpp:727:24: warning: ‘MNGGIndexT<64, 16>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>::<rv capture>’ [-Wattributes]
+  727 |             std::visit([&](auto& x){ x.setRawVectors(rv.data()); }, impl);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘size_t MNGGIndexT<batchSizeT, numLevel0EdgesT>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 16; size_t = long unsigned int]’:
+bindings.cpp:606:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 16>; pybind11::module = pybind11::module_]’
+bindings.cpp:634:37:   required from here
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCentroids capture>’ [-Wattributes]
+  734 |         return std::visit([&](auto& x){ return x.addPoints(pqCentroids, pqCodes, numVectors, rawVectors, toExternalID); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCodes capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<rawVectors capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<toExternalID capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 16; size_t = long unsigned int]’:
+bindings.cpp:608:29:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 16>; pybind11::module = pybind11::module_]’
+bindings.cpp:634:37:   required from here
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<64, 16>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<rot capture>’ [-Wattributes]
+  742 |         return std::visit([&](auto& x){ return x.searchKNNPQ(rot, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<64, 16>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<oQueries capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNN(pybind11::array, size_t, size_t) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 16; size_t = long unsigned int]’:
+bindings.cpp:609:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 16>; pybind11::module = pybind11::module_]’
+bindings.cpp:634:37:   required from here
+mn_bindings.hpp:751:27: warning: ‘MNGGIndexT<64, 16>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>::<oQueries capture>’ [-Wattributes]
+  751 |         return std::visit([&](auto& x){ return x.searchKNN(oQueries, efSearch, k); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 16; size_t = long unsigned int]’:
+bindings.cpp:610:31:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 16>; pybind11::module = pybind11::module_]’
+bindings.cpp:634:37:   required from here
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<64, 16>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<queries capture>’ [-Wattributes]
+  746 |         return std::visit([&](auto& x){ return x.searchKNNPQ16(queries, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<64, 16>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 16>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<oQueries capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘void MNGGIndexT<batchSizeT, numLevel0EdgesT>::load(pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 64]’:
+bindings.cpp:605:63:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:638:40:   required from here
+mn_bindings.hpp:727:24: warning: ‘MNGGIndexT<64, 64>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>::<rv capture>’ [-Wattributes]
+  727 |             std::visit([&](auto& x){ x.setRawVectors(rv.data()); }, impl);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘size_t MNGGIndexT<batchSizeT, numLevel0EdgesT>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:606:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:638:40:   required from here
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCentroids capture>’ [-Wattributes]
+  734 |         return std::visit([&](auto& x){ return x.addPoints(pqCentroids, pqCodes, numVectors, rawVectors, toExternalID); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCodes capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<rawVectors capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<toExternalID capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:608:29:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:638:40:   required from here
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<64, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<rot capture>’ [-Wattributes]
+  742 |         return std::visit([&](auto& x){ return x.searchKNNPQ(rot, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<64, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<oQueries capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNN(pybind11::array, size_t, size_t) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:609:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:638:40:   required from here
+mn_bindings.hpp:751:27: warning: ‘MNGGIndexT<64, 64>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>::<oQueries capture>’ [-Wattributes]
+  751 |         return std::visit([&](auto& x){ return x.searchKNN(oQueries, efSearch, k); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 64; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:610:31:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<64, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:638:40:   required from here
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<64, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<queries capture>’ [-Wattributes]
+  746 |         return std::visit([&](auto& x){ return x.searchKNNPQ16(queries, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<64, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<64, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<oQueries capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘void MNGGIndexT<batchSizeT, numLevel0EdgesT>::load(pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 128; long unsigned int numLevel0EdgesT = 32]’:
+bindings.cpp:605:63:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<128, 32>; pybind11::module = pybind11::module_]’
+bindings.cpp:642:44:   required from here
+mn_bindings.hpp:727:24: warning: ‘MNGGIndexT<128, 32>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>::<rv capture>’ [-Wattributes]
+  727 |             std::visit([&](auto& x){ x.setRawVectors(rv.data()); }, impl);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘size_t MNGGIndexT<batchSizeT, numLevel0EdgesT>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 128; long unsigned int numLevel0EdgesT = 32; size_t = long unsigned int]’:
+bindings.cpp:606:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<128, 32>; pybind11::module = pybind11::module_]’
+bindings.cpp:642:44:   required from here
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCentroids capture>’ [-Wattributes]
+  734 |         return std::visit([&](auto& x){ return x.addPoints(pqCentroids, pqCodes, numVectors, rawVectors, toExternalID); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCodes capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<rawVectors capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<toExternalID capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 128; long unsigned int numLevel0EdgesT = 32; size_t = long unsigned int]’:
+bindings.cpp:608:29:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<128, 32>; pybind11::module = pybind11::module_]’
+bindings.cpp:642:44:   required from here
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<128, 32>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<rot capture>’ [-Wattributes]
+  742 |         return std::visit([&](auto& x){ return x.searchKNNPQ(rot, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<128, 32>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<oQueries capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNN(pybind11::array, size_t, size_t) [with long unsigned int batchSizeT = 128; long unsigned int numLevel0EdgesT = 32; size_t = long unsigned int]’:
+bindings.cpp:609:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<128, 32>; pybind11::module = pybind11::module_]’
+bindings.cpp:642:44:   required from here
+mn_bindings.hpp:751:27: warning: ‘MNGGIndexT<128, 32>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>::<oQueries capture>’ [-Wattributes]
+  751 |         return std::visit([&](auto& x){ return x.searchKNN(oQueries, efSearch, k); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 128; long unsigned int numLevel0EdgesT = 32; size_t = long unsigned int]’:
+bindings.cpp:610:31:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<128, 32>; pybind11::module = pybind11::module_]’
+bindings.cpp:642:44:   required from here
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<128, 32>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<queries capture>’ [-Wattributes]
+  746 |         return std::visit([&](auto& x){ return x.searchKNNPQ16(queries, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<128, 32>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<128, 32>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<oQueries capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘void MNGGIndexT<batchSizeT, numLevel0EdgesT>::load(pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 256; long unsigned int numLevel0EdgesT = 64]’:
+bindings.cpp:605:63:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<256, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:643:44:   required from here
+mn_bindings.hpp:727:24: warning: ‘MNGGIndexT<256, 64>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::load(pybind11::object, pybind11::object)::<lambda(auto:76&)>::<rv capture>’ [-Wattributes]
+  727 |             std::visit([&](auto& x){ x.setRawVectors(rv.data()); }, impl);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘size_t MNGGIndexT<batchSizeT, numLevel0EdgesT>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object) [with long unsigned int batchSizeT = 256; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:606:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<256, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:643:44:   required from here
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCentroids capture>’ [-Wattributes]
+  734 |         return std::visit([&](auto& x){ return x.addPoints(pqCentroids, pqCodes, numVectors, rawVectors, toExternalID); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<pqCodes capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<rawVectors capture>’ [-Wattributes]
+mn_bindings.hpp:734:27: warning: ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::addPoints(pybind11::object, pybind11::object, size_t, pybind11::object, pybind11::object)::<lambda(auto:77&)>::<toExternalID capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 256; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:608:29:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<256, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:643:44:   required from here
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<256, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<rot capture>’ [-Wattributes]
+  742 |         return std::visit([&](auto& x){ return x.searchKNNPQ(rot, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:742:27: warning: ‘MNGGIndexT<256, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::searchKNNPQ(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:79&)>::<oQueries capture>’ [-Wattributes]
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNN(pybind11::array, size_t, size_t) [with long unsigned int batchSizeT = 256; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:609:27:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<256, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:643:44:   required from here
+mn_bindings.hpp:751:27: warning: ‘MNGGIndexT<256, 64>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::searchKNN(pybind11::array, size_t, size_t)::<lambda(auto:81&)>::<oQueries capture>’ [-Wattributes]
+  751 |         return std::visit([&](auto& x){ return x.searchKNN(oQueries, efSearch, k); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp: In instantiation of ‘pybind11::object MNGGIndexT<batchSizeT, numLevel0EdgesT>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t) [with long unsigned int batchSizeT = 256; long unsigned int numLevel0EdgesT = 64; size_t = long unsigned int]’:
+bindings.cpp:610:31:   required from ‘void registerMNGGIndex(pybind11::module&, const char*) [with Cls = MNGGIndexT<256, 64>; pybind11::module = pybind11::module_]’
+bindings.cpp:643:44:   required from here
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<256, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<queries capture>’ [-Wattributes]
+  746 |         return std::visit([&](auto& x){ return x.searchKNNPQ16(queries, oQueries, efSearch, k, numRefine); }, impl);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mn_bindings.hpp:746:27: warning: ‘MNGGIndexT<256, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>’ declared with greater visibility than the type of its field ‘MNGGIndexT<256, 64>::searchKNNPQ16(pybind11::object, pybind11::array, size_t, size_t, size_t)::<lambda(auto:80&)>::<oQueries capture>’ [-Wattributes]

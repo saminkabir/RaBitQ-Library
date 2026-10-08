@@ -1,0 +1,20 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy in /home/cc/anaconda3/envs/hnswlib/lib/python3.10/site-packages (from oqglib==0.1.0) (2.2.5)
+Collecting faiss-cpu (from oqglib==0.1.0)
+  Using cached faiss_cpu-1.13.2-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (7.6 kB)
+Requirement already satisfied: packaging in /home/cc/anaconda3/envs/hnswlib/lib/python3.10/site-packages (from faiss-cpu->oqglib==0.1.0) (25.0)
+Using cached faiss_cpu-1.13.2-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (23.8 MB)
+Building wheels for collected packages: oqglib
+  Building wheel for oqglib (pyproject.toml): started
+  Building wheel for oqglib (pyproject.toml): still running...
+  Building wheel for oqglib (pyproject.toml): still running...
+  Building wheel for oqglib (pyproject.toml): still running...
+  Building wheel for oqglib (pyproject.toml): finished with status 'done'
+  Created wheel for oqglib: filename=oqglib-0.1.0-cp310-cp310-linux_x86_64.whl size=21251285 sha256=6ba9c1b85e4b8383d1230fcb98cadc15d22fddb5f4921417d7c43bf2c36ff647
+  Stored in directory: /tmp/pip-ephem-wheel-cache-0gih4a1p/wheels/59/f5/81/d34cbe0cddfe0a4764296d9a8579eacbe57ff56c0bdc2f9932
+Successfully built oqglib
+Installing collected packages: faiss-cpu, oqglib
+
+Successfully installed faiss-cpu-1.13.2 oqglib-0.1.0
