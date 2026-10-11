@@ -1,50 +1,50 @@
-File /home/cc/datasets/nuswide/base.fvecs loaded
+File /home/cc/datasets/datasets/nuswide/base.fvecs loaded
 Rows 268643 Cols 500
-File /home/cc/datasets/nuswide/query.fvecs loaded
+File /home/cc/datasets/datasets/nuswide/query.fvecs loaded
 Rows 200 Cols 500
-File /home/cc/datasets/nuswide/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/nuswide/groundtruth.ivecs loaded
 Rows 200 Cols 20
 FhtKacRotator is selected
 Setting entry_point to 218754
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 430.349 secs
+Indexing time 54.9338 secs
 EF	QPS	Recall
-10	22659.1	0.311
-20	23536.1	0.412
-40	14135.1	0.56075
-50	12037.2	0.61075
-60	10345.2	0.644
-80	7987.67	0.7015
-100	6634.92	0.74125
-150	4593.4	0.8035
-170	4077.78	0.82125
-190	3706.43	0.837
-200	3529.51	0.8415
-250	2899.3	0.8685
-300	2431.42	0.88475
-400	1847	0.90725
-500	1463.97	0.92625
-600	1224.85	0.9395
-700	1046.39	0.95
-800	911.711	0.957
-1500	454.501	0.97725
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/nuswide/base.fvecs /home/cc/datasets/nuswide/query.fvecs /home/cc/datasets/nuswide/groundtruth.ivecs 96 192"
-	User time (seconds): 433.39
-	System time (seconds): 2.64
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:16.06
+10	10182.9	0.30125
+20	11500	0.409
+40	6846.42	0.55375
+50	5732.1	0.59925
+60	4872.86	0.6375
+80	3877.93	0.683
+100	3262.88	0.72425
+150	2301.62	0.78575
+170	2044.02	0.805
+190	1830.03	0.8225
+200	1756.43	0.82925
+250	1444.24	0.859
+300	1228.63	0.87775
+400	931.636	0.90575
+500	764.424	0.9215
+600	625.89	0.93275
+700	550.126	0.9415
+800	482.865	0.95
+1500	252.819	0.97375
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/nuswide/base.fvecs /home/cc/datasets/datasets/nuswide/query.fvecs /home/cc/datasets/datasets/nuswide/groundtruth.ivecs 96 192"
+	User time (seconds): 860.67
+	System time (seconds): 18.26
+	Percent of CPU this job got: 1333%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.90
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4046024
+	Maximum resident set size (kbytes): 4036368
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 651582
-	Voluntary context switches: 7
-	Involuntary context switches: 744
+	Minor (reclaiming a frame) page faults: 607912
+	Voluntary context switches: 1797
+	Involuntary context switches: 2399
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

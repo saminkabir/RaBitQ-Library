@@ -1,52 +1,52 @@
-File /home/cc/datasets/agnews-mxbai-1024-euclidean/base.fvecs loaded
+File /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/base.fvecs loaded
 Rows 769382 Cols 1024
-File /home/cc/datasets/agnews-mxbai-1024-euclidean/query.fvecs loaded
+File /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/query.fvecs loaded
 Rows 100 Cols 1024
-File /home/cc/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 740181
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 949.502 secs
+Indexing time 77.3996 secs
 EF	QPS	Recall
-10	14119.3	0.3665
-20	13486.7	0.3823
-40	11973.7	0.4217
-50	11297.1	0.4482
-60	10738.8	0.4743
-80	9694.05	0.524
-100	8770.51	0.5736
-150	7392.67	0.6869
-170	6911.5	0.7249
-190	6461.76	0.7626
-200	6263.63	0.7772
-250	5340.63	0.8499
-300	4537.22	0.9061
-400	3476.7	0.9694
-500	2866.04	0.9856
-600	2378.28	0.9917
-700	2046.4	0.9932
-800	1785.83	0.9948
-1500	894.613	0.9979
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/agnews-mxbai-1024-euclidean/base.fvecs /home/cc/datasets/agnews-mxbai-1024-euclidean/query.fvecs /home/cc/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs 32 128"
-	User time (seconds): 948.46
-	System time (seconds): 6.16
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:06.70
+10	12860	0.3633
+20	12010.2	0.383
+40	10650.1	0.4229
+50	10126.6	0.4483
+60	9603.05	0.4731
+80	8622.35	0.5245
+100	7972.01	0.5694
+150	6613.86	0.682
+170	6177.5	0.724
+190	5780.89	0.7557
+200	5582.66	0.7725
+250	4787.07	0.8463
+300	4091.07	0.8975
+400	3160.63	0.9665
+500	2571.43	0.9854
+600	2125.72	0.9917
+700	1834.58	0.9932
+800	1608.43	0.9946
+1500	808.245	0.9983
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/base.fvecs /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/query.fvecs /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs 32 128"
+	User time (seconds): 1205.30
+	System time (seconds): 20.33
+	Percent of CPU this job got: 1498%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.79
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 11850768
+	Maximum resident set size (kbytes): 11844384
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1549188
-	Voluntary context switches: 25604
-	Involuntary context switches: 726
+	Minor (reclaiming a frame) page faults: 1616608
+	Voluntary context switches: 3678
+	Involuntary context switches: 1862
 	Swaps: 0
-	File system inputs: 3653176
+	File system inputs: 0
 	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0

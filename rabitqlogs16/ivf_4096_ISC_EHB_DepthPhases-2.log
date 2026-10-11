@@ -1,0 +1,101 @@
+File /home/cc/datasets/datasets/ISC_EHB_DepthPhases/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/ISC_EHB_DepthPhases/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/ISC_EHB_DepthPhases_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/ISC_EHB_DepthPhases_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0243363
+0.790467	5
+0.843867	10
+0.869867	20
+0.883133	30
+0.889267	40
+0.893867	50
+0.8977	60
+0.899933	70
+0.9019	80
+0.9033	90
+0.904267	100
+0.905367	110
+0.906033	120
+0.9069	130
+0.907633	140
+0.908433	150
+0.908933	160
+0.909467	170
+0.9101	180
+0.910333	190
+0.9107	200
+0.9117	240
+0.9123	280
+0.912733	320
+0.912967	360
+0.9131	400
+0.9134	500
+0.913433	600
+0.913467	700
+nprobe	QPS	recall
+5	4039.02	0.790467
+10	3678.49	0.843867
+20	3212.1	0.869867
+30	2880.15	0.883133
+40	2631.76	0.889267
+50	2370.29	0.893867
+60	2242.72	0.8977
+70	2122.59	0.899933
+80	2003.28	0.9019
+90	1861.05	0.9033
+100	1795.04	0.904267
+110	1726.34	0.905367
+120	1652.93	0.906033
+130	1590.88	0.9069
+140	1532.93	0.907633
+150	1476.2	0.908433
+160	1431.28	0.908933
+170	1388.26	0.909467
+180	1342.97	0.9101
+190	1305.21	0.910333
+200	1269.77	0.9107
+240	1169.61	0.9117
+280	1075.83	0.9123
+320	990.127	0.912733
+360	909.583	0.912967
+400	848.123	0.9131
+500	738.739	0.9134
+600	663.745	0.913433
+700	604.108	0.913467
+800	559.268	0.913467
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/ISC_EHB_DepthPhases/base.fvecs /home/cc/datasets/datasets/ISC_EHB_DepthPhases/query.fvecs /home/cc/datasets/datasets/ISC_EHB_DepthPhases/groundtruth.ivecs /home/cc/index/ivf_index/ISC_EHB_DepthPhases_centroids_4096.fvecs /home/cc/index/ivf_index/ISC_EHB_DepthPhases_clusterids_4096.ivecs 2"
+	User time (seconds): 64.23
+	System time (seconds): 0.89
+	Percent of CPU this job got: 149%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1126708
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 421011
+	Voluntary context switches: 75
+	Involuntary context switches: 132
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

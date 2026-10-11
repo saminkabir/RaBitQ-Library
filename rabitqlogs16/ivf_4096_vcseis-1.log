@@ -1,0 +1,73 @@
+File /home/cc/datasets/datasets/vcseis/base.fvecs loaded
+Rows 160178 Cols 256
+File /home/cc/datasets/datasets/vcseis/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/datasets/vcseis/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/vcseis_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/vcseis_clusterids_4096.ivecs loaded
+Rows 160178 Cols 1
+data loaded
+	N: 160178
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.000506178
+0.6312	5
+0.7088	10
+0.7427	20
+0.7529	30
+0.7566	40
+0.759	50
+0.7599	60
+0.761	70
+0.7622	80
+0.7639	90
+0.7647	100
+0.7649	110
+0.7658	120
+0.7666	130
+0.767	140
+nprobe	QPS	recall
+5	4283.74	0.6312
+10	3987.96	0.7088
+20	3614.56	0.7427
+30	3227.28	0.7529
+40	3156.92	0.7566
+50	3013.72	0.759
+60	2881.7	0.7599
+70	2762.08	0.761
+80	2660.84	0.7622
+90	2566.16	0.7639
+100	2480.97	0.7647
+110	2408.83	0.7649
+120	2334.22	0.7658
+130	2260.85	0.7666
+140	2195.78	0.767
+150	2132.08	0.767
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/vcseis/base.fvecs /home/cc/datasets/datasets/vcseis/query.fvecs /home/cc/datasets/datasets/vcseis/groundtruth.ivecs /home/cc/index/ivf_index/vcseis_centroids_4096.fvecs /home/cc/index/ivf_index/vcseis_clusterids_4096.ivecs 1"
+	User time (seconds): 3.95
+	System time (seconds): 0.16
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 198400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56295
+	Voluntary context switches: 99
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

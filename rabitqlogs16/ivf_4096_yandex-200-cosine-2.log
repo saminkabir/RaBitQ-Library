@@ -1,0 +1,111 @@
+File /home/cc/datasets/datasets/yandex-200-cosine/base.fvecs loaded
+Rows 1000000 Cols 200
+File /home/cc/datasets/datasets/yandex-200-cosine/query.fvecs loaded
+Rows 100 Cols 200
+File /home/cc/datasets/datasets/yandex-200-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yandex-200-cosine_centroids_4096.fvecs loaded
+Rows 4096 Cols 200
+File /home/cc/index/ivf_index/yandex-200-cosine_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 200
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0257375
+0.3646	5
+0.4531	10
+0.5314	20
+0.5638	30
+0.5916	40
+0.6072	50
+0.6138	60
+0.6203	70
+0.6265	80
+0.6329	90
+0.6409	100
+0.6473	110
+0.6499	120
+0.651	130
+0.6544	140
+0.6565	150
+0.6583	160
+0.6611	170
+0.665	180
+0.6674	190
+0.6694	200
+0.6732	240
+0.6792	280
+0.6827	320
+0.6846	360
+0.6869	400
+0.6938	500
+0.695	600
+0.6967	700
+0.6982	800
+0.7006	900
+0.7017	1000
+0.704	1100
+0.7044	1200
+nprobe	QPS	recall
+5	4317.35	0.3646
+10	3903.32	0.4531
+20	3441.79	0.5314
+30	3117.33	0.5638
+40	2872.72	0.5916
+50	2699.04	0.6072
+60	2396.88	0.6138
+70	2375.4	0.6203
+80	2259.9	0.6265
+90	2158.42	0.6329
+100	2070.44	0.6409
+110	1951.65	0.6473
+120	1893.69	0.6499
+130	1812.53	0.651
+140	1731.81	0.6544
+150	1672.08	0.6565
+160	1619.23	0.6583
+170	1554.47	0.6611
+180	1516.01	0.665
+190	1454.69	0.6674
+200	1416.8	0.6694
+240	1308.59	0.6732
+280	1223.94	0.6792
+320	1134.3	0.6827
+360	1059.58	0.6846
+400	985.78	0.6869
+500	814.886	0.6938
+600	739.376	0.695
+700	664.866	0.6967
+800	604.145	0.6982
+900	538.864	0.7006
+1000	511.472	0.7017
+1100	470.711	0.704
+1200	443.827	0.7044
+1300	405.42	0.7041
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/yandex-200-cosine/base.fvecs /home/cc/datasets/datasets/yandex-200-cosine/query.fvecs /home/cc/datasets/datasets/yandex-200-cosine/groundtruth.ivecs /home/cc/index/ivf_index/yandex-200-cosine_centroids_4096.fvecs /home/cc/index/ivf_index/yandex-200-cosine_clusterids_4096.ivecs 2"
+	User time (seconds): 43.39
+	System time (seconds): 0.72
+	Percent of CPU this job got: 208%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 903680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 368137
+	Voluntary context switches: 108
+	Involuntary context switches: 96
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

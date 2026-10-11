@@ -1,0 +1,111 @@
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/base.fvecs loaded
+Rows 1000000 Cols 768
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0804924
+0.751	5
+0.8159	10
+0.8665	20
+0.8865	30
+0.8977	40
+0.9028	50
+0.9073	60
+0.9105	70
+0.9131	80
+0.9143	90
+0.9156	100
+0.9174	110
+0.9182	120
+0.9192	130
+0.9201	140
+0.9215	150
+0.9219	160
+0.9225	170
+0.9226	180
+0.9229	190
+0.9236	200
+0.925	240
+0.926	280
+0.9271	320
+0.9277	360
+0.9282	400
+0.9289	500
+0.9297	600
+0.9301	700
+0.9306	800
+0.9311	900
+0.9313	1000
+0.9314	1100
+0.9317	1200
+nprobe	QPS	recall
+5	1711.43	0.751
+10	1634.29	0.8159
+20	1511.62	0.8665
+30	1409.09	0.8865
+40	1330.46	0.8977
+50	1258.88	0.9028
+60	1196.12	0.9073
+70	1139.71	0.9105
+80	1088.11	0.9131
+90	1042.66	0.9143
+100	1001.3	0.9156
+110	961.545	0.9174
+120	899.981	0.9182
+130	862.727	0.9192
+140	864.642	0.9201
+150	837.793	0.9215
+160	814.231	0.9219
+170	789.526	0.9225
+180	765.365	0.9226
+190	742.596	0.9229
+200	722.194	0.9236
+240	633.359	0.925
+280	582.526	0.926
+320	548.698	0.9271
+360	510.502	0.9277
+400	477.528	0.9282
+500	408.75	0.9289
+600	356.494	0.9297
+700	316.592	0.9301
+800	284.771	0.9306
+900	257.743	0.9311
+1000	234.908	0.9313
+1100	212.27	0.9314
+1200	198.757	0.9317
+1300	184.421	0.9317
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/base.fvecs /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/query.fvecs /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 115.96
+	System time (seconds): 2.60
+	Percent of CPU this job got: 254%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:46.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3294496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1155032
+	Voluntary context switches: 87
+	Involuntary context switches: 167
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

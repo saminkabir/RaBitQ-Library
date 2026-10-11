@@ -1,0 +1,55 @@
+File /home/cc/datasets/datasets/notre/base.fvecs loaded
+Rows 332668 Cols 128
+File /home/cc/datasets/datasets/notre/query.fvecs loaded
+Rows 200 Cols 128
+File /home/cc/datasets/datasets/notre/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/notre_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/notre_clusterids_4096.ivecs loaded
+Rows 332668 Cols 1
+data loaded
+	N: 332668
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0004675
+0.65575	5
+0.70875	10
+0.72575	20
+0.73025	30
+0.736	40
+0.737	50
+nprobe	QPS	recall
+5	10361	0.65575
+10	9746.12	0.70875
+20	8743	0.72575
+30	7970.33	0.73025
+40	7442.48	0.736
+50	7010.01	0.737
+60	6625.53	0.7345
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/notre/base.fvecs /home/cc/datasets/datasets/notre/query.fvecs /home/cc/datasets/datasets/notre/groundtruth.ivecs /home/cc/index/ivf_index/notre_centroids_4096.fvecs /home/cc/index/ivf_index/notre_clusterids_4096.ivecs 1"
+	User time (seconds): 1.45
+	System time (seconds): 0.13
+	Percent of CPU this job got: 131%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 180480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 48369
+	Voluntary context switches: 68
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

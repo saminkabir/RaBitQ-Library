@@ -1,0 +1,67 @@
+File /home/cc/datasets/datasets/word2vec/base.fvecs loaded
+Rows 1000000 Cols 300
+File /home/cc/datasets/datasets/word2vec/query.fvecs loaded
+Rows 1000 Cols 300
+File /home/cc/datasets/datasets/word2vec/groundtruth.ivecs loaded
+Rows 1000 Cols 100
+File /home/cc/index/ivf_index/word2vec_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/word2vec_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00252964
+0.43703	5
+0.54167	10
+0.60557	20
+0.62302	30
+0.62986	40
+0.63305	50
+0.63479	60
+0.63593	70
+0.63664	80
+0.63704	90
+0.63733	100
+0.63747	110
+nprobe	QPS	recall
+5	3275.4	0.43703
+10	2851.49	0.54167
+20	2281.91	0.60557
+30	1915.72	0.62302
+40	1650.28	0.62986
+50	1456.95	0.63305
+60	1319.88	0.63479
+70	1189	0.63593
+80	1083.63	0.63664
+90	993.559	0.63704
+100	917.093	0.63733
+110	854.512	0.63747
+120	799.61	0.63746
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/word2vec/base.fvecs /home/cc/datasets/datasets/word2vec/query.fvecs /home/cc/datasets/datasets/word2vec/groundtruth.ivecs /home/cc/index/ivf_index/word2vec_centroids_4096.fvecs /home/cc/index/ivf_index/word2vec_clusterids_4096.ivecs 1"
+	User time (seconds): 62.77
+	System time (seconds): 1.01
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1307712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 436347
+	Voluntary context switches: 178
+	Involuntary context switches: 43
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

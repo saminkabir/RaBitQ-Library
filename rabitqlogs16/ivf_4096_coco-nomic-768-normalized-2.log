@@ -1,0 +1,105 @@
+File /home/cc/datasets/datasets/coco-nomic-768-normalized/base.fvecs loaded
+Rows 282360 Cols 768
+File /home/cc/datasets/datasets/coco-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/datasets/coco-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/coco-nomic-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/coco-nomic-768-normalized_clusterids_4096.ivecs loaded
+Rows 282360 Cols 1
+data loaded
+	N: 282360
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0242887
+0.0715	5
+0.136	10
+0.2362	20
+0.2899	30
+0.3334	40
+0.3588	50
+0.3791	60
+0.405	70
+0.4221	80
+0.4352	90
+0.4458	100
+0.4553	110
+0.4641	120
+0.4729	130
+0.4808	140
+0.4839	150
+0.4884	160
+0.4916	170
+0.495	180
+0.4996	190
+0.5059	200
+0.5144	240
+0.5185	280
+0.5229	320
+0.5256	360
+0.5279	400
+0.5321	500
+0.5341	600
+0.5354	700
+0.5357	800
+0.5366	900
+nprobe	QPS	recall
+5	1710.65	0.0715
+10	1637.47	0.136
+20	1534.98	0.2362
+30	1457.94	0.2899
+40	1397.26	0.3334
+50	1345.1	0.3588
+60	1299.7	0.3791
+70	1258.4	0.405
+80	1220	0.4221
+90	1185.95	0.4352
+100	1154.52	0.4458
+110	1126.07	0.4553
+120	1102.22	0.4641
+130	1064.85	0.4729
+140	1040.81	0.4808
+150	1035.49	0.4839
+160	1015.51	0.4884
+170	997.684	0.4916
+180	978.918	0.495
+190	959.962	0.4996
+200	942.879	0.5059
+240	883.464	0.5144
+280	836.161	0.5185
+320	792.527	0.5229
+360	754.57	0.5256
+400	722.444	0.5279
+500	659.588	0.5321
+600	600.954	0.5341
+700	556.723	0.5354
+800	517.829	0.5357
+900	486.142	0.5366
+1000	451.079	0.5363
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/coco-nomic-768-normalized/base.fvecs /home/cc/datasets/datasets/coco-nomic-768-normalized/query.fvecs /home/cc/datasets/datasets/coco-nomic-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/coco-nomic-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/coco-nomic-768-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 44.51
+	System time (seconds): 0.76
+	Percent of CPU this job got: 190%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 952320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 325687
+	Voluntary context switches: 112
+	Involuntary context switches: 78
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

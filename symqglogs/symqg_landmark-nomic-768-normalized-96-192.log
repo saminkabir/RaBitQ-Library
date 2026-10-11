@@ -1,50 +1,50 @@
-File /home/cc/datasets/landmark-nomic-768-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/landmark-nomic-768-normalized/base.fvecs loaded
 Rows 760757 Cols 768
-File /home/cc/datasets/landmark-nomic-768-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/landmark-nomic-768-normalized/query.fvecs loaded
 Rows 100 Cols 768
-File /home/cc/datasets/landmark-nomic-768-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/landmark-nomic-768-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 243818
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 1514.63 secs
+Indexing time 192.122 secs
 EF	QPS	Recall
-10	15775.7	0.3397
-20	13778.6	0.3691
-40	11094.8	0.4208
-50	10243.7	0.4431
-60	9434.48	0.4695
-80	8097.98	0.5162
-100	7250.75	0.5584
-150	5802.53	0.6501
-170	5392.97	0.6824
-190	5117.85	0.7101
-200	4974.04	0.7227
-250	4316.79	0.7831
-300	3795.35	0.8311
-400	3080.49	0.8941
-500	2611.15	0.9325
-600	2219.11	0.9526
-700	1936.81	0.9667
-800	1712.29	0.9759
-1500	900.351	0.9966
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/landmark-nomic-768-normalized/base.fvecs /home/cc/datasets/landmark-nomic-768-normalized/query.fvecs /home/cc/datasets/landmark-nomic-768-normalized/groundtruth.ivecs 96 192"
-	User time (seconds): 1512.41
-	System time (seconds): 5.57
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:17.99
+10	10314.5	0.3305
+20	8854.74	0.362
+40	7160.84	0.412
+50	6553.54	0.4388
+60	6063.92	0.4618
+80	5263.77	0.5084
+100	4732.24	0.5504
+150	3796.6	0.644
+170	3555.35	0.6761
+190	3335.48	0.7063
+200	3206.49	0.721
+250	2805.8	0.7838
+300	2466.34	0.8318
+400	2050.14	0.8894
+500	1769.46	0.926
+600	1519.72	0.9495
+700	1345.76	0.9647
+800	1197.59	0.9741
+1500	658.569	0.9963
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/landmark-nomic-768-normalized/base.fvecs /home/cc/datasets/datasets/landmark-nomic-768-normalized/query.fvecs /home/cc/datasets/datasets/landmark-nomic-768-normalized/groundtruth.ivecs 96 192"
+	User time (seconds): 3013.38
+	System time (seconds): 40.92
+	Percent of CPU this job got: 1546%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:17.53
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 15357560
+	Maximum resident set size (kbytes): 15343308
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1712538
-	Voluntary context switches: 7
-	Involuntary context switches: 806
+	Minor (reclaiming a frame) page faults: 2220084
+	Voluntary context switches: 5307
+	Involuntary context switches: 2429
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

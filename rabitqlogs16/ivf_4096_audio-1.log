@@ -1,0 +1,59 @@
+File /home/cc/datasets/datasets/audio/base.fvecs loaded
+Rows 53387 Cols 192
+File /home/cc/datasets/datasets/audio/query.fvecs loaded
+Rows 200 Cols 192
+File /home/cc/datasets/datasets/audio/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/audio_centroids_4096.fvecs loaded
+Rows 4096 Cols 192
+File /home/cc/index/ivf_index/audio_clusterids_4096.ivecs loaded
+Rows 53387 Cols 1
+data loaded
+	N: 53387
+	DIM: 192
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.000213394
+0.59975	5
+0.725	10
+0.78275	20
+0.801	30
+0.8065	40
+0.81325	50
+0.81675	60
+0.818	70
+nprobe	QPS	recall
+5	6939.14	0.59975
+10	6800	0.725
+20	6550.89	0.78275
+30	6323.13	0.801
+40	6131.44	0.8065
+50	5940.51	0.81325
+60	5762.09	0.81675
+70	5602.11	0.818
+80	5442.34	0.81725
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/audio/base.fvecs /home/cc/datasets/datasets/audio/query.fvecs /home/cc/datasets/datasets/audio/groundtruth.ivecs /home/cc/index/ivf_index/audio_centroids_4096.fvecs /home/cc/index/ivf_index/audio_clusterids_4096.ivecs 1"
+	User time (seconds): 1.97
+	System time (seconds): 0.05
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 55040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14725
+	Voluntary context switches: 43
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

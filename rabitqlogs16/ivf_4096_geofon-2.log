@@ -1,0 +1,71 @@
+File /home/cc/datasets/datasets/geofon/base.fvecs loaded
+Rows 275174 Cols 128
+File /home/cc/datasets/datasets/geofon/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/datasets/geofon/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/geofon_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/geofon_clusterids_4096.ivecs loaded
+Rows 275174 Cols 1
+data loaded
+	N: 275174
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00323531
+0.7113	5
+0.8539	10
+0.9083	20
+0.9186	30
+0.9228	40
+0.9254	50
+0.9261	60
+0.9267	70
+0.9269	80
+0.9272	90
+0.9274	100
+0.9276	110
+0.9277	120
+0.9278	130
+nprobe	QPS	recall
+5	8093.08	0.7113
+10	7558.29	0.8539
+20	6888.85	0.9083
+30	6435.32	0.9186
+40	6051.2	0.9228
+50	5702.57	0.9254
+60	5402.55	0.9261
+70	5133.99	0.9267
+80	4889.96	0.9269
+90	4660.97	0.9272
+100	4458.18	0.9274
+110	3994.52	0.9276
+120	4069.22	0.9277
+130	3963.73	0.9278
+140	3845.16	0.9278
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/geofon/base.fvecs /home/cc/datasets/datasets/geofon/query.fvecs /home/cc/datasets/datasets/geofon/groundtruth.ivecs /home/cc/index/ivf_index/geofon_centroids_4096.fvecs /home/cc/index/ivf_index/geofon_clusterids_4096.ivecs 2"
+	User time (seconds): 4.87
+	System time (seconds): 0.12
+	Percent of CPU this job got: 235%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 162560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 47126
+	Voluntary context switches: 58
+	Involuntary context switches: 18
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,115 @@
+File /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/base.fvecs loaded
+Rows 260372 Cols 3072
+File /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/query.fvecs loaded
+Rows 100 Cols 3072
+File /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 3072
+File /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_clusterids_4096.ivecs loaded
+Rows 260372 Cols 1
+data loaded
+	N: 260372
+	DIM: 3072
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00504081
+0.6116	5
+0.7069	10
+0.7734	20
+0.8093	30
+0.8278	40
+0.8385	50
+0.8471	60
+0.8538	70
+0.8604	80
+0.8642	90
+0.8664	100
+0.8684	110
+0.8699	120
+0.8718	130
+0.8737	140
+0.8766	150
+0.8792	160
+0.881	170
+0.8822	180
+0.8843	190
+0.8856	200
+0.8891	240
+0.8919	280
+0.8935	320
+0.8951	360
+0.896	400
+0.8983	500
+0.9	600
+0.9013	700
+0.902	800
+0.903	900
+0.9035	1000
+0.9039	1100
+0.9044	1200
+0.9047	1300
+0.9049	1400
+nprobe	QPS	recall
+5	321.419	0.6116
+10	319.283	0.7069
+20	314.156	0.7734
+30	308.121	0.8093
+40	302.956	0.8278
+50	297.835	0.8385
+60	293.208	0.8471
+70	291.577	0.8538
+80	286.801	0.8604
+90	284.493	0.8642
+100	280.963	0.8664
+110	276.967	0.8684
+120	273.185	0.8699
+130	269.346	0.8718
+140	264.334	0.8737
+150	260.487	0.8766
+160	259.738	0.8792
+170	256.397	0.881
+180	252.633	0.8822
+190	248.992	0.8843
+200	246.035	0.8856
+240	234.552	0.8891
+280	225.345	0.8919
+320	217.206	0.8935
+360	208.753	0.8951
+400	201.379	0.896
+500	184.645	0.8983
+600	171.515	0.9
+700	160.79	0.9013
+800	150.89	0.902
+900	142.551	0.903
+1000	134.976	0.9035
+1100	127.992	0.9039
+1200	121.728	0.9044
+1300	116.372	0.9047
+1400	111.524	0.9049
+1500	107.423	0.9047
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/base.fvecs /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/query.fvecs /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/simplewiki-openai-3072-normalized_clusterids_4096.ivecs 1"
+	User time (seconds): 112.10
+	System time (seconds): 2.61
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:50.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3455140
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1047714
+	Voluntary context switches: 168
+	Involuntary context switches: 82
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

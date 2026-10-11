@@ -1,0 +1,83 @@
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/base.fvecs loaded
+Rows 760757 Cols 768
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs loaded
+Rows 760757 Cols 1
+data loaded
+	N: 760757
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00348877
+0.5515	5
+0.6575	10
+0.729	20
+0.7517	30
+0.7627	40
+0.7724	50
+0.7779	60
+0.7814	70
+0.7852	80
+0.7861	90
+0.7877	100
+0.7889	110
+0.7898	120
+0.7912	130
+0.7917	140
+0.7922	150
+0.7925	160
+0.7926	170
+0.7927	180
+0.7931	190
+nprobe	QPS	recall
+5	1697.02	0.5515
+10	1641.87	0.6575
+20	1536.54	0.729
+30	1464.12	0.7517
+40	1376.45	0.7627
+50	1334.47	0.7724
+60	1278.96	0.7779
+70	1227.95	0.7814
+80	1170.39	0.7852
+90	1122.07	0.7861
+100	1069.75	0.7877
+110	1056.9	0.7889
+120	1029.88	0.7898
+130	1000.8	0.7912
+140	964.16	0.7917
+150	943.016	0.7922
+160	910.371	0.7925
+170	890.213	0.7926
+180	862.617	0.7927
+190	839.65	0.7931
+200	773.615	0.7931
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/landmark-dino-768-cosine/base.fvecs /home/cc/datasets/datasets/landmark-dino-768-cosine/query.fvecs /home/cc/datasets/datasets/landmark-dino-768-cosine/groundtruth.ivecs /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs 1"
+	User time (seconds): 14.69
+	System time (seconds): 1.78
+	Percent of CPU this job got: 121%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2440960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 714315
+	Voluntary context switches: 171
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

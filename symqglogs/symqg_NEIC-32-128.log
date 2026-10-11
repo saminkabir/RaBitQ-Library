@@ -1,50 +1,50 @@
-File /home/cc/datasets/NEIC/base.fvecs loaded
+File /home/cc/datasets/datasets/NEIC/base.fvecs loaded
 Rows 1000000 Cols 256
-File /home/cc/datasets/NEIC/query.fvecs loaded
+File /home/cc/datasets/datasets/NEIC/query.fvecs loaded
 Rows 300 Cols 256
-File /home/cc/datasets/NEIC/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/NEIC/groundtruth.ivecs loaded
 Rows 300 Cols 100
 FhtKacRotator is selected
-Setting entry_point to 44139
+Setting entry_point to 884038
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 466.949 secs
+Indexing time 64.7554 secs
 EF	QPS	Recall
-10	25212.3	0.265467
-20	21745.3	0.287867
-40	17304.9	0.328367
-50	16580.2	0.3454
-60	15329.8	0.360033
-80	13325.3	0.391667
-100	12213.3	0.423167
-150	9728.24	0.484467
-170	9207.36	0.505633
-190	8665	0.524867
-200	8466.76	0.5342
-250	7336.02	0.5746
-300	6313.66	0.602
-400	5172.43	0.630333
-500	4339.19	0.640833
-600	3648.24	0.6486
-700	3191.38	0.652233
-800	2829.54	0.655667
-1500	1549.69	0.673333
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/NEIC/base.fvecs /home/cc/datasets/NEIC/query.fvecs /home/cc/datasets/NEIC/groundtruth.ivecs 32 128"
-	User time (seconds): 468.06
-	System time (seconds): 2.72
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:50.80
+10	12822.7	0.27
+20	11600.8	0.285833
+40	9961.25	0.317167
+50	9497.92	0.331533
+60	9096.96	0.347433
+80	7977.66	0.388933
+100	7211.87	0.4183
+150	5959.45	0.478467
+170	5544.1	0.500967
+190	5211.69	0.521233
+200	5134.27	0.5309
+250	4541.55	0.571033
+300	3859.9	0.595933
+400	2799.49	0.623
+500	2718.08	0.631633
+600	2118.77	0.637133
+700	2075.03	0.642267
+800	1750.57	0.6468
+1500	1045.46	0.665467
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/NEIC/base.fvecs /home/cc/datasets/datasets/NEIC/query.fvecs /home/cc/datasets/datasets/NEIC/groundtruth.ivecs 32 128"
+	User time (seconds): 954.59
+	System time (seconds): 27.35
+	Percent of CPU this job got: 1366%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:11.86
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 6387104
+	Maximum resident set size (kbytes): 6376988
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1163880
-	Voluntary context switches: 1
-	Involuntary context switches: 452
+	Minor (reclaiming a frame) page faults: 2285221
+	Voluntary context switches: 172301
+	Involuntary context switches: 7600
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

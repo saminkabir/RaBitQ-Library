@@ -1,8 +1,55 @@
-File /home/cc/datasets/agnews-mxbai-1024-euclidean/base.fvecs loaded
+File /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/base.fvecs loaded
 Rows 769382 Cols 1024
-File /home/cc/datasets/agnews-mxbai-1024-euclidean/query.fvecs loaded
+File /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/query.fvecs loaded
 Rows 100 Cols 1024
-File /home/cc/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 740181
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 256.183 secs
+EF	QPS	Recall
+10	9031.01	0.4181
+20	7997.93	0.4407
+40	6427.68	0.4837
+50	5958.17	0.5049
+60	5484.31	0.5262
+80	4755.33	0.5671
+100	4286.3	0.6034
+150	3450.36	0.686
+170	3209.81	0.7134
+190	3032.69	0.7387
+200	2959.24	0.7471
+250	2602.12	0.792
+300	2276.36	0.8298
+400	1858.1	0.8762
+500	1550.92	0.9088
+600	1312.98	0.9305
+700	1152.43	0.9469
+800	1022.87	0.9577
+1500	551.111	0.9893
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/base.fvecs /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/query.fvecs /home/cc/datasets/datasets/agnews-mxbai-1024-euclidean/groundtruth.ivecs 128 256"
+	User time (seconds): 4028.93
+	System time (seconds): 57.11
+	Percent of CPU this job got: 1559%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:21.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23084032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2872456
+	Voluntary context switches: 8086
+	Involuntary context switches: 5043
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

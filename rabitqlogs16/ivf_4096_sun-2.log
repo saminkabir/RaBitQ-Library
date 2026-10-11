@@ -1,0 +1,79 @@
+File /home/cc/datasets/datasets/sun/base.fvecs loaded
+Rows 79106 Cols 512
+File /home/cc/datasets/datasets/sun/query.fvecs loaded
+Rows 200 Cols 512
+File /home/cc/datasets/datasets/sun/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/sun_centroids_4096.fvecs loaded
+Rows 4096 Cols 512
+File /home/cc/index/ivf_index/sun_clusterids_4096.ivecs loaded
+Rows 79106 Cols 1
+data loaded
+	N: 79106
+	DIM: 512
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0047702
+0.375	5
+0.525	10
+0.67225	20
+0.743	30
+0.782	40
+0.8025	50
+0.8215	60
+0.83325	70
+0.84175	80
+0.84875	90
+0.855	100
+0.8585	110
+0.86125	120
+0.86325	130
+0.86575	140
+0.8675	150
+0.86875	160
+0.869	170
+nprobe	QPS	recall
+5	2920.72	0.375
+10	2849.69	0.525
+20	2745.68	0.67225
+30	2662.96	0.743
+40	2591.71	0.782
+50	2487.61	0.8025
+60	2457.53	0.8215
+70	2409.41	0.83325
+80	2357.86	0.84175
+90	2308.42	0.84875
+100	2261.57	0.855
+110	2217.26	0.8585
+120	2168.3	0.86125
+130	2136.98	0.86325
+140	2099.16	0.86575
+150	2064.05	0.8675
+160	1997.12	0.86875
+170	1995.41	0.869
+180	1964.08	0.86825
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/sun/base.fvecs /home/cc/datasets/datasets/sun/query.fvecs /home/cc/datasets/datasets/sun/groundtruth.ivecs /home/cc/index/ivf_index/sun_centroids_4096.fvecs /home/cc/index/ivf_index/sun_clusterids_4096.ivecs 2"
+	User time (seconds): 14.35
+	System time (seconds): 0.14
+	Percent of CPU this job got: 140%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 203520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72044
+	Voluntary context switches: 73
+	Involuntary context switches: 25
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

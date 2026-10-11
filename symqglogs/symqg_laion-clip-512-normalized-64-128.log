@@ -1,50 +1,50 @@
-File /home/cc/datasets/laion-clip-512-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/laion-clip-512-normalized/base.fvecs loaded
 Rows 1000000 Cols 512
-File /home/cc/datasets/laion-clip-512-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/laion-clip-512-normalized/query.fvecs loaded
 Rows 100 Cols 512
-File /home/cc/datasets/laion-clip-512-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/laion-clip-512-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 475915
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 964.21 secs
+Indexing time 117.93 secs
 EF	QPS	Recall
-10	18212.7	0.1535
-20	15866.9	0.2023
-40	13070.2	0.29
-50	11815.2	0.3241
-60	10556.3	0.3565
-80	8767.41	0.4206
-100	7839.1	0.4597
-150	5736.43	0.5473
-170	5121.23	0.5823
-190	4675.15	0.611
-200	4481.6	0.6242
-250	3700.87	0.6743
-300	3077.81	0.7128
-400	2321.61	0.7656
-500	1867.51	0.802
-600	1528.34	0.8328
-700	1300.79	0.8542
-800	1122.26	0.8693
-1500	536.578	0.9272
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/laion-clip-512-normalized/base.fvecs /home/cc/datasets/laion-clip-512-normalized/query.fvecs /home/cc/datasets/laion-clip-512-normalized/groundtruth.ivecs 64 128"
-	User time (seconds): 963.40
-	System time (seconds): 4.44
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:07.86
+10	9100.6	0.157
+20	7883.81	0.2157
+40	6767.81	0.2924
+50	6042.64	0.3271
+60	5507.45	0.3641
+80	4660.76	0.4232
+100	4221.56	0.4641
+150	3186.3	0.5558
+170	2868.6	0.5855
+190	2643.94	0.6093
+200	2519	0.6215
+250	2112.68	0.6702
+300	1778.07	0.7105
+400	1348.8	0.7695
+500	1092.83	0.8088
+600	877.475	0.8355
+700	759.665	0.8559
+800	665.105	0.8706
+1500	324.959	0.9239
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/laion-clip-512-normalized/base.fvecs /home/cc/datasets/datasets/laion-clip-512-normalized/query.fvecs /home/cc/datasets/datasets/laion-clip-512-normalized/groundtruth.ivecs 64 128"
+	User time (seconds): 1821.67
+	System time (seconds): 35.14
+	Percent of CPU this job got: 1487%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:04.81
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 12261716
+	Maximum resident set size (kbytes): 12261908
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1671559
-	Voluntary context switches: 1
-	Involuntary context switches: 698
+	Minor (reclaiming a frame) page faults: 1998963
+	Voluntary context switches: 7609
+	Involuntary context switches: 2279
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

@@ -1,0 +1,83 @@
+File /home/cc/datasets/datasets/deep/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/deep/query.fvecs loaded
+Rows 200 Cols 256
+File /home/cc/datasets/datasets/deep/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/deep_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/deep_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0247552
+0.5265	5
+0.636	10
+0.714	20
+0.7425	30
+0.75625	40
+0.76675	50
+0.7745	60
+0.77925	70
+0.78075	80
+0.78325	90
+0.78725	100
+0.789	110
+0.79075	120
+0.79225	130
+0.79425	140
+0.7945	150
+0.795	160
+0.7955	170
+0.79575	180
+0.79625	190
+nprobe	QPS	recall
+5	4737.89	0.5265
+10	4465.15	0.636
+20	4058.28	0.714
+30	3734.8	0.7425
+40	3348.24	0.75625
+50	2988.83	0.76675
+60	3001.49	0.7745
+70	2881.37	0.77925
+80	2733.62	0.78075
+90	2483.36	0.78325
+100	2473.46	0.78725
+110	2376.37	0.789
+120	2277.63	0.79075
+130	2182.36	0.79225
+140	2102.45	0.79425
+150	1977	0.7945
+160	1925.95	0.795
+170	1904	0.7955
+180	1847.55	0.79575
+190	1791.49	0.79625
+200	1739.36	0.796
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/deep/base.fvecs /home/cc/datasets/datasets/deep/query.fvecs /home/cc/datasets/datasets/deep/groundtruth.ivecs /home/cc/index/ivf_index/deep_centroids_4096.fvecs /home/cc/index/ivf_index/deep_clusterids_4096.ivecs 2"
+	User time (seconds): 33.67
+	System time (seconds): 0.89
+	Percent of CPU this job got: 274%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1118720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 397003
+	Voluntary context switches: 87
+	Involuntary context switches: 45
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,75 @@
+File /home/cc/datasets/datasets/ethz/base.fvecs loaded
+Rows 36643 Cols 256
+File /home/cc/datasets/datasets/ethz/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/datasets/ethz/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/ethz_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/ethz_clusterids_4096.ivecs loaded
+Rows 36643 Cols 1
+data loaded
+	N: 36643
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00124811
+0.5572	5
+0.7779	10
+0.9127	20
+0.9309	30
+0.9342	40
+0.9368	50
+0.9379	60
+0.939	70
+0.9401	80
+0.9407	90
+0.9415	100
+0.9425	110
+0.9427	120
+0.9431	130
+0.9442	140
+0.9446	150
+nprobe	QPS	recall
+5	5299.43	0.5572
+10	5028.87	0.7779
+20	4705.81	0.9127
+30	4510.19	0.9309
+40	4362.16	0.9342
+50	4081.42	0.9368
+60	4095.16	0.9379
+70	3988.17	0.939
+80	3880.22	0.9401
+90	3792.6	0.9407
+100	3714.59	0.9415
+110	3654.59	0.9425
+120	3580.94	0.9427
+130	3512.83	0.9431
+140	3428.93	0.9442
+150	3361.04	0.9446
+160	3305.15	0.9446
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/ethz/base.fvecs /home/cc/datasets/datasets/ethz/query.fvecs /home/cc/datasets/datasets/ethz/groundtruth.ivecs /home/cc/index/ivf_index/ethz_centroids_4096.fvecs /home/cc/index/ivf_index/ethz_clusterids_4096.ivecs 2"
+	User time (seconds): 3.78
+	System time (seconds): 0.06
+	Percent of CPU this job got: 139%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 53760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18917
+	Voluntary context switches: 64
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,50 +1,50 @@
-File /home/cc/datasets/deep/base.fvecs loaded
+File /home/cc/datasets/datasets/deep/base.fvecs loaded
 Rows 1000000 Cols 256
-File /home/cc/datasets/deep/query.fvecs loaded
+File /home/cc/datasets/datasets/deep/query.fvecs loaded
 Rows 200 Cols 256
-File /home/cc/datasets/deep/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/deep/groundtruth.ivecs loaded
 Rows 200 Cols 20
 FhtKacRotator is selected
 Setting entry_point to 742847
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 564.436 secs
+Indexing time 63.4131 secs
 EF	QPS	Recall
-10	64141.3	0.39725
-20	50865.2	0.56375
-40	31413.2	0.7345
-50	26253.2	0.78575
-60	23335.5	0.822
-80	17995	0.8695
-100	14937.7	0.89975
-150	10437.9	0.9405
-170	9480.37	0.95125
-190	8555.93	0.958
-200	8164.1	0.9625
-250	6771.83	0.974
-300	5592.16	0.98
-400	3988.45	0.98575
-500	3371.56	0.991
-600	2737.36	0.9925
-700	2330.57	0.99325
-800	2014.12	0.9945
-1500	973.61	0.9985
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/deep/base.fvecs /home/cc/datasets/deep/query.fvecs /home/cc/datasets/deep/groundtruth.ivecs 32 128"
-	User time (seconds): 564.97
-	System time (seconds): 2.80
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:27.78
+10	54503.6	0.3905
+20	45716.1	0.54725
+40	28065.1	0.75275
+50	23923.7	0.7995
+60	21084.4	0.83525
+80	16304.2	0.8785
+100	13495.5	0.9085
+150	9530.43	0.94325
+170	8590.35	0.949
+190	7809.1	0.95575
+200	7452.94	0.958
+250	6106.23	0.969
+300	5061.52	0.976
+400	3814.82	0.984
+500	3058.99	0.989
+600	2502.82	0.99275
+700	2140.15	0.995
+800	1820.19	0.9955
+1500	902.578	0.99875
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/deep/base.fvecs /home/cc/datasets/datasets/deep/query.fvecs /home/cc/datasets/datasets/deep/groundtruth.ivecs 32 128"
+	User time (seconds): 971.28
+	System time (seconds): 15.63
+	Percent of CPU this job got: 1470%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:07.10
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 6422880
+	Maximum resident set size (kbytes): 6424420
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1165720
-	Voluntary context switches: 1
-	Involuntary context switches: 363
+	Minor (reclaiming a frame) page faults: 1592464
+	Voluntary context switches: 21418
+	Involuntary context switches: 1390
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

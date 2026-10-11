@@ -1,0 +1,69 @@
+File /home/cc/datasets/datasets/yandex-200-cosine/base.fvecs loaded
+Rows 1000000 Cols 200
+File /home/cc/datasets/datasets/yandex-200-cosine/query.fvecs loaded
+Rows 100 Cols 200
+File /home/cc/datasets/datasets/yandex-200-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yandex-200-cosine_centroids_4096.fvecs loaded
+Rows 4096 Cols 200
+File /home/cc/index/ivf_index/yandex-200-cosine_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 200
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00177409
+0.3176	5
+0.372	10
+0.4107	20
+0.4222	30
+0.4341	40
+0.4409	50
+0.4441	60
+0.4449	70
+0.4475	80
+0.4508	90
+0.4541	100
+0.4589	110
+0.4605	120
+nprobe	QPS	recall
+5	4607.14	0.3176
+10	4318.94	0.372
+20	3916.58	0.4107
+30	3619.45	0.4222
+40	3105.82	0.4341
+50	3126.43	0.4409
+60	2950.18	0.4441
+70	2730.23	0.4449
+80	2639.01	0.4475
+90	2451.96	0.4508
+100	2300.1	0.4541
+110	2239.36	0.4589
+120	2183.15	0.4605
+130	2094.28	0.4595
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/yandex-200-cosine/base.fvecs /home/cc/datasets/datasets/yandex-200-cosine/query.fvecs /home/cc/datasets/datasets/yandex-200-cosine/groundtruth.ivecs /home/cc/index/ivf_index/yandex-200-cosine_centroids_4096.fvecs /home/cc/index/ivf_index/yandex-200-cosine_clusterids_4096.ivecs 1"
+	User time (seconds): 4.54
+	System time (seconds): 0.62
+	Percent of CPU this job got: 138%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 862720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 241758
+	Voluntary context switches: 105
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

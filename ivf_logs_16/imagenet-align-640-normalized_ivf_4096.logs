@@ -1,0 +1,35 @@
+Using L2 metric by default
+Reading File - /home/cc/datasets/datasets/imagenet-align-640-normalized/base.fvecs
+	/home/cc/datasets/datasets/imagenet-align-640-normalized/base.fvecs readed
+Time for training ivf 1549.9951465129852 secs
+Writing File - /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs
+	/home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs wrote
+Writing File - /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs
+	/home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs wrote
+Training level-1 quantizer
+Training level-1 quantizer on 1000000 vectors in 640D
+Training IVF residual
+IndexIVF: no residual training
+	Command being timed: "taskset --cpu-list 96-111 python ./python/ivf.py /home/cc/datasets/datasets/imagenet-align-640-normalized/base.fvecs 4096 /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs"
+	User time (seconds): 4903.50
+	System time (seconds): 15410.10
+	Percent of CPU this job got: 1218%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 27:46.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5108612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 446279
+	Voluntary context switches: 130201
+	Involuntary context switches: 532814211
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 36152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,24 @@
+{'recall@': 0.7285, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'landmark-dino-768-cosine', 'search-time': 0.05905318260192871, 'training-time': 35.359519243240356, 'm': 24, 'k': 20, 'ef_search': 12, 'ef_construction': 24}
+	Command being timed: "python vsag_hgraph.py --dataset landmark-dino-768-cosine --m 24 --ef_search 12 --ef_construction 24 --cpu 16"
+	User time (seconds): 523.09
+	System time (seconds): 14.56
+	Percent of CPU this job got: 1406%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5576792
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2041833
+	Voluntary context switches: 966948
+	Involuntary context switches: 828
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

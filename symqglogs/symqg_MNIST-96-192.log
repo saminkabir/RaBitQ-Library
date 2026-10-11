@@ -1,50 +1,50 @@
-File /home/cc/datasets/MNIST/base.fvecs loaded
+File /home/cc/datasets/datasets/MNIST/base.fvecs loaded
 Rows 69000 Cols 784
-File /home/cc/datasets/MNIST/query.fvecs loaded
+File /home/cc/datasets/datasets/MNIST/query.fvecs loaded
 Rows 200 Cols 784
-File /home/cc/datasets/MNIST/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/MNIST/groundtruth.ivecs loaded
 Rows 200 Cols 20
 FhtKacRotator is selected
 Setting entry_point to 33205
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 155.603 secs
+Indexing time 20.3687 secs
 EF	QPS	Recall
-10	18596.6	0.7515
-20	16320.6	0.8135
-40	15305.5	0.89
-50	15340.2	0.914
-60	14473.7	0.9395
-80	11976	0.97675
-100	10456.7	0.989
-150	7942.65	0.99725
-170	7331.74	0.99775
-190	6752.02	0.998
-200	6570.23	0.998
-250	5640.36	0.998
-300	4805.71	0.99925
-400	3799.57	0.9995
-500	3138.32	0.9995
-600	2633.41	0.9995
-700	2300.18	0.9995
-800	2030.33	0.9995
-1500	1069.68	0.9995
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/MNIST/base.fvecs /home/cc/datasets/MNIST/query.fvecs /home/cc/datasets/MNIST/groundtruth.ivecs 96 192"
-	User time (seconds): 157.80
-	System time (seconds): 0.53
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:38.34
+10	9304.49	0.7605
+20	8481.39	0.819
+40	8417.32	0.8845
+50	8355.71	0.915
+60	8173.44	0.9365
+80	7011.6	0.97325
+100	6005.04	0.99075
+150	4627.67	0.9975
+170	4291.26	0.9975
+190	3983.73	0.9975
+200	3869.11	0.9975
+250	3321.69	0.998
+300	2861.63	0.99825
+400	2185.14	0.99825
+500	1985.28	0.999
+600	1615.1	0.999
+700	1513.04	0.999
+800	1352.18	0.99925
+1500	684.907	0.9995
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/MNIST/base.fvecs /home/cc/datasets/datasets/MNIST/query.fvecs /home/cc/datasets/datasets/MNIST/groundtruth.ivecs 96 192"
+	User time (seconds): 322.23
+	System time (seconds): 5.22
+	Percent of CPU this job got: 1311%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.97
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1461828
+	Maximum resident set size (kbytes): 1446048
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 156493
-	Voluntary context switches: 2
-	Involuntary context switches: 182
+	Minor (reclaiming a frame) page faults: 199473
+	Voluntary context switches: 1486
+	Involuntary context switches: 1574
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

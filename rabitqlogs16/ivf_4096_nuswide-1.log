@@ -1,0 +1,79 @@
+File /home/cc/datasets/datasets/nuswide/base.fvecs loaded
+Rows 268643 Cols 500
+File /home/cc/datasets/datasets/nuswide/query.fvecs loaded
+Rows 200 Cols 500
+File /home/cc/datasets/datasets/nuswide/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/nuswide_centroids_4096.fvecs loaded
+Rows 4096 Cols 500
+File /home/cc/index/ivf_index/nuswide_clusterids_4096.ivecs loaded
+Rows 268643 Cols 1
+data loaded
+	N: 268643
+	DIM: 500
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.000944352
+0.26875	5
+0.3485	10
+0.41875	20
+0.45375	30
+0.4745	40
+0.49225	50
+0.50725	60
+0.5095	70
+0.51475	80
+0.5185	90
+0.5225	100
+0.52825	110
+0.52925	120
+0.53275	130
+0.535	140
+0.537	150
+0.5405	160
+0.54225	170
+nprobe	QPS	recall
+5	2854.68	0.26875
+10	2784.68	0.3485
+20	2533.35	0.41875
+30	2461.14	0.45375
+40	2359.79	0.4745
+50	2251.39	0.49225
+60	2152.04	0.50725
+70	2065.14	0.5095
+80	1986.38	0.51475
+90	1877.64	0.5185
+100	1840.66	0.5225
+110	1780.83	0.52825
+120	1720.36	0.52925
+130	1668.86	0.53275
+140	1619.74	0.535
+150	1571.43	0.537
+160	1528.06	0.5405
+170	1487.7	0.54225
+180	1449.48	0.54225
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/nuswide/base.fvecs /home/cc/datasets/datasets/nuswide/query.fvecs /home/cc/datasets/datasets/nuswide/groundtruth.ivecs /home/cc/index/ivf_index/nuswide_centroids_4096.fvecs /home/cc/index/ivf_index/nuswide_clusterids_4096.ivecs 1"
+	User time (seconds): 12.76
+	System time (seconds): 0.41
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 596348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 189043
+	Voluntary context switches: 93
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,8 +1,55 @@
-File /home/cc/datasets/PNW/base.fvecs loaded
+File /home/cc/datasets/datasets/PNW/base.fvecs loaded
 Rows 1000000 Cols 256
-File /home/cc/datasets/PNW/query.fvecs loaded
+File /home/cc/datasets/datasets/PNW/query.fvecs loaded
 Rows 300 Cols 256
-File /home/cc/datasets/PNW/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/PNW/groundtruth.ivecs loaded
 Rows 300 Cols 100
 FhtKacRotator is selected
-Setting entry_point to 0
+Setting entry_point to 15
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 8687.74 secs
+EF	QPS	Recall
+10	9689.46	0
+20	8492.84	0
+40	6844.9	0
+50	6824.4	0
+60	6242.86	0
+80	5453.29	0
+100	5111.73	0
+150	4459.02	0
+170	4346.4	0
+190	4210.47	0
+200	4018.57	0
+250	3729.22	0
+300	3376.05	0
+400	3054.02	0
+500	2725.87	0
+600	2437.35	0
+700	2220.85	0
+800	1994.96	0
+1500	1513.29	0
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/PNW/base.fvecs /home/cc/datasets/datasets/PNW/query.fvecs /home/cc/datasets/datasets/PNW/groundtruth.ivecs 32 64"
+	User time (seconds): 138598.47
+	System time (seconds): 364.92
+	Percent of CPU this job got: 1598%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:24:54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6382172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76477758
+	Voluntary context switches: 47119
+	Involuntary context switches: 195136
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

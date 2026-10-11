@@ -1,0 +1,24 @@
+{'recall@': 0.994, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'simplewiki-openai-3072-normalized', 'search-time': 0.5400004386901855, 'training-time': 1300.6956913471222, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset simplewiki-openai-3072-normalized --m 128 --ef_search 128 --ef_construction 128 --cpu 16"
+	User time (seconds): 20091.44
+	System time (seconds): 27.77
+	Percent of CPU this job got: 1541%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 21:45.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7304408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13133724
+	Voluntary context switches: 196788
+	Involuntary context switches: 30598
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

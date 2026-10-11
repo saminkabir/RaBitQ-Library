@@ -1,0 +1,123 @@
+File /home/cc/datasets/datasets/OBST2024/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/OBST2024/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/datasets/OBST2024/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/OBST2024_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/OBST2024_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0247558
+0.3237	5
+0.398567	10
+0.474867	20
+0.561133	30
+0.589967	40
+0.6137	50
+0.629233	60
+0.6358	70
+0.638033	80
+0.640367	90
+0.6418	100
+0.643	110
+0.643533	120
+0.6437	130
+0.644367	140
+0.644833	150
+0.6451	160
+0.645433	170
+0.645733	180
+0.646233	190
+0.6466	200
+0.647433	240
+0.6479	280
+0.648133	320
+0.648333	360
+0.648767	400
+0.649267	500
+0.649633	600
+0.649867	700
+0.6501	800
+0.650167	900
+0.650433	1000
+0.650733	1100
+0.650767	1200
+0.6509	1300
+0.650967	1400
+0.651133	1500
+0.6515	2000
+0.651667	2500
+0.651733	3000
+nprobe	QPS	recall
+5	4178.51	0.3237
+10	3839.25	0.398567
+20	3368.23	0.474867
+30	3003.85	0.561133
+40	2684.56	0.589967
+50	2568.14	0.6137
+60	2418.88	0.629233
+70	2288.83	0.6358
+80	2186.08	0.638033
+90	2091.84	0.640367
+100	1997.37	0.6418
+110	1912.9	0.643
+120	1835.32	0.643533
+130	1764.21	0.6437
+140	1689.12	0.644367
+150	1616.54	0.644833
+160	1558.18	0.6451
+170	1507.96	0.645433
+180	1446.47	0.645733
+190	1382.86	0.646233
+200	1366.69	0.6466
+240	1230.34	0.647433
+280	1131.68	0.6479
+320	1042.17	0.648133
+360	940.033	0.648333
+400	872.925	0.648767
+500	735.902	0.649267
+600	642.36	0.649633
+700	569.835	0.649867
+800	507.917	0.6501
+900	460.417	0.650167
+1000	425.138	0.650433
+1100	403.788	0.650733
+1200	374.968	0.650767
+1300	350.95	0.6509
+1400	330.585	0.650967
+1500	312.901	0.651133
+2000	241.325	0.6515
+2500	200.72	0.651667
+3000	167.517	0.651733
+3500	156.581	0.651733
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/OBST2024/base.fvecs /home/cc/datasets/datasets/OBST2024/query.fvecs /home/cc/datasets/datasets/OBST2024/groundtruth.ivecs /home/cc/index/ivf_index/OBST2024_centroids_4096.fvecs /home/cc/index/ivf_index/OBST2024_clusterids_4096.ivecs 2"
+	User time (seconds): 137.28
+	System time (seconds): 0.95
+	Percent of CPU this job got: 118%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:56.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1124024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 533398
+	Voluntary context switches: 144
+	Involuntary context switches: 285
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

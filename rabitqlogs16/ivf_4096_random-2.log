@@ -1,0 +1,67 @@
+File /home/cc/datasets/datasets/random/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/datasets/datasets/random/query.fvecs loaded
+Rows 200 Cols 100
+File /home/cc/datasets/datasets/random/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/random_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/random_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0140759
+0.2375	5
+0.33375	10
+0.42925	20
+0.4745	30
+0.497	40
+0.5045	50
+0.51075	60
+0.51575	70
+0.5185	80
+0.52075	90
+0.5225	100
+0.523	110
+nprobe	QPS	recall
+5	3317.58	0.2375
+10	2403.37	0.33375
+20	1663.92	0.42925
+30	1345.85	0.4745
+40	1133.88	0.497
+50	997.667	0.5045
+60	909.004	0.51075
+70	857.291	0.51575
+80	804.043	0.5185
+90	768.318	0.52075
+100	747.623	0.5225
+110	715.227	0.523
+120	694.084	0.522
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/random/base.fvecs /home/cc/datasets/datasets/random/query.fvecs /home/cc/datasets/datasets/random/groundtruth.ivecs /home/cc/index/ivf_index/random_centroids_4096.fvecs /home/cc/index/ivf_index/random_clusterids_4096.ivecs 2"
+	User time (seconds): 26.25
+	System time (seconds): 0.41
+	Percent of CPU this job got: 159%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 514916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 170272
+	Voluntary context switches: 106
+	Involuntary context switches: 46
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

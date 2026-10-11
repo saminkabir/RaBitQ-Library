@@ -1,0 +1,99 @@
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/base.fvecs loaded
+Rows 1000000 Cols 768
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0041483
+0.7317	5
+0.7848	10
+0.821	20
+0.8373	30
+0.8458	40
+0.8494	50
+0.8517	60
+0.8537	70
+0.8551	80
+0.8561	90
+0.8573	100
+0.8589	110
+0.8596	120
+0.8602	130
+0.8607	140
+0.8618	150
+0.8628	160
+0.8634	170
+0.8637	180
+0.864	190
+0.8645	200
+0.8652	240
+0.8658	280
+0.8664	320
+0.8669	360
+0.8674	400
+0.868	500
+0.8691	600
+nprobe	QPS	recall
+5	1888.9	0.7317
+10	1806.75	0.7848
+20	1654.85	0.821
+30	1558.53	0.8373
+40	1466.56	0.8458
+50	1382.49	0.8494
+60	1310.43	0.8517
+70	1209.69	0.8537
+80	1151.3	0.8551
+90	1129.08	0.8561
+100	1082.05	0.8573
+110	1037.54	0.8589
+120	1002.29	0.8596
+130	963.267	0.8602
+140	927.193	0.8607
+150	895.872	0.8618
+160	869.207	0.8628
+170	806.545	0.8634
+180	815.925	0.8637
+190	792.55	0.864
+200	767.456	0.8645
+240	687.481	0.8652
+280	624.801	0.8658
+320	575.259	0.8664
+360	520.917	0.8669
+400	496.676	0.8674
+500	420.864	0.868
+600	354.648	0.8691
+700	318.541	0.8691
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/base.fvecs /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/query.fvecs /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/gooaq-distilroberta-768-normalized_clusterids_4096.ivecs 1"
+	User time (seconds): 25.95
+	System time (seconds): 2.20
+	Percent of CPU this job got: 113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3201280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 965370
+	Voluntary context switches: 137
+	Involuntary context switches: 33
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

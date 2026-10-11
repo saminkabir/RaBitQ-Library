@@ -1,50 +1,50 @@
-File /home/cc/datasets/coco-nomic-768-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/coco-nomic-768-normalized/base.fvecs loaded
 Rows 282360 Cols 768
-File /home/cc/datasets/coco-nomic-768-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/coco-nomic-768-normalized/query.fvecs loaded
 Rows 100 Cols 768
-File /home/cc/datasets/coco-nomic-768-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/coco-nomic-768-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 57958
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 224.281 secs
+Indexing time 31.267 secs
 EF	QPS	Recall
-10	18546.9	0.1474
-20	15800.5	0.2103
-40	13056.8	0.2596
-50	11903.2	0.2787
-60	11092.6	0.301
-80	9513.06	0.3375
-100	8266.54	0.3848
-150	5760.89	0.4858
-170	5177.15	0.5237
-190	4714.01	0.5538
-200	4478.14	0.5678
-250	3681.07	0.6279
-300	3079.32	0.6716
-400	2279.37	0.7393
-500	1853.06	0.7885
-600	1521.93	0.8221
-700	1299.78	0.8507
-800	1124.06	0.8702
-1500	544.157	0.9443
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/coco-nomic-768-normalized/base.fvecs /home/cc/datasets/coco-nomic-768-normalized/query.fvecs /home/cc/datasets/coco-nomic-768-normalized/groundtruth.ivecs 32 128"
-	User time (seconds): 225.70
-	System time (seconds): 1.39
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:47.12
+10	10249.2	0.1338
+20	8905.25	0.1954
+40	7508.75	0.2582
+50	6823.37	0.287
+60	6349.53	0.3134
+80	5509.16	0.3544
+100	4911.56	0.3851
+150	3540.32	0.4832
+170	3164.78	0.5204
+190	2900.34	0.5459
+200	2752.63	0.5618
+250	2271.51	0.6204
+300	1895.7	0.6707
+400	1454.55	0.7391
+500	1181.06	0.7911
+600	980.893	0.8281
+700	836.685	0.8551
+800	724.978	0.8758
+1500	370.465	0.9452
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/coco-nomic-768-normalized/base.fvecs /home/cc/datasets/datasets/coco-nomic-768-normalized/query.fvecs /home/cc/datasets/datasets/coco-nomic-768-normalized/groundtruth.ivecs 32 128"
+	User time (seconds): 482.15
+	System time (seconds): 14.42
+	Percent of CPU this job got: 1381%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.94
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3502176
+	Maximum resident set size (kbytes): 3489084
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 468464
-	Voluntary context switches: 1
-	Involuntary context switches: 279
+	Minor (reclaiming a frame) page faults: 918095
+	Voluntary context switches: 38336
+	Involuntary context switches: 727
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

@@ -1,0 +1,69 @@
+File /home/cc/datasets/datasets/landmark-nomic-768-normalized/base.fvecs loaded
+Rows 760757 Cols 768
+File /home/cc/datasets/datasets/landmark-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/datasets/landmark-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/landmark-nomic-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/landmark-nomic-768-normalized_clusterids_4096.ivecs loaded
+Rows 760757 Cols 1
+data loaded
+	N: 760757
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00315478
+0.7276	5
+0.822	10
+0.863	20
+0.8735	30
+0.8774	40
+0.88	50
+0.8826	60
+0.8833	70
+0.8834	80
+0.8838	90
+0.8841	100
+0.8843	110
+0.8849	120
+nprobe	QPS	recall
+5	1742.89	0.7276
+10	1657.55	0.822
+20	1561.4	0.863
+30	1489.21	0.8735
+40	1424.87	0.8774
+50	1358.45	0.88
+60	1320.35	0.8826
+70	1255	0.8833
+80	1150.43	0.8834
+90	1131.61	0.8838
+100	1117.45	0.8841
+110	1024.22	0.8843
+120	1029.63	0.8849
+130	1003.94	0.8848
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/landmark-nomic-768-normalized/base.fvecs /home/cc/datasets/datasets/landmark-nomic-768-normalized/query.fvecs /home/cc/datasets/datasets/landmark-nomic-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/landmark-nomic-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/landmark-nomic-768-normalized_clusterids_4096.ivecs 1"
+	User time (seconds): 9.52
+	System time (seconds): 1.74
+	Percent of CPU this job got: 129%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2440916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 688664
+	Voluntary context switches: 158
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

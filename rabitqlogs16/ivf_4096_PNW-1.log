@@ -1,0 +1,91 @@
+File /home/cc/datasets/datasets/PNW/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/PNW/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/datasets/PNW/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/PNW_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/PNW_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00652997
+0.54	5
+0.593	10
+0.701433	20
+0.787233	30
+0.815833	40
+0.844167	50
+0.855067	60
+0.870767	70
+0.8742	80
+0.877167	90
+0.8785	100
+0.879867	110
+0.881467	120
+0.885133	130
+0.8855	140
+0.886133	150
+0.8874	160
+0.887967	170
+0.8887	180
+0.8895	190
+0.890067	200
+0.891833	240
+0.892567	280
+0.892933	320
+nprobe	QPS	recall
+5	239.598	0.54
+10	221.995	0.593
+20	183.726	0.701433
+30	159.949	0.787233
+40	153.196	0.815833
+50	146.639	0.844167
+60	144.403	0.855067
+70	141.124	0.870767
+80	140.214	0.8742
+90	139.088	0.877167
+100	138.82	0.8785
+110	138.015	0.879867
+120	137.644	0.881467
+130	136.636	0.885133
+140	136.384	0.8855
+150	136.02	0.886133
+160	135.625	0.8874
+170	135.485	0.887967
+180	135.161	0.8887
+190	134.859	0.8895
+200	134.574	0.890067
+240	133.437	0.891833
+280	132.33	0.892567
+320	131.561	0.892933
+360	130.615	0.8928
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/PNW/base.fvecs /home/cc/datasets/datasets/PNW/query.fvecs /home/cc/datasets/datasets/PNW/groundtruth.ivecs /home/cc/index/ivf_index/PNW_centroids_4096.fvecs /home/cc/index/ivf_index/PNW_clusterids_4096.ivecs 1"
+	User time (seconds): 315.29
+	System time (seconds): 0.98
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:14.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1273600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 489998
+	Voluntary context switches: 117
+	Involuntary context switches: 1031
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 88
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

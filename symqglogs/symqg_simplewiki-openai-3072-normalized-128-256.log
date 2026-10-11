@@ -1,50 +1,50 @@
-File /home/cc/datasets/simplewiki-openai-3072-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/base.fvecs loaded
 Rows 260372 Cols 3072
-File /home/cc/datasets/simplewiki-openai-3072-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/query.fvecs loaded
 Rows 100 Cols 3072
-File /home/cc/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 199835
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 3039.22 secs
+Indexing time 232.402 secs
 EF	QPS	Recall
-10	4281.91	0.0187
-20	3067.57	0.0207
-40	2175	0.0231
-50	1910.29	0.0232
-60	1672.85	0.0283
-80	1446.31	0.0338
-100	1270.52	0.0398
-150	981.405	0.0409
-170	912.64	0.0515
-190	824.448	0.0535
-200	809.551	0.0542
-250	712.532	0.0586
-300	626.504	0.0612
-400	522.91	0.0701
-500	410.08	0.0773
-600	354.348	0.0819
-700	316.387	0.0872
-800	286.97	0.09
-1500	155.17	0.1246
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/simplewiki-openai-3072-normalized/base.fvecs /home/cc/datasets/simplewiki-openai-3072-normalized/query.fvecs /home/cc/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs 128 256"
-	User time (seconds): 3042.66
-	System time (seconds): 8.25
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 50:50.95
+10	3770.23	0.0107
+20	2883.15	0.0177
+40	2075.53	0.0275
+50	1828.3	0.0287
+60	1693.6	0.0295
+80	1473.17	0.0275
+100	1349.77	0.0265
+150	1032.41	0.0277
+170	964.264	0.0326
+190	893.979	0.0343
+200	873.765	0.0358
+250	736.539	0.0404
+300	662.765	0.0432
+400	535.397	0.0492
+500	451.707	0.0525
+600	394.235	0.0552
+700	342.042	0.0598
+800	301.363	0.0607
+1500	155.132	0.0758
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/base.fvecs /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/query.fvecs /home/cc/datasets/datasets/simplewiki-openai-3072-normalized/groundtruth.ivecs 128 256"
+	User time (seconds): 3673.26
+	System time (seconds): 51.59
+	Percent of CPU this job got: 1525%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:04.20
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 20320660
+	Maximum resident set size (kbytes): 20304596
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1628527
-	Voluntary context switches: 13
-	Involuntary context switches: 1479
+	Minor (reclaiming a frame) page faults: 1800079
+	Voluntary context switches: 1952
+	Involuntary context switches: 4241
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

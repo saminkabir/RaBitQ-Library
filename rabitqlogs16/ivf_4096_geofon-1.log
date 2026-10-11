@@ -1,0 +1,65 @@
+File /home/cc/datasets/datasets/geofon/base.fvecs loaded
+Rows 275174 Cols 128
+File /home/cc/datasets/datasets/geofon/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/datasets/geofon/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/geofon_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/geofon_clusterids_4096.ivecs loaded
+Rows 275174 Cols 1
+data loaded
+	N: 275174
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.000453731
+0.6969	5
+0.8124	10
+0.8472	20
+0.8545	30
+0.8577	40
+0.8588	50
+0.8593	60
+0.8597	70
+0.8602	80
+0.8604	90
+0.8605	100
+nprobe	QPS	recall
+5	8856.52	0.6969
+10	8381.54	0.8124
+20	7685.5	0.8472
+30	7148.08	0.8545
+40	6674.6	0.8577
+50	6282.69	0.8588
+60	5934	0.8593
+70	5620.41	0.8597
+80	5348.93	0.8602
+90	5078.52	0.8604
+100	4856.32	0.8605
+110	4633.42	0.8605
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/geofon/base.fvecs /home/cc/datasets/datasets/geofon/query.fvecs /home/cc/datasets/datasets/geofon/groundtruth.ivecs /home/cc/index/ivf_index/geofon_centroids_4096.fvecs /home/cc/index/ivf_index/geofon_clusterids_4096.ivecs 1"
+	User time (seconds): 1.64
+	System time (seconds): 0.11
+	Percent of CPU this job got: 128%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 151040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 41008
+	Voluntary context switches: 55
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,75 @@
+File /home/cc/datasets/datasets/yahoomusic/base.fvecs loaded
+Rows 136736 Cols 300
+File /home/cc/datasets/datasets/yahoomusic/query.fvecs loaded
+Rows 100 Cols 300
+File /home/cc/datasets/datasets/yahoomusic/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs loaded
+Rows 136736 Cols 1
+data loaded
+	N: 136736
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00498648
+0.5217	5
+0.709	10
+0.8397	20
+0.8839	30
+0.9024	40
+0.9138	50
+0.921	60
+0.924	70
+0.9271	80
+0.9303	90
+0.9318	100
+0.9326	110
+0.9334	120
+0.9339	130
+0.9345	140
+0.9347	150
+nprobe	QPS	recall
+5	3959.99	0.5217
+10	3792.66	0.709
+20	3604.86	0.8397
+30	3464.48	0.8839
+40	3352.53	0.9024
+50	3258.92	0.9138
+60	3177.65	0.921
+70	3104.3	0.924
+80	3042.07	0.9271
+90	2987.57	0.9303
+100	2931.73	0.9318
+110	2876.1	0.9326
+120	2803.94	0.9334
+130	2696.84	0.9339
+140	2618.09	0.9345
+150	2665.24	0.9347
+160	2622.52	0.9346
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/yahoomusic/base.fvecs /home/cc/datasets/datasets/yahoomusic/query.fvecs /home/cc/datasets/datasets/yahoomusic/groundtruth.ivecs /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs 2"
+	User time (seconds): 8.08
+	System time (seconds): 0.16
+	Percent of CPU this job got: 215%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 188160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55127
+	Voluntary context switches: 62
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

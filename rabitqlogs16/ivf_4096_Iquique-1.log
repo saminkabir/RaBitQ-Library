@@ -1,0 +1,125 @@
+File /home/cc/datasets/datasets/Iquique/base.fvecs loaded
+Rows 578853 Cols 256
+File /home/cc/datasets/datasets/Iquique/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/datasets/Iquique/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/Iquique_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/Iquique_clusterids_4096.ivecs loaded
+Rows 578853 Cols 1
+data loaded
+	N: 578853
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00114354
+0.2707	5
+0.3384	10
+0.407733	20
+0.440533	30
+0.461033	40
+0.481233	50
+0.489333	60
+0.497933	70
+0.505967	80
+0.510733	90
+0.516133	100
+0.519667	110
+0.523267	120
+0.526967	130
+0.5297	140
+0.5318	150
+0.534133	160
+0.535333	170
+0.5366	180
+0.539533	190
+0.5409	200
+0.546167	240
+0.5505	280
+0.553867	320
+0.558067	360
+0.5597	400
+0.565567	500
+0.5684	600
+0.5715	700
+0.573433	800
+0.574467	900
+0.575733	1000
+0.576267	1100
+0.5777	1200
+0.5802	1300
+0.581033	1400
+0.581767	1500
+0.583867	2000
+0.585367	2500
+0.5865	3000
+0.586567	3500
+nprobe	QPS	recall
+5	5026.55	0.2707
+10	4793.48	0.3384
+20	4444.28	0.407733
+30	4178.98	0.440533
+40	3962.09	0.461033
+50	3764.72	0.481233
+60	3592.25	0.489333
+70	3443.12	0.497933
+80	3307.46	0.505967
+90	3181.57	0.510733
+100	3065.3	0.516133
+110	2960.64	0.519667
+120	2865.51	0.523267
+130	2773.17	0.526967
+140	2691.81	0.5297
+150	2613.41	0.5318
+160	2541.96	0.534133
+170	2475.63	0.535333
+180	2410.31	0.5366
+190	2352.72	0.539533
+200	2298.61	0.5409
+240	2104.97	0.546167
+280	1942.17	0.5505
+320	1809.17	0.553867
+360	1695.35	0.558067
+400	1598.1	0.5597
+500	1399.31	0.565567
+600	1251	0.5684
+700	1135.3	0.5715
+800	1041.27	0.573433
+900	963.826	0.574467
+1000	903.433	0.575733
+1100	848.658	0.576267
+1200	798.392	0.5777
+1300	749.881	0.5802
+1400	700.636	0.581033
+1500	663.635	0.581767
+2000	532.727	0.583867
+2500	441.991	0.585367
+3000	377.121	0.5865
+3500	325.081	0.586567
+4000	266.841	0.5865
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/Iquique/base.fvecs /home/cc/datasets/datasets/Iquique/query.fvecs /home/cc/datasets/datasets/Iquique/groundtruth.ivecs /home/cc/index/ivf_index/Iquique_centroids_4096.fvecs /home/cc/index/ivf_index/Iquique_clusterids_4096.ivecs 1"
+	User time (seconds): 65.97
+	System time (seconds): 0.48
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 641280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 198920
+	Voluntary context switches: 79
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

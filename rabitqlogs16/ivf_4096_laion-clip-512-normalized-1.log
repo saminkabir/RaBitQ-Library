@@ -1,0 +1,121 @@
+File /home/cc/datasets/datasets/laion-clip-512-normalized/base.fvecs loaded
+Rows 1000000 Cols 512
+File /home/cc/datasets/datasets/laion-clip-512-normalized/query.fvecs loaded
+Rows 100 Cols 512
+File /home/cc/datasets/datasets/laion-clip-512-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/laion-clip-512-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 512
+File /home/cc/index/ivf_index/laion-clip-512-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 512
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00338829
+0.0131	5
+0.0257	10
+0.0415	20
+0.0519	30
+0.0663	40
+0.0822	50
+0.0932	60
+0.1111	70
+0.1207	80
+0.1312	90
+0.1382	100
+0.1433	110
+0.1582	120
+0.1654	130
+0.1729	140
+0.177	150
+0.1827	160
+0.1863	170
+0.193	180
+0.2083	190
+0.2206	200
+0.2609	240
+0.2781	280
+0.2996	320
+0.312	360
+0.3351	400
+0.3531	500
+0.3676	600
+0.3804	700
+0.3884	800
+0.3965	900
+0.4008	1000
+0.402	1100
+0.4063	1200
+0.408	1300
+0.4088	1400
+0.4114	1500
+0.4155	2000
+0.4168	2500
+nprobe	QPS	recall
+5	2448.48	0.0131
+10	2385.68	0.0257
+20	2268.7	0.0415
+30	2170.71	0.0519
+40	2076.34	0.0663
+50	2003.11	0.0822
+60	1919.71	0.0932
+70	1857.09	0.1111
+80	1797.72	0.1207
+90	1736.04	0.1312
+100	1680.32	0.1382
+110	1628.8	0.1433
+120	1578.37	0.1582
+130	1525.77	0.1654
+140	1478.82	0.1729
+150	1440.67	0.177
+160	1399.92	0.1827
+170	1365.47	0.1863
+180	1303.36	0.193
+190	1288.22	0.2083
+200	1260.79	0.2206
+240	1144.2	0.2609
+280	1051.69	0.2781
+320	966.889	0.2996
+360	899.096	0.312
+400	850.193	0.3351
+500	725.42	0.3531
+600	612.846	0.3676
+700	545.115	0.3804
+800	488.47	0.3884
+900	440.932	0.3965
+1000	401.539	0.4008
+1100	371.062	0.402
+1200	338.233	0.4063
+1300	306.368	0.408
+1400	294.969	0.4088
+1500	267.408	0.4114
+2000	197.809	0.4155
+2500	153.668	0.4168
+3000	121.862	0.4165
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/laion-clip-512-normalized/base.fvecs /home/cc/datasets/datasets/laion-clip-512-normalized/query.fvecs /home/cc/datasets/datasets/laion-clip-512-normalized/groundtruth.ivecs /home/cc/index/ivf_index/laion-clip-512-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/laion-clip-512-normalized_clusterids_4096.ivecs 1"
+	User time (seconds): 43.76
+	System time (seconds): 1.56
+	Percent of CPU this job got: 106%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2137600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 711146
+	Voluntary context switches: 94
+	Involuntary context switches: 109
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,50 +1,50 @@
-File /home/cc/datasets/yandex-200-cosine/base.fvecs loaded
+File /home/cc/datasets/datasets/yandex-200-cosine/base.fvecs loaded
 Rows 1000000 Cols 200
-File /home/cc/datasets/yandex-200-cosine/query.fvecs loaded
+File /home/cc/datasets/datasets/yandex-200-cosine/query.fvecs loaded
 Rows 100 Cols 200
-File /home/cc/datasets/yandex-200-cosine/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/yandex-200-cosine/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 130673
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 1469.19 secs
+Indexing time 178.344 secs
 EF	QPS	Recall
-10	22477.3	0.1711
-20	17575.6	0.2331
-40	12360.1	0.327
-50	10965.9	0.3606
-60	9790.23	0.3959
-80	7976.97	0.449
-100	7093.13	0.49
-150	5126.64	0.5802
-170	4644.97	0.6078
-190	4239.61	0.634
-200	4077.56	0.6464
-250	3346.18	0.6995
-300	2775.6	0.7383
-400	2108.65	0.797
-500	1720.4	0.837
-600	1447.13	0.8662
-700	1249.93	0.8881
-800	1075.08	0.9028
-1500	520.35	0.9588
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/yandex-200-cosine/base.fvecs /home/cc/datasets/yandex-200-cosine/query.fvecs /home/cc/datasets/yandex-200-cosine/groundtruth.ivecs 128 256"
-	User time (seconds): 1467.45
-	System time (seconds): 4.84
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:32.33
+10	8864.04	0.1808
+20	7089.42	0.23
+40	5200.28	0.3145
+50	4723.64	0.3538
+60	4153.37	0.3896
+80	3576.92	0.4445
+100	3239.28	0.4924
+150	2467.31	0.5865
+170	2239.94	0.6143
+190	2056.87	0.6382
+200	1969.72	0.6528
+250	1629.57	0.7035
+300	1365.95	0.7493
+400	1055.88	0.805
+500	864.802	0.8433
+600	737.737	0.8737
+700	643.639	0.8919
+800	549.768	0.9096
+1500	291.304	0.9598
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/yandex-200-cosine/base.fvecs /home/cc/datasets/datasets/yandex-200-cosine/query.fvecs /home/cc/datasets/datasets/yandex-200-cosine/groundtruth.ivecs 128 256"
+	User time (seconds): 2759.92
+	System time (seconds): 57.36
+	Percent of CPU this job got: 1523%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:04.86
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 11593408
+	Maximum resident set size (kbytes): 11752192
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1960092
-	Voluntary context switches: 1
-	Involuntary context switches: 1123
+	Minor (reclaiming a frame) page faults: 2377099
+	Voluntary context switches: 11860
+	Involuntary context switches: 4208
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

@@ -1,0 +1,132 @@
+File /home/cc/datasets/datasets/seismic1m/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/seismic1m/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/datasets/seismic1m/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/seismic1m_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/seismic1m_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0244575
+0.2076	5
+0.2691	10
+0.3178	20
+0.3309	30
+0.339	40
+0.3462	50
+0.3538	60
+0.3609	70
+0.3658	80
+0.3837	90
+0.3855	100
+0.3892	110
+0.3908	120
+0.3944	130
+0.397	140
+0.3985	150
+0.4016	160
+0.4043	170
+0.4102	180
+0.4112	190
+0.4132	200
+0.4199	240
+0.4298	280
+0.4342	320
+0.4642	360
+0.4745	400
+0.5038	500
+0.5121	600
+0.5167	700
+0.5188	800
+0.5251	900
+0.5318	1000
+0.534	1100
+0.5382	1200
+0.5439	1300
+0.5478	1400
+0.5519	1500
+0.626	2000
+0.6531	2500
+0.6536	3000
+0.6543	3500
+0.6544	4000
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe	QPS	recall
+5	4638.35	0.2076
+10	4185.67	0.2691
+20	3604.96	0.3178
+30	3215.01	0.3309
+40	2946.74	0.339
+50	2688.41	0.3462
+60	2528.63	0.3538
+70	2364	0.3609
+80	2236.85	0.3658
+90	2105.14	0.3837
+100	1987.72	0.3855
+110	1890.03	0.3892
+120	1741.03	0.3908
+130	1715.49	0.3944
+140	1652.15	0.397
+150	1574.65	0.3985
+160	1518.73	0.4016
+170	1466.1	0.4043
+180	1420.67	0.4102
+190	1378.74	0.4112
+200	1335.67	0.4132
+240	1181.45	0.4199
+280	1071.29	0.4298
+320	984.658	0.4342
+360	910.241	0.4642
+400	842.431	0.4745
+500	702.345	0.5038
+600	613.557	0.5121
+700	544.051	0.5167
+800	489.209	0.5188
+900	446.17	0.5251
+1000	408.388	0.5318
+1100	375.923	0.534
+1200	349.206	0.5382
+1300	325.598	0.5439
+1400	306.968	0.5478
+1500	288.014	0.5519
+2000	227.641	0.626
+2500	186.446	0.6531
+3000	151.891	0.6536
+3500	127.04	0.6543
+4000	107.971	0.6544
+6000	104.606	0.6544
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/seismic1m/base.fvecs /home/cc/datasets/datasets/seismic1m/query.fvecs /home/cc/datasets/datasets/seismic1m/groundtruth.ivecs /home/cc/index/ivf_index/seismic1m_centroids_4096.fvecs /home/cc/index/ivf_index/seismic1m_clusterids_4096.ivecs 2"
+	User time (seconds): 75.54
+	System time (seconds): 0.90
+	Percent of CPU this job got: 139%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:54.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1117440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 414462
+	Voluntary context switches: 119
+	Involuntary context switches: 114
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

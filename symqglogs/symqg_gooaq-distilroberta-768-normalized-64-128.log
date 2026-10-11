@@ -1,52 +1,52 @@
-File /home/cc/datasets/gooaq-distilroberta-768-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/base.fvecs loaded
 Rows 1000000 Cols 768
-File /home/cc/datasets/gooaq-distilroberta-768-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/query.fvecs loaded
 Rows 100 Cols 768
-File /home/cc/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 330056
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 1479.25 secs
+Indexing time 192.445 secs
 EF	QPS	Recall
-10	15136.6	0.3414
-20	13583	0.3601
-40	11695.9	0.397
-50	11020.8	0.4175
-60	10493.8	0.4359
-80	9288.86	0.481
-100	8538.81	0.5213
-150	6977.08	0.6127
-170	6517.67	0.6468
-190	6120.62	0.6792
-200	5911.69	0.6946
-250	5099.43	0.7759
-300	4394.44	0.8389
-400	3447.06	0.9247
-500	2825.27	0.967
-600	2130.67	0.985
-700	1996.27	0.9924
-800	1734.1	0.9953
-1500	837.167	0.9989
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/gooaq-distilroberta-768-normalized/base.fvecs /home/cc/datasets/gooaq-distilroberta-768-normalized/query.fvecs /home/cc/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs 64 128"
-	User time (seconds): 1472.90
-	System time (seconds): 11.00
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:52.50
+10	9024.36	0.3294
+20	8597.29	0.3516
+40	7499.48	0.3886
+50	7070.68	0.4107
+60	6673.01	0.4324
+80	5984.09	0.4769
+100	5424.13	0.5159
+150	4590.32	0.6062
+170	4268.33	0.6457
+190	4047.71	0.6773
+200	3911.7	0.6922
+250	3392.82	0.768
+300	2921.63	0.8315
+400	2299.35	0.9267
+500	1910.89	0.9663
+600	1594.71	0.9859
+700	1366.94	0.9941
+800	1199.52	0.9967
+1500	603.786	0.9994
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/base.fvecs /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/query.fvecs /home/cc/datasets/datasets/gooaq-distilroberta-768-normalized/groundtruth.ivecs 64 128"
+	User time (seconds): 2956.81
+	System time (seconds): 93.50
+	Percent of CPU this job got: 1537%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:18.39
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 16259272
+	Maximum resident set size (kbytes): 16254152
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3137466
-	Voluntary context switches: 28169
-	Involuntary context switches: 1476
+	Minor (reclaiming a frame) page faults: 2809709
+	Voluntary context switches: 18411
+	Involuntary context switches: 7614
 	Swaps: 0
-	File system inputs: 1155968
+	File system inputs: 0
 	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0

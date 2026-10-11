@@ -1,50 +1,50 @@
-File /home/cc/datasets/imagenet-align-640-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/imagenet-align-640-normalized/base.fvecs loaded
 Rows 1000000 Cols 640
-File /home/cc/datasets/imagenet-align-640-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/imagenet-align-640-normalized/query.fvecs loaded
 Rows 100 Cols 640
-File /home/cc/datasets/imagenet-align-640-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/imagenet-align-640-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 65280
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 1095.59 secs
+Indexing time 92.9641 secs
 EF	QPS	Recall
-10	14394.2	0.1713
-20	12609.3	0.2253
-40	10887.5	0.2961
-50	9872.58	0.3344
-60	8901.92	0.3682
-80	7344.5	0.4316
-100	6537.28	0.4813
-150	4878.82	0.5777
-170	4387.8	0.6088
-190	3845.35	0.6385
-200	3813.99	0.6508
-250	3143.26	0.7195
-300	2638.65	0.7581
-400	2021.49	0.8076
-500	1645.44	0.8439
-600	1362.6	0.8696
-700	1172.89	0.8891
-800	1026.26	0.9018
-1500	512.823	0.9481
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/imagenet-align-640-normalized/base.fvecs /home/cc/datasets/imagenet-align-640-normalized/query.fvecs /home/cc/datasets/imagenet-align-640-normalized/groundtruth.ivecs 64 128"
-	User time (seconds): 1093.67
-	System time (seconds): 6.32
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 18:20.01
+10	10361.9	0.1385
+20	9300.92	0.2095
+40	7795	0.2988
+50	5634.48	0.3321
+60	5301.4	0.3693
+80	5331.79	0.4266
+100	5081.45	0.4661
+150	3602.3	0.5681
+170	2853.53	0.6006
+190	2680.37	0.6331
+200	2831.54	0.6455
+250	2387	0.7066
+300	2008.03	0.7476
+400	1536.03	0.8042
+500	1062.98	0.841
+600	829.493	0.8686
+700	887.129	0.8861
+800	806.832	0.8985
+1500	362.786	0.9451
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/imagenet-align-640-normalized/base.fvecs /home/cc/datasets/datasets/imagenet-align-640-normalized/query.fvecs /home/cc/datasets/datasets/imagenet-align-640-normalized/groundtruth.ivecs 64 128"
+	User time (seconds): 1445.51
+	System time (seconds): 26.04
+	Percent of CPU this job got: 1487%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:38.93
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14262860
+	Maximum resident set size (kbytes): 14258672
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1851891
-	Voluntary context switches: 2
-	Involuntary context switches: 661
+	Minor (reclaiming a frame) page faults: 2496248
+	Voluntary context switches: 9678
+	Involuntary context switches: 2104
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

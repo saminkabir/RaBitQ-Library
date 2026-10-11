@@ -1,0 +1,101 @@
+File /home/cc/datasets/datasets/arxiv-nomic-768-normalized/base.fvecs loaded
+Rows 1000000 Cols 768
+File /home/cc/datasets/datasets/arxiv-nomic-768-normalized/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/datasets/arxiv-nomic-768-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/arxiv-nomic-768-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/arxiv-nomic-768-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0803486
+0.6765	5
+0.765	10
+0.8347	20
+0.8618	30
+0.8772	40
+0.8861	50
+0.8906	60
+0.8943	70
+0.8989	80
+0.9005	90
+0.9019	100
+0.9029	110
+0.9046	120
+0.9058	130
+0.9073	140
+0.9082	150
+0.9086	160
+0.9092	170
+0.9093	180
+0.9094	190
+0.9096	200
+0.9105	240
+0.9111	280
+0.9121	320
+0.9123	360
+0.9125	400
+0.9132	500
+0.9133	600
+0.9135	700
+nprobe	QPS	recall
+5	1559.38	0.6765
+10	1503.9	0.765
+20	1400.6	0.8347
+30	1319.54	0.8618
+40	1251.73	0.8772
+50	1186.8	0.8861
+60	1136.37	0.8906
+70	1087.07	0.8943
+80	1040.42	0.8989
+90	947.926	0.9005
+100	941.209	0.9019
+110	922.273	0.9029
+120	890.278	0.9046
+130	858.388	0.9058
+140	832.437	0.9073
+150	768.406	0.9082
+160	776.58	0.9086
+170	757.724	0.9092
+180	735.991	0.9093
+190	716.018	0.9094
+200	694.602	0.9096
+240	627.9	0.9105
+280	572.846	0.9111
+320	528.757	0.9121
+360	491.769	0.9123
+400	459.979	0.9125
+500	394.578	0.9132
+600	345.269	0.9133
+700	307.326	0.9135
+800	271.229	0.9135
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/arxiv-nomic-768-normalized/base.fvecs /home/cc/datasets/datasets/arxiv-nomic-768-normalized/query.fvecs /home/cc/datasets/datasets/arxiv-nomic-768-normalized/groundtruth.ivecs /home/cc/index/ivf_index/arxiv-nomic-768-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/arxiv-nomic-768-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 102.85
+	System time (seconds): 2.53
+	Percent of CPU this job got: 312%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3287040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1122978
+	Voluntary context switches: 119
+	Involuntary context switches: 200
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

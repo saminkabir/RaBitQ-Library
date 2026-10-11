@@ -1,0 +1,101 @@
+File /home/cc/datasets/datasets/sald1m/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/datasets/datasets/sald1m/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/datasets/sald1m/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/sald1m_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/sald1m_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0112581
+0.6089	5
+0.6925	10
+0.749	20
+0.7656	30
+0.776	40
+0.7854	50
+0.7885	60
+0.7913	70
+0.801	80
+0.8026	90
+0.8029	100
+0.8036	110
+0.804	120
+0.8043	130
+0.8056	140
+0.8059	150
+0.8067	160
+0.8071	170
+0.8083	180
+0.8089	190
+0.8095	200
+0.8129	240
+0.8137	280
+0.8155	320
+0.8165	360
+0.8189	400
+0.8213	500
+0.8243	600
+0.8263	700
+nprobe	QPS	recall
+5	7244.69	0.6089
+10	6447.32	0.6925
+20	5421.35	0.749
+30	4944.06	0.7656
+40	4495.35	0.776
+50	4140.15	0.7854
+60	3874.3	0.7885
+70	3614.61	0.7913
+80	3352.66	0.801
+90	3183.41	0.8026
+100	2934.15	0.8029
+110	2815.94	0.8036
+120	2770.19	0.804
+130	2638.14	0.8043
+140	2555.79	0.8056
+150	2447.36	0.8059
+160	2360.5	0.8067
+170	2289.55	0.8071
+180	2218.67	0.8083
+190	2146.51	0.8089
+200	2063.98	0.8095
+240	1823.94	0.8129
+280	1554.13	0.8137
+320	1460.87	0.8155
+360	1372	0.8165
+400	1290.7	0.8189
+500	1146.12	0.8213
+600	1042.5	0.8243
+700	931.779	0.8263
+800	834.237	0.8263
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/sald1m/base.fvecs /home/cc/datasets/datasets/sald1m/query.fvecs /home/cc/datasets/datasets/sald1m/groundtruth.ivecs /home/cc/index/ivf_index/sald1m_centroids_4096.fvecs /home/cc/index/ivf_index/sald1m_clusterids_4096.ivecs 2"
+	User time (seconds): 19.33
+	System time (seconds): 0.43
+	Percent of CPU this job got: 202%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 577280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 202685
+	Voluntary context switches: 95
+	Involuntary context switches: 18
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

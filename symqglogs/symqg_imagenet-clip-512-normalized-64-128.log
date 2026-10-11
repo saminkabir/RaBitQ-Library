@@ -1,50 +1,50 @@
-File /home/cc/datasets/imagenet-clip-512-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/imagenet-clip-512-normalized/base.fvecs loaded
 Rows 1000000 Cols 512
-File /home/cc/datasets/imagenet-clip-512-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/imagenet-clip-512-normalized/query.fvecs loaded
 Rows 100 Cols 512
-File /home/cc/datasets/imagenet-clip-512-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/imagenet-clip-512-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 367595
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 905.911 secs
+Indexing time 113.727 secs
 EF	QPS	Recall
-10	17956.4	0.2946
-20	15843.6	0.3412
-40	13827.3	0.4069
-50	13212.8	0.4385
-60	12383	0.468
-80	10878.1	0.5278
-100	9709.58	0.5893
-150	7598.72	0.7101
-170	7091.59	0.7483
-190	6575.83	0.7857
-200	6317.39	0.8025
-250	5370.9	0.8645
-300	4525.53	0.909
-400	3545.25	0.9594
-500	2896.66	0.9772
-600	2375.29	0.9844
-700	2050.44	0.9883
-800	1781.79	0.9907
-1500	874.217	0.9973
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/imagenet-clip-512-normalized/base.fvecs /home/cc/datasets/imagenet-clip-512-normalized/query.fvecs /home/cc/datasets/imagenet-clip-512-normalized/groundtruth.ivecs 64 128"
-	User time (seconds): 904.28
-	System time (seconds): 4.51
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:08.82
+10	8387.96	0.2917
+20	7659.73	0.3391
+40	6614.53	0.4131
+50	6370.6	0.4405
+60	6001.16	0.4719
+80	5434.59	0.5359
+100	4853.52	0.5998
+150	3937.56	0.7168
+170	3665.83	0.7537
+190	3454.21	0.79
+200	3335.27	0.8068
+250	2846.37	0.8659
+300	2463.14	0.9084
+400	1952.08	0.9587
+500	1611.8	0.9774
+600	1342.69	0.9874
+700	1168.6	0.9906
+800	1012.71	0.9936
+1500	527.119	0.9976
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/imagenet-clip-512-normalized/base.fvecs /home/cc/datasets/datasets/imagenet-clip-512-normalized/query.fvecs /home/cc/datasets/datasets/imagenet-clip-512-normalized/groundtruth.ivecs 64 128"
+	User time (seconds): 1744.67
+	System time (seconds): 40.57
+	Percent of CPU this job got: 1488%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:59.95
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 12260684
+	Maximum resident set size (kbytes): 12251856
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1711686
-	Voluntary context switches: 1
-	Involuntary context switches: 968
+	Minor (reclaiming a frame) page faults: 2336296
+	Voluntary context switches: 14794
+	Involuntary context switches: 3018
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

@@ -1,52 +1,52 @@
-File /home/cc/datasets/laion-clip-512-normalized/base.fvecs loaded
+File /home/cc/datasets/datasets/laion-clip-512-normalized/base.fvecs loaded
 Rows 1000000 Cols 512
-File /home/cc/datasets/laion-clip-512-normalized/query.fvecs loaded
+File /home/cc/datasets/datasets/laion-clip-512-normalized/query.fvecs loaded
 Rows 100 Cols 512
-File /home/cc/datasets/laion-clip-512-normalized/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/laion-clip-512-normalized/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 475915
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 1610.77 secs
+Indexing time 201.781 secs
 EF	QPS	Recall
-10	17478.6	0.1438
-20	13138.4	0.2023
-40	8962.17	0.2899
-50	8067.39	0.326
-60	7294.55	0.3507
-80	6043.56	0.4062
-100	5426.89	0.4466
-150	3993.91	0.5312
-170	3585.91	0.5595
-190	3298.08	0.5851
-200	3161.79	0.5953
-250	2615.67	0.6515
-300	2188.25	0.6896
-400	1682.12	0.7472
-500	1365.55	0.786
-600	1129.09	0.8183
-700	973.373	0.8406
-800	850.18	0.8571
-1500	422.793	0.9199
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/laion-clip-512-normalized/base.fvecs /home/cc/datasets/laion-clip-512-normalized/query.fvecs /home/cc/datasets/laion-clip-512-normalized/groundtruth.ivecs 96 192"
-	User time (seconds): 1606.90
-	System time (seconds): 8.69
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 26:58.79
+10	8884.72	0.1573
+20	6791.06	0.2214
+40	5018.22	0.2988
+50	4441.44	0.3281
+60	3978.71	0.3575
+80	3341.36	0.4087
+100	2971.28	0.4591
+150	2294.93	0.5391
+170	2057.58	0.5701
+190	1852.18	0.5953
+200	1778.61	0.6064
+250	1479.85	0.6522
+300	1229.77	0.6969
+400	954.653	0.7496
+500	779.911	0.788
+600	632.888	0.818
+700	537.624	0.8393
+800	470.144	0.8565
+1500	239.642	0.916
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/laion-clip-512-normalized/base.fvecs /home/cc/datasets/datasets/laion-clip-512-normalized/query.fvecs /home/cc/datasets/datasets/laion-clip-512-normalized/groundtruth.ivecs 96 192"
+	User time (seconds): 3145.95
+	System time (seconds): 45.83
+	Percent of CPU this job got: 1517%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:30.35
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 15149504
+	Maximum resident set size (kbytes): 15137684
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2235285
-	Voluntary context switches: 15316
-	Involuntary context switches: 1299
+	Minor (reclaiming a frame) page faults: 2605869
+	Voluntary context switches: 9079
+	Involuntary context switches: 6375
 	Swaps: 0
-	File system inputs: 3910936
+	File system inputs: 0
 	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0

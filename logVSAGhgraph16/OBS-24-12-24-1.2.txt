@@ -1,0 +1,24 @@
+{'recall@': 0.001, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'OBS', 'search-time': 0.014101028442382812, 'training-time': 85.97073268890381, 'm': 24, 'k': 20, 'ef_search': 12, 'ef_construction': 24}
+	Command being timed: "python vsag_hgraph.py --dataset OBS --m 24 --ef_search 12 --ef_construction 24 --cpu 16"
+	User time (seconds): 848.83
+	System time (seconds): 55.88
+	Percent of CPU this job got: 1034%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:27.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2858228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 701769
+	Voluntary context switches: 11308552
+	Involuntary context switches: 1128
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,99 @@
+File /home/cc/datasets/datasets/netflix/base.fvecs loaded
+Rows 17770 Cols 300
+File /home/cc/datasets/datasets/netflix/query.fvecs loaded
+Rows 1000 Cols 300
+File /home/cc/datasets/datasets/netflix/groundtruth.ivecs loaded
+Rows 1000 Cols 100
+File /home/cc/index/ivf_index/netflix_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/netflix_clusterids_4096.ivecs loaded
+Rows 17770 Cols 1
+data loaded
+	N: 17770
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.000224396
+0.20457	5
+0.3659	10
+0.59876	20
+0.74089	30
+0.82229	40
+0.87072	50
+0.89827	60
+0.91476	70
+0.92516	80
+0.93143	90
+0.93589	100
+0.93867	110
+0.94065	120
+0.94194	130
+0.94312	140
+0.94387	150
+0.94455	160
+0.94494	170
+0.94527	180
+0.94566	190
+0.94585	200
+0.94644	240
+0.94671	280
+0.94688	320
+0.94693	360
+0.94698	400
+0.94703	500
+0.94705	600
+nprobe	QPS	recall
+5	4413.54	0.20457
+10	4340.22	0.3659
+20	4188.68	0.59876
+30	4060.72	0.74089
+40	3952.35	0.82229
+50	3854.12	0.87072
+60	3769.13	0.89827
+70	3688.05	0.91476
+80	3613.59	0.92516
+90	3539.77	0.93143
+100	3469.59	0.93589
+110	3404.76	0.93867
+120	3342.37	0.94065
+130	3284.85	0.94194
+140	3226.82	0.94312
+150	3172.23	0.94387
+160	3121.53	0.94455
+170	3076.07	0.94494
+180	3029.76	0.94527
+190	2984.99	0.94566
+200	2943.31	0.94585
+240	2787.43	0.94644
+280	2642.18	0.94671
+320	2509.99	0.94688
+360	2404.95	0.94693
+400	2308.54	0.94698
+500	2101.04	0.94703
+600	1932.04	0.94705
+700	1794.93	0.94705
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/netflix/base.fvecs /home/cc/datasets/datasets/netflix/query.fvecs /home/cc/datasets/datasets/netflix/groundtruth.ivecs /home/cc/index/ivf_index/netflix_centroids_4096.fvecs /home/cc/index/ivf_index/netflix_clusterids_4096.ivecs 1"
+	User time (seconds): 58.49
+	System time (seconds): 0.05
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 42240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22831
+	Voluntary context switches: 60
+	Involuntary context switches: 119
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

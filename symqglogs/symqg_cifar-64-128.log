@@ -1,50 +1,50 @@
-File /home/cc/datasets/cifar/base.fvecs loaded
+File /home/cc/datasets/datasets/cifar/base.fvecs loaded
 Rows 50000 Cols 512
-File /home/cc/datasets/cifar/query.fvecs loaded
+File /home/cc/datasets/datasets/cifar/query.fvecs loaded
 Rows 200 Cols 512
-File /home/cc/datasets/cifar/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/cifar/groundtruth.ivecs loaded
 Rows 200 Cols 20
 FhtKacRotator is selected
 Setting entry_point to 9905
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 44.6437 secs
+Indexing time 5.78994 secs
 EF	QPS	Recall
-10	35330	0.535
-20	36676.4	0.7115
-40	24894.1	0.88925
-50	21222.2	0.93175
-60	18449.8	0.9535
-80	14419.6	0.97475
-100	12078.7	0.98475
-150	8470.04	0.9945
-170	7623.35	0.99575
-190	6960.26	0.99725
-200	6693.05	0.99725
-250	5495.55	0.999
-300	4588.6	0.999
-400	3506.84	0.9995
-500	2845.46	0.99975
-600	2342.89	1
-700	2015.08	1
-800	1757.93	1
-1500	878.956	1
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/cifar/base.fvecs /home/cc/datasets/cifar/query.fvecs /home/cc/datasets/cifar/groundtruth.ivecs 64 128"
-	User time (seconds): 47.25
-	System time (seconds): 0.21
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.47
+10	14546.9	0.536
+20	16338.6	0.70925
+40	11630.8	0.89175
+50	9717.38	0.92825
+60	8401.33	0.953
+80	6802.83	0.97375
+100	5729.64	0.98475
+150	4073.55	0.996
+170	3623.43	0.99725
+190	3364.64	0.9985
+200	3219.8	0.999
+250	2693.22	0.99925
+300	2284.16	0.99975
+400	1712.24	0.99975
+500	1445.6	1
+600	1242.64	1
+700	1154.07	1
+800	1029.5	1
+1500	551.37	1
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/cifar/base.fvecs /home/cc/datasets/datasets/cifar/query.fvecs /home/cc/datasets/datasets/cifar/groundtruth.ivecs 64 128"
+	User time (seconds): 94.18
+	System time (seconds): 2.11
+	Percent of CPU this job got: 868%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 618088
+	Maximum resident set size (kbytes): 607580
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 71988
-	Voluntary context switches: 1
-	Involuntary context switches: 68
+	Minor (reclaiming a frame) page faults: 148846
+	Voluntary context switches: 1935
+	Involuntary context switches: 157
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

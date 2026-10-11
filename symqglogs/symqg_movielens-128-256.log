@@ -1,50 +1,50 @@
-File /home/cc/datasets/movielens/base.fvecs loaded
+File /home/cc/datasets/datasets/movielens/base.fvecs loaded
 Rows 10677 Cols 150
-File /home/cc/datasets/movielens/query.fvecs loaded
+File /home/cc/datasets/datasets/movielens/query.fvecs loaded
 Rows 1000 Cols 150
-File /home/cc/datasets/movielens/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/movielens/groundtruth.ivecs loaded
 Rows 1000 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 6772
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 16.122 secs
+Indexing time 1.84617 secs
 EF	QPS	Recall
-10	37783.3	0.46091
-20	29750.5	0.47891
-40	21387.8	0.51471
-50	18967.1	0.53136
-60	17184.2	0.54726
-80	14126.3	0.57757
-100	12257.8	0.6061
-150	9361.97	0.67024
-170	8572.56	0.69307
-190	8033.12	0.71482
-200	7772.48	0.72535
-250	6702.82	0.77293
-300	5748.58	0.81311
-400	4607.12	0.87554
-500	3835.31	0.91988
-600	3197.68	0.9495
-700	2779.08	0.96901
-800	2427.75	0.98222
-1500	1292.89	0.99926
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/movielens/base.fvecs /home/cc/datasets/movielens/query.fvecs /home/cc/datasets/movielens/groundtruth.ivecs 128 256"
-	User time (seconds): 26.83
-	System time (seconds): 0.06
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.89
+10	13923.7	0.45846
+20	11812	0.4767
+40	9118.73	0.51281
+50	8248.01	0.5299
+60	7647.21	0.546
+80	6619.58	0.57633
+100	5884.11	0.6052
+150	4712.63	0.67022
+170	4460.46	0.69391
+190	4223.81	0.71637
+200	4041.31	0.72681
+250	3648.77	0.77455
+300	3227.67	0.81488
+400	2630.46	0.87663
+500	2289.01	0.92027
+600	2010.39	0.9495
+700	1829.75	0.9691
+800	1531.23	0.98197
+1500	829.76	0.99929
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/movielens/base.fvecs /home/cc/datasets/datasets/movielens/query.fvecs /home/cc/datasets/datasets/movielens/groundtruth.ivecs 128 256"
+	User time (seconds): 47.41
+	System time (seconds): 0.65
+	Percent of CPU this job got: 233%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.56
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 115988
+	Maximum resident set size (kbytes): 107124
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 20149
-	Voluntary context switches: 1
-	Involuntary context switches: 50
+	Minor (reclaiming a frame) page faults: 42681
+	Voluntary context switches: 1023
+	Involuntary context switches: 85
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

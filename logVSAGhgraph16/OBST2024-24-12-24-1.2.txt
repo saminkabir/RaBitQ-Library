@@ -1,0 +1,24 @@
+{'recall@': 0.0845, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'OBST2024', 'search-time': 0.09217977523803711, 'training-time': 12.516952276229858, 'm': 24, 'k': 20, 'ef_search': 12, 'ef_construction': 24}
+	Command being timed: "python vsag_hgraph.py --dataset OBST2024 --m 24 --ef_search 12 --ef_construction 24 --cpu 16"
+	User time (seconds): 140.51
+	System time (seconds): 12.93
+	Percent of CPU this job got: 1050%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2854420
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1100560
+	Voluntary context switches: 2364844
+	Involuntary context switches: 232
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

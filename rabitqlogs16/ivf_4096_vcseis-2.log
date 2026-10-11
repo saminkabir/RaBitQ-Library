@@ -1,0 +1,75 @@
+File /home/cc/datasets/datasets/vcseis/base.fvecs loaded
+Rows 160178 Cols 256
+File /home/cc/datasets/datasets/vcseis/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/datasets/vcseis/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/vcseis_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/vcseis_clusterids_4096.ivecs loaded
+Rows 160178 Cols 1
+data loaded
+	N: 160178
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00469293
+0.6789	5
+0.7841	10
+0.8298	20
+0.8464	30
+0.8538	40
+0.8576	50
+0.8598	60
+0.863	70
+0.8646	80
+0.8657	90
+0.8665	100
+0.867	110
+0.8684	120
+0.869	130
+0.8695	140
+0.8696	150
+nprobe	QPS	recall
+5	3592.34	0.6789
+10	3264.98	0.7841
+20	2953.99	0.8298
+30	2650.74	0.8464
+40	2593.24	0.8538
+50	2500.76	0.8576
+60	2347.18	0.8598
+70	2270.74	0.863
+80	2211.96	0.8646
+90	2156.77	0.8657
+100	2082.41	0.8665
+110	1997.03	0.867
+120	1955.59	0.8684
+130	1910.27	0.869
+140	1874.02	0.8695
+150	1837.31	0.8696
+160	1810.5	0.8696
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/vcseis/base.fvecs /home/cc/datasets/datasets/vcseis/query.fvecs /home/cc/datasets/datasets/vcseis/groundtruth.ivecs /home/cc/index/ivf_index/vcseis_centroids_4096.fvecs /home/cc/index/ivf_index/vcseis_clusterids_4096.ivecs 2"
+	User time (seconds): 8.48
+	System time (seconds): 0.15
+	Percent of CPU this job got: 173%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 203268
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 63844
+	Voluntary context switches: 66
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

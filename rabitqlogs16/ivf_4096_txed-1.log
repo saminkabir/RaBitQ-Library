@@ -1,0 +1,71 @@
+File /home/cc/datasets/datasets/txed/base.fvecs loaded
+Rows 519589 Cols 256
+File /home/cc/datasets/datasets/txed/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/datasets/txed/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/txed_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/txed_clusterids_4096.ivecs loaded
+Rows 519589 Cols 1
+data loaded
+	N: 519589
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00106469
+0.382	5
+0.4943	10
+0.562	20
+0.5827	30
+0.5911	40
+0.5979	50
+0.6009	60
+0.6034	70
+0.6042	80
+0.6056	90
+0.6065	100
+0.608	110
+0.6092	120
+0.6096	130
+nprobe	QPS	recall
+5	3913.14	0.382
+10	3338.56	0.4943
+20	2638.55	0.562
+30	2273.4	0.5827
+40	2045.61	0.5911
+50	1825.68	0.5979
+60	1637.98	0.6009
+70	1534.52	0.6034
+80	1449.45	0.6042
+90	1360.62	0.6056
+100	1285.59	0.6065
+110	1187.89	0.608
+120	1149.81	0.6092
+130	1069.53	0.6096
+140	1057.78	0.6095
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/txed/base.fvecs /home/cc/datasets/datasets/txed/query.fvecs /home/cc/datasets/datasets/txed/groundtruth.ivecs /home/cc/index/ivf_index/txed_centroids_4096.fvecs /home/cc/index/ivf_index/txed_clusterids_4096.ivecs 1"
+	User time (seconds): 6.63
+	System time (seconds): 0.43
+	Percent of CPU this job got: 113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 606620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 193695
+	Voluntary context switches: 156
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

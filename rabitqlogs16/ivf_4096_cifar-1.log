@@ -1,0 +1,91 @@
+File /home/cc/datasets/datasets/cifar/base.fvecs loaded
+Rows 50000 Cols 512
+File /home/cc/datasets/datasets/cifar/query.fvecs loaded
+Rows 200 Cols 512
+File /home/cc/datasets/datasets/cifar/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/cifar_centroids_4096.fvecs loaded
+Rows 4096 Cols 512
+File /home/cc/index/ivf_index/cifar_clusterids_4096.ivecs loaded
+Rows 50000 Cols 1
+data loaded
+	N: 50000
+	DIM: 512
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.000405831
+0.37125	5
+0.5115	10
+0.6375	20
+0.6895	30
+0.72425	40
+0.7395	50
+0.75125	60
+0.7605	70
+0.768	80
+0.77275	90
+0.774	100
+0.7775	110
+0.781	120
+0.78175	130
+0.7825	140
+0.7845	150
+0.7855	160
+0.78675	170
+0.7875	180
+0.78825	190
+0.7895	200
+0.79	240
+0.79125	280
+0.792	320
+nprobe	QPS	recall
+5	2638.58	0.37125
+10	2603.81	0.5115
+20	2539.15	0.6375
+30	2478.89	0.6895
+40	2424.43	0.72425
+50	2379.85	0.7395
+60	2338.6	0.75125
+70	2267.98	0.7605
+80	2252.56	0.768
+90	2216.01	0.77275
+100	2180.07	0.774
+110	2143.72	0.7775
+120	2109.02	0.781
+130	2074.42	0.78175
+140	2039.83	0.7825
+150	2010.3	0.7845
+160	1950.41	0.7855
+170	1941.4	0.78675
+180	1916.36	0.7875
+190	1890.74	0.78825
+200	1866.31	0.7895
+240	1770.21	0.79
+280	1689.77	0.79125
+320	1614.3	0.792
+360	1546.45	0.7915
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/cifar/base.fvecs /home/cc/datasets/datasets/cifar/query.fvecs /home/cc/datasets/datasets/cifar/groundtruth.ivecs /home/cc/index/ivf_index/cifar_centroids_4096.fvecs /home/cc/index/ivf_index/cifar_clusterids_4096.ivecs 1"
+	User time (seconds): 14.83
+	System time (seconds): 0.11
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 130560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 49550
+	Voluntary context switches: 52
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

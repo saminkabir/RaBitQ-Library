@@ -1,0 +1,24 @@
+{'recall@': 0.953, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'coco-nomic-768-normalized', 'search-time': 0.10606932640075684, 'training-time': 19.8328595161438, 'm': 96, 'k': 20, 'ef_search': 96, 'ef_construction': 96}
+	Command being timed: "python vsag_hgraph.py --dataset coco-nomic-768-normalized --m 96 --ef_search 96 --ef_construction 96 --cpu 16"
+	User time (seconds): 293.90
+	System time (seconds): 5.22
+	Percent of CPU this job got: 1407%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2199696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 981223
+	Voluntary context switches: 273872
+	Involuntary context switches: 449
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

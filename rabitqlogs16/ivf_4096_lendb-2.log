@@ -1,0 +1,67 @@
+File /home/cc/datasets/datasets/lendb/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/lendb/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/datasets/lendb/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/lendb_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/lendb_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0253401
+0.7469	5
+0.8655	10
+0.9056	20
+0.9106	30
+0.9126	40
+0.9131	50
+0.9134	60
+0.914	70
+0.9145	80
+0.9148	90
+0.9149	100
+0.915	110
+nprobe	QPS	recall
+5	3346.62	0.7469
+10	2882.15	0.8655
+20	2285.87	0.9056
+30	1924.91	0.9106
+40	1665.34	0.9126
+50	1479.44	0.9131
+60	1289.71	0.9134
+70	1219.55	0.914
+80	1120.56	0.9145
+90	1028.59	0.9148
+100	969.173	0.9149
+110	906.37	0.915
+120	811.427	0.915
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/lendb/base.fvecs /home/cc/datasets/datasets/lendb/query.fvecs /home/cc/datasets/datasets/lendb/groundtruth.ivecs /home/cc/index/ivf_index/lendb_centroids_4096.fvecs /home/cc/index/ivf_index/lendb_clusterids_4096.ivecs 2"
+	User time (seconds): 29.43
+	System time (seconds): 0.83
+	Percent of CPU this job got: 370%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1144688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 361245
+	Voluntary context switches: 94
+	Involuntary context switches: 30
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

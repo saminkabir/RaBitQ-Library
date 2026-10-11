@@ -1,0 +1,99 @@
+File /home/cc/datasets/datasets/stead/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/stead/query.fvecs loaded
+Rows 100 Cols 256
+File /home/cc/datasets/datasets/stead/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/stead_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/stead_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0311739
+0.5126	5
+0.5834	10
+0.6468	20
+0.6776	30
+0.6974	40
+0.7066	50
+0.7162	60
+0.7223	70
+0.726	80
+0.73	90
+0.7333	100
+0.7365	110
+0.7383	120
+0.7401	130
+0.7414	140
+0.743	150
+0.7436	160
+0.7449	170
+0.7459	180
+0.7465	190
+0.7471	200
+0.7484	240
+0.7501	280
+0.7506	320
+0.7512	360
+0.7515	400
+0.7519	500
+0.7521	600
+nprobe	QPS	recall
+5	3081.59	0.5126
+10	2363.59	0.5834
+20	1651.82	0.6468
+30	1284.98	0.6776
+40	1066.42	0.6974
+50	899.199	0.7066
+60	825.123	0.7162
+70	750.666	0.7223
+80	693.049	0.726
+90	652.927	0.73
+100	610.275	0.7333
+110	583.063	0.7365
+120	560.849	0.7383
+130	542.39	0.7401
+140	521.462	0.7414
+150	506.074	0.743
+160	492.356	0.7436
+170	479.445	0.7449
+180	466.461	0.7459
+190	457.267	0.7465
+200	444.463	0.7471
+240	412.604	0.7484
+280	390.121	0.7501
+320	371.966	0.7506
+360	355.159	0.7512
+400	341.223	0.7515
+500	315.258	0.7519
+600	295.461	0.7521
+700	279.196	0.7521
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/stead/base.fvecs /home/cc/datasets/datasets/stead/query.fvecs /home/cc/datasets/datasets/stead/groundtruth.ivecs /home/cc/index/ivf_index/stead_centroids_4096.fvecs /home/cc/index/ivf_index/stead_clusterids_4096.ivecs 2"
+	User time (seconds): 57.40
+	System time (seconds): 0.84
+	Percent of CPU this job got: 160%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1191144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 399910
+	Voluntary context switches: 91
+	Involuntary context switches: 79
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

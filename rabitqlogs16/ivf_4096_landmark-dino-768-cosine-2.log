@@ -1,0 +1,87 @@
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/base.fvecs loaded
+Rows 760757 Cols 768
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/query.fvecs loaded
+Rows 100 Cols 768
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs loaded
+Rows 4096 Cols 768
+File /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs loaded
+Rows 760757 Cols 1
+data loaded
+	N: 760757
+	DIM: 768
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0622682
+0.5667	5
+0.6938	10
+0.792	20
+0.8283	30
+0.8452	40
+0.8608	50
+0.8693	60
+0.8749	70
+0.8798	80
+0.8822	90
+0.8844	100
+0.8868	110
+0.888	120
+0.8902	130
+0.8911	140
+0.8917	150
+0.8924	160
+0.8932	170
+0.8936	180
+0.8939	190
+0.894	200
+0.895	240
+nprobe	QPS	recall
+5	1607	0.5667
+10	1451.67	0.6938
+20	1323.67	0.792
+30	1314.54	0.8283
+40	1283.92	0.8452
+50	1236.98	0.8608
+60	1191.24	0.8693
+70	1150.66	0.8749
+80	1102.26	0.8798
+90	1071.59	0.8822
+100	1038.44	0.8844
+110	1006.47	0.8868
+120	980.599	0.888
+130	955.394	0.8902
+140	925.885	0.8911
+150	908.014	0.8917
+160	885.123	0.8924
+170	862.818	0.8932
+180	846.13	0.8936
+190	830.482	0.8939
+200	813.721	0.894
+240	749.301	0.895
+280	692.765	0.895
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/landmark-dino-768-cosine/base.fvecs /home/cc/datasets/datasets/landmark-dino-768-cosine/query.fvecs /home/cc/datasets/datasets/landmark-dino-768-cosine/groundtruth.ivecs /home/cc/index/ivf_index/landmark-dino-768-cosine_centroids_4096.fvecs /home/cc/index/ivf_index/landmark-dino-768-cosine_clusterids_4096.ivecs 2"
+	User time (seconds): 72.53
+	System time (seconds): 2.56
+	Percent of CPU this job got: 385%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2512256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1048092
+	Voluntary context switches: 110
+	Involuntary context switches: 123
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

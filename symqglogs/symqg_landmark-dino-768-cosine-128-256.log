@@ -1,50 +1,50 @@
-File /home/cc/datasets/landmark-dino-768-cosine/base.fvecs loaded
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/base.fvecs loaded
 Rows 760757 Cols 768
-File /home/cc/datasets/landmark-dino-768-cosine/query.fvecs loaded
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/query.fvecs loaded
 Rows 100 Cols 768
-File /home/cc/datasets/landmark-dino-768-cosine/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/landmark-dino-768-cosine/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 576192
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 2144.96 secs
+Indexing time 304.382 secs
 EF	QPS	Recall
-10	11382.3	0.254
-20	9650.47	0.3005
-40	7349.01	0.3918
-50	6615.77	0.4352
-60	6011.84	0.4776
-80	5060.64	0.5543
-100	4442.47	0.6175
-150	3611.11	0.7303
-170	3343.86	0.7661
-190	3123.46	0.795
-200	3011.05	0.8101
-250	2587.75	0.8619
-300	2210.75	0.9004
-400	1748.46	0.9434
-500	1454.32	0.9651
-600	1226.16	0.9778
-700	1063.87	0.9843
-800	942.135	0.9882
-1500	500.517	0.9969
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/landmark-dino-768-cosine/base.fvecs /home/cc/datasets/landmark-dino-768-cosine/query.fvecs /home/cc/datasets/landmark-dino-768-cosine/groundtruth.ivecs 128 256"
-	User time (seconds): 2138.46
-	System time (seconds): 11.16
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 35:49.70
+10	6231.5	0.2555
+20	5362.56	0.3015
+40	4042.81	0.3907
+50	3643.48	0.4319
+60	3306.77	0.4693
+80	2661.92	0.5415
+100	2145.1	0.6014
+150	1835.89	0.7195
+170	1708.53	0.7544
+190	1571.85	0.7872
+200	1508.52	0.8017
+250	1292.16	0.8563
+300	1129.7	0.8981
+400	906.341	0.9438
+500	752.302	0.9641
+600	641.82	0.9752
+700	565.24	0.9827
+800	514.428	0.9885
+1500	286.448	0.9974
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/landmark-dino-768-cosine/base.fvecs /home/cc/datasets/datasets/landmark-dino-768-cosine/query.fvecs /home/cc/datasets/datasets/landmark-dino-768-cosine/groundtruth.ivecs 128 256"
+	User time (seconds): 4753.34
+	System time (seconds): 79.05
+	Percent of CPU this job got: 1538%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:14.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18281628
+	Maximum resident set size (kbytes): 18275776
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2154559
-	Voluntary context switches: 20
-	Involuntary context switches: 2140
+	Minor (reclaiming a frame) page faults: 2611690
+	Voluntary context switches: 13754
+	Involuntary context switches: 12806
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

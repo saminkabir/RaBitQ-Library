@@ -1,0 +1,132 @@
+File /home/cc/datasets/datasets/imagenet-align-640-normalized/base.fvecs loaded
+Rows 1000000 Cols 640
+File /home/cc/datasets/datasets/imagenet-align-640-normalized/query.fvecs loaded
+Rows 100 Cols 640
+File /home/cc/datasets/datasets/imagenet-align-640-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 640
+File /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 640
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0661059
+0.0024	5
+0.0228	10
+0.0685	20
+0.1202	30
+0.1445	40
+0.1744	50
+0.2142	60
+0.2461	70
+0.2686	80
+0.2968	90
+0.3199	100
+0.3599	110
+0.3886	120
+0.3961	130
+0.4116	140
+0.419	150
+0.4281	160
+0.4373	170
+0.4467	180
+0.4562	190
+0.4627	200
+0.4944	240
+0.5208	280
+0.5494	320
+0.5651	360
+0.5842	400
+0.6082	500
+0.6225	600
+0.6403	700
+0.6529	800
+0.661	900
+0.6678	1000
+0.671	1100
+0.6732	1200
+0.6743	1300
+0.6763	1400
+0.6785	1500
+0.687	2000
+0.6879	2500
+0.6891	3000
+0.6892	3500
+0.6893	4000
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe 6000 is larger than number of clusters, will use nprobe = num_cluster (4096).
+nprobe	QPS	recall
+5	1847.27	0.0024
+10	1721.48	0.0228
+20	1534.54	0.0685
+30	1412.8	0.1202
+40	1322.84	0.1445
+50	1251.87	0.1744
+60	1192.65	0.2142
+70	1142.67	0.2461
+80	1099.76	0.2686
+90	1063.19	0.2968
+100	1028.64	0.3199
+110	997.407	0.3599
+120	967.239	0.3886
+130	942.409	0.3961
+140	919.502	0.4116
+150	897.383	0.419
+160	875.622	0.4281
+170	854.9	0.4373
+180	837.367	0.4467
+190	819.204	0.4562
+200	802.66	0.4627
+240	738.923	0.4944
+280	684.787	0.5208
+320	638.896	0.5494
+360	588.636	0.5651
+400	554.176	0.5842
+500	491.862	0.6082
+600	442.864	0.6225
+700	398.351	0.6403
+800	366.332	0.6529
+900	337.518	0.661
+1000	310.194	0.6678
+1100	286.306	0.671
+1200	266.368	0.6732
+1300	250.979	0.6743
+1400	232.544	0.6763
+1500	216.652	0.6785
+2000	158.809	0.687
+2500	122.747	0.6879
+3000	99.0533	0.6891
+3500	82.795	0.6892
+4000	71.1716	0.6893
+6000	69.3916	0.6893
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/imagenet-align-640-normalized/base.fvecs /home/cc/datasets/datasets/imagenet-align-640-normalized/query.fvecs /home/cc/datasets/datasets/imagenet-align-640-normalized/groundtruth.ivecs /home/cc/index/ivf_index/imagenet-align-640-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/imagenet-align-640-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 141.21
+	System time (seconds): 2.12
+	Percent of CPU this job got: 169%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:24.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2749220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1044631
+	Voluntary context switches: 154
+	Involuntary context switches: 187
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

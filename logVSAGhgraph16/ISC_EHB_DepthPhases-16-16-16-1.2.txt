@@ -1,0 +1,24 @@
+{'recall@': 0.49816666666666665, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'ISC_EHB_DepthPhases', 'search-time': 0.06660938262939453, 'training-time': 11.259212493896484, 'm': 16, 'k': 20, 'ef_search': 16, 'ef_construction': 16}
+	Command being timed: "python vsag_hgraph.py --dataset ISC_EHB_DepthPhases --m 16 --ef_search 16 --ef_construction 16 --cpu 16"
+	User time (seconds): 123.81
+	System time (seconds): 10.18
+	Percent of CPU this job got: 989%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2829720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 977436
+	Voluntary context switches: 1775036
+	Involuntary context switches: 543
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

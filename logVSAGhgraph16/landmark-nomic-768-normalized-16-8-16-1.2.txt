@@ -1,0 +1,24 @@
+{'recall@': 0.6795, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'landmark-nomic-768-normalized', 'search-time': 0.11714029312133789, 'training-time': 17.629205465316772, 'm': 16, 'k': 20, 'ef_search': 8, 'ef_construction': 16}
+	Command being timed: "python vsag_hgraph.py --dataset landmark-nomic-768-normalized --m 16 --ef_search 8 --ef_construction 16 --cpu 16"
+	User time (seconds): 214.32
+	System time (seconds): 16.32
+	Percent of CPU this job got: 1095%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5549432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1811439
+	Voluntary context switches: 1358473
+	Involuntary context switches: 402
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,61 @@
+File /home/cc/datasets/datasets/sald1m/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/datasets/datasets/sald1m/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/datasets/sald1m/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/sald1m_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/sald1m_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00101335
+0.5528	5
+0.6091	10
+0.6441	20
+0.65	30
+0.6554	40
+0.6601	50
+0.6615	60
+0.6624	70
+0.6676	80
+nprobe	QPS	recall
+5	8176.33	0.5528
+10	7369.27	0.6091
+20	6258.25	0.6441
+30	5528.29	0.65
+40	4972.22	0.6554
+50	4519.19	0.6601
+60	4196.97	0.6615
+70	3899.37	0.6624
+80	3465.54	0.6676
+90	3291.85	0.6675
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/sald1m/base.fvecs /home/cc/datasets/datasets/sald1m/query.fvecs /home/cc/datasets/datasets/sald1m/groundtruth.ivecs /home/cc/index/ivf_index/sald1m_centroids_4096.fvecs /home/cc/index/ivf_index/sald1m_clusterids_4096.ivecs 1"
+	User time (seconds): 2.21
+	System time (seconds): 0.36
+	Percent of CPU this job got: 146%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 550400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 148852
+	Voluntary context switches: 88
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

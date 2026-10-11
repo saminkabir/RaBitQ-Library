@@ -1,52 +1,52 @@
-File /home/cc/datasets/space1V/base.fvecs loaded
+File /home/cc/datasets/datasets/space1V/base.fvecs loaded
 Rows 1000000 Cols 100
-File /home/cc/datasets/space1V/query.fvecs loaded
+File /home/cc/datasets/datasets/space1V/query.fvecs loaded
 Rows 100 Cols 100
-File /home/cc/datasets/space1V/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/space1V/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 877910
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 731.318 secs
+Indexing time 86.4561 secs
 EF	QPS	Recall
-10	30981.2	0.1216
-20	25633.6	0.1688
-40	20699.3	0.2324
-50	18075.8	0.2645
-60	15852.9	0.2948
-80	12891.5	0.344
-100	11716.9	0.3797
-150	7934.27	0.465
-170	7136.25	0.4943
-190	6562.42	0.5174
-200	6300.17	0.5282
-250	5030.07	0.5812
-300	4309.38	0.6206
-400	3180.1	0.6881
-500	2569.46	0.7334
-600	2039.89	0.7655
-700	1732.67	0.7944
-800	1487.69	0.8192
-1500	673.332	0.9071
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/space1V/base.fvecs /home/cc/datasets/space1V/query.fvecs /home/cc/datasets/space1V/groundtruth.ivecs 64 128"
-	User time (seconds): 730.58
-	System time (seconds): 2.99
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:14.44
+10	12658.2	0.1239
+20	11084	0.1733
+40	9953.38	0.2362
+50	8944.08	0.2682
+60	8131.67	0.2949
+80	6838.77	0.343
+100	6198.15	0.3858
+150	4465.62	0.4659
+170	3936.02	0.497
+190	3554.67	0.5234
+200	3379.06	0.5335
+250	2703.59	0.5833
+300	2233.8	0.6255
+400	1656.22	0.6862
+500	1318.04	0.73
+600	1073.17	0.7617
+700	911.887	0.7937
+800	785.796	0.8146
+1500	370.684	0.904
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/space1V/base.fvecs /home/cc/datasets/datasets/space1V/query.fvecs /home/cc/datasets/datasets/space1V/groundtruth.ivecs 64 128"
+	User time (seconds): 1329.70
+	System time (seconds): 19.35
+	Percent of CPU this job got: 1475%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:31.42
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 6132308
+	Maximum resident set size (kbytes): 6151580
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1280632
-	Voluntary context switches: 3084
-	Involuntary context switches: 559
+	Minor (reclaiming a frame) page faults: 2430839
+	Voluntary context switches: 26403
+	Involuntary context switches: 1806
 	Swaps: 0
-	File system inputs: 769888
+	File system inputs: 0
 	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0

@@ -1,52 +1,52 @@
-File /home/cc/datasets/txed/base.fvecs loaded
+File /home/cc/datasets/datasets/txed/base.fvecs loaded
 Rows 519589 Cols 256
-File /home/cc/datasets/txed/query.fvecs loaded
+File /home/cc/datasets/datasets/txed/query.fvecs loaded
 Rows 100 Cols 256
-File /home/cc/datasets/txed/groundtruth.ivecs loaded
+File /home/cc/datasets/datasets/txed/groundtruth.ivecs loaded
 Rows 100 Cols 100
 FhtKacRotator is selected
 Setting entry_point to 29486
 	Vectors Copied
 Supplementing edges...
 Supplementing finished...
-Indexing time 237.181 secs
+Indexing time 27.4341 secs
 EF	QPS	Recall
-10	29839.5	0.1282
-20	26757.5	0.1595
-40	22120	0.2215
-50	20546.6	0.236
-60	18646	0.2587
-80	15615.5	0.2996
-100	13624.1	0.3348
-150	9708.68	0.3991
-170	8722.96	0.4201
-190	7940.18	0.4437
-200	7635.64	0.4514
-250	6297.6	0.4879
-300	5241.35	0.517
-400	3923.24	0.5667
-500	3134.69	0.6018
-600	2532.11	0.6237
-700	2139.12	0.6422
-800	1840.96	0.6565
-1500	854.479	0.719
-	Command being timed: "./bin/symqg_indexing /home/cc/datasets/txed/base.fvecs /home/cc/datasets/txed/query.fvecs /home/cc/datasets/txed/groundtruth.ivecs 32 128"
-	User time (seconds): 237.77
-	System time (seconds): 1.62
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:02.75
+10	21691.9	0.1183
+20	19056	0.1665
+40	15790.6	0.2193
+50	14708.8	0.2437
+60	13503.4	0.2622
+80	11456.5	0.2994
+100	10045.5	0.3442
+150	7327.34	0.4106
+170	6624.99	0.4319
+190	6084.19	0.4489
+200	5837.48	0.4577
+250	4813.27	0.4996
+300	4051.77	0.5246
+400	3102.39	0.5629
+500	2484.57	0.5959
+600	2018.82	0.6278
+700	1708.95	0.6447
+800	1489.49	0.6596
+1500	697.654	0.7203
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/txed/base.fvecs /home/cc/datasets/datasets/txed/query.fvecs /home/cc/datasets/datasets/txed/groundtruth.ivecs 32 128"
+	User time (seconds): 420.37
+	System time (seconds): 8.25
+	Percent of CPU this job got: 1431%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.94
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3322588
+	Maximum resident set size (kbytes): 3307516
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 563474
-	Voluntary context switches: 4386
-	Involuntary context switches: 204
+	Minor (reclaiming a frame) page faults: 703045
+	Voluntary context switches: 6530
+	Involuntary context switches: 693
 	Swaps: 0
-	File system inputs: 220216
+	File system inputs: 0
 	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0

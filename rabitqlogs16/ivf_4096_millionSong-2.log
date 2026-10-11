@@ -1,0 +1,57 @@
+File /home/cc/datasets/datasets/millionSong/base.fvecs loaded
+Rows 992272 Cols 420
+File /home/cc/datasets/datasets/millionSong/query.fvecs loaded
+Rows 200 Cols 420
+File /home/cc/datasets/datasets/millionSong/groundtruth.ivecs loaded
+Rows 200 Cols 20
+File /home/cc/index/ivf_index/millionSong_centroids_4096.fvecs loaded
+Rows 4096 Cols 420
+File /home/cc/index/ivf_index/millionSong_clusterids_4096.ivecs loaded
+Rows 992272 Cols 1
+data loaded
+	N: 992272
+	DIM: 420
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0475536
+0.71475	5
+0.80925	10
+0.856	20
+0.8665	30
+0.869	40
+0.86975	50
+0.87225	60
+nprobe	QPS	recall
+5	2798.45	0.71475
+10	2612.41	0.80925
+20	2213.1	0.856
+30	1992.12	0.8665
+40	1881.65	0.869
+50	1764.85	0.86975
+60	1629.24	0.87225
+70	1510.51	0.87225
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/millionSong/base.fvecs /home/cc/datasets/datasets/millionSong/query.fvecs /home/cc/datasets/datasets/millionSong/groundtruth.ivecs /home/cc/index/ivf_index/millionSong_centroids_4096.fvecs /home/cc/index/ivf_index/millionSong_clusterids_4096.ivecs 2"
+	User time (seconds): 50.00
+	System time (seconds): 1.38
+	Percent of CPU this job got: 571%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1814904
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 599239
+	Voluntary context switches: 130
+	Involuntary context switches: 76
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

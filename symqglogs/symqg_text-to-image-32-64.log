@@ -1,0 +1,55 @@
+File /home/cc/datasets/datasets/text-to-image/base.fvecs loaded
+Rows 1000000 Cols 200
+File /home/cc/datasets/datasets/text-to-image/query.fvecs loaded
+Rows 100 Cols 200
+File /home/cc/datasets/datasets/text-to-image/groundtruth.ivecs loaded
+Rows 100 Cols 100
+FhtKacRotator is selected
+Setting entry_point to 130673
+	Vectors Copied
+Supplementing edges...
+Supplementing finished...
+Indexing time 39.7766 secs
+EF	QPS	Recall
+10	21723	0.4091
+20	20173.2	0.4227
+40	16655.6	0.4721
+50	15658.5	0.4952
+60	14578.4	0.5244
+80	12909.7	0.5742
+100	11696.3	0.6254
+150	9356.4	0.7342
+170	8690.74	0.773
+190	7932.42	0.8095
+200	7741.52	0.827
+250	6511.92	0.8901
+300	5506.15	0.9374
+400	4242.18	0.9786
+500	3445.68	0.9909
+600	2861.38	0.9953
+700	2448.83	0.9966
+800	2129.8	0.9976
+1500	1079.33	0.9992
+	Command being timed: "./bin/symqg_indexing /home/cc/datasets/datasets/text-to-image/base.fvecs /home/cc/datasets/datasets/text-to-image/query.fvecs /home/cc/datasets/datasets/text-to-image/groundtruth.ivecs 32 64"
+	User time (seconds): 589.63
+	System time (seconds): 19.70
+	Percent of CPU this job got: 1440%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5956640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 1321078
+	Voluntary context switches: 22230
+	Involuntary context switches: 1123
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

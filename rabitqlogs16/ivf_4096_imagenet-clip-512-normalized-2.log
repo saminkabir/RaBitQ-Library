@@ -1,0 +1,97 @@
+File /home/cc/datasets/datasets/imagenet-clip-512-normalized/base.fvecs loaded
+Rows 1000000 Cols 512
+File /home/cc/datasets/datasets/imagenet-clip-512-normalized/query.fvecs loaded
+Rows 100 Cols 512
+File /home/cc/datasets/datasets/imagenet-clip-512-normalized/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/imagenet-clip-512-normalized_centroids_4096.fvecs loaded
+Rows 4096 Cols 512
+File /home/cc/index/ivf_index/imagenet-clip-512-normalized_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 512
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0524074
+0.6768	5
+0.7734	10
+0.8403	20
+0.8629	30
+0.875	40
+0.8812	50
+0.8863	60
+0.8894	70
+0.8927	80
+0.894	90
+0.8948	100
+0.8972	110
+0.8988	120
+0.8999	130
+0.9002	140
+0.9005	150
+0.9009	160
+0.9014	170
+0.9015	180
+0.9018	190
+0.902	200
+0.9023	240
+0.9028	280
+0.9033	320
+0.9034	360
+0.9036	400
+0.9038	500
+nprobe	QPS	recall
+5	2474.51	0.6768
+10	2334.75	0.7734
+20	2135.7	0.8403
+30	1980.46	0.8629
+40	1864.8	0.875
+50	1756.39	0.8812
+60	1662.23	0.8863
+70	1567.67	0.8894
+80	1502.37	0.8927
+90	1432.67	0.894
+100	1360.27	0.8948
+110	1295.34	0.8972
+120	1241.02	0.8988
+130	1194.86	0.8999
+140	1151.73	0.9002
+150	1081.84	0.9005
+160	1002.8	0.9009
+170	1010.14	0.9014
+180	1013.55	0.9015
+190	988.219	0.9018
+200	956.379	0.902
+240	855.228	0.9023
+280	771.025	0.9028
+320	692.457	0.9033
+360	640.734	0.9034
+400	606.089	0.9036
+500	507.054	0.9038
+600	454.409	0.9038
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/imagenet-clip-512-normalized/base.fvecs /home/cc/datasets/datasets/imagenet-clip-512-normalized/query.fvecs /home/cc/datasets/datasets/imagenet-clip-512-normalized/groundtruth.ivecs /home/cc/index/ivf_index/imagenet-clip-512-normalized_centroids_4096.fvecs /home/cc/index/ivf_index/imagenet-clip-512-normalized_clusterids_4096.ivecs 2"
+	User time (seconds): 66.08
+	System time (seconds): 1.59
+	Percent of CPU this job got: 325%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2211428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 781337
+	Voluntary context switches: 133
+	Involuntary context switches: 78
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

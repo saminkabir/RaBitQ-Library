@@ -1,0 +1,61 @@
+File /home/cc/datasets/datasets/instancegm/base.fvecs loaded
+Rows 1000000 Cols 128
+File /home/cc/datasets/datasets/instancegm/query.fvecs loaded
+Rows 100 Cols 128
+File /home/cc/datasets/datasets/instancegm/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/instancegm_centroids_4096.fvecs loaded
+Rows 4096 Cols 128
+File /home/cc/index/ivf_index/instancegm_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 128
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.0011214
+0.7567	5
+0.8064	10
+0.832	20
+0.8419	30
+0.8461	40
+0.8483	50
+0.8503	60
+0.8518	70
+0.8525	80
+nprobe	QPS	recall
+5	9020.31	0.7567
+10	8177.21	0.8064
+20	6986.94	0.832
+30	6178.62	0.8419
+40	5552.23	0.8461
+50	5070.71	0.8483
+60	4658.07	0.8503
+70	4321.01	0.8518
+80	4040.69	0.8525
+90	3799.96	0.8523
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/instancegm/base.fvecs /home/cc/datasets/datasets/instancegm/query.fvecs /home/cc/datasets/datasets/instancegm/groundtruth.ivecs /home/cc/index/ivf_index/instancegm_centroids_4096.fvecs /home/cc/index/ivf_index/instancegm_clusterids_4096.ivecs 1"
+	User time (seconds): 2.13
+	System time (seconds): 0.40
+	Percent of CPU this job got: 152%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 552960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 141783
+	Voluntary context switches: 128
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

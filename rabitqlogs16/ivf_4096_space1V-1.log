@@ -1,0 +1,61 @@
+File /home/cc/datasets/datasets/space1V/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/datasets/datasets/space1V/query.fvecs loaded
+Rows 100 Cols 100
+File /home/cc/datasets/datasets/space1V/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/space1V_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/space1V_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00119706
+0.2424	5
+0.2893	10
+0.33	20
+0.3487	30
+0.3627	40
+0.3729	50
+0.3804	60
+0.3838	70
+0.3868	80
+nprobe	QPS	recall
+5	8514.23	0.2424
+10	7695.96	0.2893
+20	6529.03	0.33
+30	5824.32	0.3487
+40	5266.51	0.3627
+50	4848.64	0.3729
+60	4144.34	0.3804
+70	4058.1	0.3838
+80	3938.3	0.3868
+90	3706.81	0.3868
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/space1V/base.fvecs /home/cc/datasets/datasets/space1V/query.fvecs /home/cc/datasets/datasets/space1V/groundtruth.ivecs /home/cc/index/ivf_index/space1V_centroids_4096.fvecs /home/cc/index/ivf_index/space1V_clusterids_4096.ivecs 1"
+	User time (seconds): 2.28
+	System time (seconds): 0.30
+	Percent of CPU this job got: 158%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 439040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 121510
+	Voluntary context switches: 122
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

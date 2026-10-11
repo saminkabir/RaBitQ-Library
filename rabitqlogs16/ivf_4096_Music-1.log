@@ -1,0 +1,57 @@
+File /home/cc/datasets/datasets/Music/base.fvecs loaded
+Rows 1000000 Cols 100
+File /home/cc/datasets/datasets/Music/query.fvecs loaded
+Rows 100 Cols 100
+File /home/cc/datasets/datasets/Music/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/Music_centroids_4096.fvecs loaded
+Rows 4096 Cols 100
+File /home/cc/index/ivf_index/Music_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 100
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.00116247
+0.2766	5
+0.3271	10
+0.3594	20
+0.3743	30
+0.3789	40
+0.3816	50
+0.3842	60
+nprobe	QPS	recall
+5	8278.42	0.2766
+10	7478.83	0.3271
+20	6365.71	0.3594
+30	5673.12	0.3743
+40	5136.32	0.3789
+50	4700.7	0.3816
+60	4349.95	0.3842
+70	4050.91	0.3842
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/Music/base.fvecs /home/cc/datasets/datasets/Music/query.fvecs /home/cc/datasets/datasets/Music/groundtruth.ivecs /home/cc/index/ivf_index/Music_centroids_4096.fvecs /home/cc/index/ivf_index/Music_clusterids_4096.ivecs 1"
+	User time (seconds): 1.93
+	System time (seconds): 0.31
+	Percent of CPU this job got: 168%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 440320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 112931
+	Voluntary context switches: 82
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,73 @@
+File /home/cc/datasets/datasets/yahoomusic/base.fvecs loaded
+Rows 136736 Cols 300
+File /home/cc/datasets/datasets/yahoomusic/query.fvecs loaded
+Rows 100 Cols 300
+File /home/cc/datasets/datasets/yahoomusic/groundtruth.ivecs loaded
+Rows 100 Cols 100
+File /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs loaded
+Rows 4096 Cols 300
+File /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs loaded
+Rows 136736 Cols 1
+data loaded
+	N: 136736
+	DIM: 300
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.000446907
+0.5206	5
+0.6986	10
+0.8078	20
+0.8419	30
+0.8551	40
+0.8621	50
+0.8679	60
+0.8701	70
+0.8723	80
+0.8746	90
+0.8754	100
+0.876	110
+0.8766	120
+0.8772	130
+0.8777	140
+nprobe	QPS	recall
+5	4270.26	0.5206
+10	4152.81	0.6986
+20	4011.52	0.8078
+30	3893.31	0.8419
+40	3791.12	0.8551
+50	3694.79	0.8621
+60	3605.35	0.8679
+70	3521.15	0.8701
+80	3440.89	0.8723
+90	3365.11	0.8746
+100	3290.63	0.8754
+110	3224.37	0.876
+120	3160.04	0.8766
+130	3092.54	0.8772
+140	3033.13	0.8777
+150	2853.78	0.8777
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/yahoomusic/base.fvecs /home/cc/datasets/datasets/yahoomusic/query.fvecs /home/cc/datasets/datasets/yahoomusic/groundtruth.ivecs /home/cc/index/ivf_index/yahoomusic_centroids_4096.fvecs /home/cc/index/ivf_index/yahoomusic_clusterids_4096.ivecs 1"
+	User time (seconds): 3.18
+	System time (seconds): 0.14
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 181760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52107
+	Voluntary context switches: 71
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

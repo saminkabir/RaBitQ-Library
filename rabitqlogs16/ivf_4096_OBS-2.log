@@ -1,0 +1,59 @@
+File /home/cc/datasets/datasets/OBS/base.fvecs loaded
+Rows 1000000 Cols 256
+File /home/cc/datasets/datasets/OBS/query.fvecs loaded
+Rows 300 Cols 256
+File /home/cc/datasets/datasets/OBS/groundtruth.ivecs loaded
+Rows 300 Cols 100
+File /home/cc/index/ivf_index/OBS_centroids_4096.fvecs loaded
+Rows 4096 Cols 256
+File /home/cc/index/ivf_index/OBS_clusterids_4096.ivecs loaded
+Rows 1000000 Cols 1
+data loaded
+	N: 1000000
+	DIM: 256
+FhtKacRotator is selected
+Start IVF construction...
+	Loading clustering information...
+Allocating memory for IVF...
+Indexing time 0.109887
+0.9008	5
+0.941733	10
+0.953233	20
+0.954733	30
+0.9561	40
+0.9572	50
+0.958533	60
+0.959267	70
+nprobe	QPS	recall
+5	23.1744	0.9008
+10	23.1652	0.941733
+20	23.1958	0.953233
+30	23.2057	0.954733
+40	23.2024	0.9561
+50	23.1683	0.9572
+60	23.1303	0.958533
+70	23.15	0.959267
+80	23.1554	0.959033
+	Command being timed: "./bin/ivf_rabitq_indexing /home/cc/datasets/datasets/OBS/base.fvecs /home/cc/datasets/datasets/OBS/query.fvecs /home/cc/datasets/datasets/OBS/groundtruth.ivecs /home/cc/index/ivf_index/OBS_centroids_4096.fvecs /home/cc/index/ivf_index/OBS_clusterids_4096.ivecs 2"
+	User time (seconds): 712.47
+	System time (seconds): 1.38
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:46.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1812300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 868671
+	Voluntary context switches: 99
+	Involuntary context switches: 1663
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 80
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
