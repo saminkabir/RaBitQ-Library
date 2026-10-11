@@ -1,0 +1,24 @@
+{'recall@': 0.0615, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'nuswide', 'search-time': 0.28595542907714844, 'training-time': 692.7647199630737, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset nuswide --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 692.58
+	System time (seconds): 6.21
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:36.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1439672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 854588
+	Voluntary context switches: 468
+	Involuntary context switches: 1781
+	Swaps: 0
+	File system inputs: 11008
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

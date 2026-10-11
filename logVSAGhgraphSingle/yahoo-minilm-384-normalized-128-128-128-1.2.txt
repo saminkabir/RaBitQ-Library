@@ -1,0 +1,24 @@
+{'recall@': 0.997, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'yahoo-minilm-384-normalized', 'search-time': 0.13371515274047852, 'training-time': 2968.571825504303, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset yahoo-minilm-384-normalized --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 2967.92
+	System time (seconds): 6.33
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 49:40.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2823292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1760565
+	Voluntary context switches: 3571
+	Involuntary context switches: 4811
+	Swaps: 0
+	File system inputs: 1946424
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

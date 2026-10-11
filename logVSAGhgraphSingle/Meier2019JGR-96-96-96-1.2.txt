@@ -1,0 +1,24 @@
+{'recall@': 0.024666666666666667, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'Meier2019JGR', 'search-time': 0.04202890396118164, 'training-time': 562.3724238872528, 'm': 96, 'k': 20, 'ef_search': 96, 'ef_construction': 96}
+	Command being timed: "python vsag_hgraph.py --dataset Meier2019JGR --m 96 --ef_search 96 --ef_construction 96 --cpu 1"
+	User time (seconds): 558.05
+	System time (seconds): 7.65
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:24.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2909192
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 3023732
+	Voluntary context switches: 357
+	Involuntary context switches: 1583
+	Swaps: 0
+	File system inputs: 4864
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

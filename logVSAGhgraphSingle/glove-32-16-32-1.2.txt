@@ -1,0 +1,24 @@
+{'recall@': 0.398, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'glove', 'search-time': 0.06341886520385742, 'training-time': 274.6818673610687, 'm': 32, 'k': 20, 'ef_search': 16, 'ef_construction': 32}
+	Command being timed: "python vsag_hgraph.py --dataset glove --m 32 --ef_search 16 --ef_construction 32 --cpu 1"
+	User time (seconds): 274.07
+	System time (seconds): 2.39
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:36.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1544980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 748226
+	Voluntary context switches: 287
+	Involuntary context switches: 829
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

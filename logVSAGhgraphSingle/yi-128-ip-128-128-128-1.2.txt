@@ -1,0 +1,24 @@
+{'recall@': 0.9815, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'yi-128-ip', 'search-time': 0.028013229370117188, 'training-time': 117.47381281852722, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset yi-128-ip --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 119.06
+	System time (seconds): 0.59
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:58.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 405612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 13
+	Minor (reclaiming a frame) page faults: 166669
+	Voluntary context switches: 189
+	Involuntary context switches: 779
+	Swaps: 0
+	File system inputs: 1560
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

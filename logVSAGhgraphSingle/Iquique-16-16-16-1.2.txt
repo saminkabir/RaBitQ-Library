@@ -1,0 +1,24 @@
+{'recall@': 0.32566666666666666, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'Iquique', 'search-time': 0.04602646827697754, 'training-time': 63.72458791732788, 'm': 16, 'k': 20, 'ef_search': 16, 'ef_construction': 16}
+	Command being timed: "python vsag_hgraph.py --dataset Iquique --m 16 --ef_search 16 --ef_construction 16 --cpu 1"
+	User time (seconds): 63.67
+	System time (seconds): 1.85
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1537372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 649332
+	Voluntary context switches: 1601
+	Involuntary context switches: 384
+	Swaps: 0
+	File system inputs: 820240
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

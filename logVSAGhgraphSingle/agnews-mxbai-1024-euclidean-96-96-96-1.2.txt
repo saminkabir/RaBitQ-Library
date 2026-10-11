@@ -1,0 +1,24 @@
+{'recall@': 0.9975, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'agnews-mxbai-1024-euclidean', 'search-time': 0.3909461498260498, 'training-time': 5433.3605880737305, 'm': 96, 'k': 20, 'ef_search': 96, 'ef_construction': 96}
+	Command being timed: "python vsag_hgraph.py --dataset agnews-mxbai-1024-euclidean --m 96 --ef_search 96 --ef_construction 96 --cpu 1"
+	User time (seconds): 5408.37
+	System time (seconds): 31.12
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:30:38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7414372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17649719
+	Voluntary context switches: 338
+	Involuntary context switches: 8732
+	Swaps: 0
+	File system inputs: 16272
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

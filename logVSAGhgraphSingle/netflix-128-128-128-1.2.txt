@@ -1,0 +1,24 @@
+{'recall@': 0.9992, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'netflix', 'search-time': 0.36738038063049316, 'training-time': 7.698866128921509, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset netflix --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 11.41
+	System time (seconds): 0.18
+	Percent of CPU this job got: 132%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 40921
+	Voluntary context switches: 101
+	Involuntary context switches: 805
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

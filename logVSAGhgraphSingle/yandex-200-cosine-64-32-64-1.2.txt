@@ -1,0 +1,24 @@
+{'recall@': 0.7325, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'yandex-200-cosine', 'search-time': 0.0729684829711914, 'training-time': 632.5868225097656, 'm': 64, 'k': 20, 'ef_search': 32, 'ef_construction': 64}
+	Command being timed: "python vsag_hgraph.py --dataset yandex-200-cosine --m 64 --ef_search 32 --ef_construction 64 --cpu 1"
+	User time (seconds): 629.52
+	System time (seconds): 5.14
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:34.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2294608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 14
+	Minor (reclaiming a frame) page faults: 1650418
+	Voluntary context switches: 191
+	Involuntary context switches: 1231
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

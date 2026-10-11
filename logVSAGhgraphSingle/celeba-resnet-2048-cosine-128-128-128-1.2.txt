@@ -1,0 +1,24 @@
+{'recall@': 0.9955, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'celeba-resnet-2048-cosine', 'search-time': 0.2769811153411865, 'training-time': 793.492698431015, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset celeba-resnet-2048-cosine --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 792.28
+	System time (seconds): 6.41
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:16.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3824712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 34
+	Minor (reclaiming a frame) page faults: 2081005
+	Voluntary context switches: 370
+	Involuntary context switches: 1913
+	Swaps: 0
+	File system inputs: 56944
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

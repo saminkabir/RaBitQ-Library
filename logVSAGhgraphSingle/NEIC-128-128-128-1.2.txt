@@ -1,0 +1,24 @@
+{'recall@': 0.6046666666666667, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'NEIC', 'search-time': 0.1676926612854004, 'training-time': 975.7418437004089, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset NEIC --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 974.39
+	System time (seconds): 6.40
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:18.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3030892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 950001
+	Voluntary context switches: 694
+	Involuntary context switches: 2146
+	Swaps: 0
+	File system inputs: 58688
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

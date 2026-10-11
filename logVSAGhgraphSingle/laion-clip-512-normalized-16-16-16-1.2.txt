@@ -1,0 +1,24 @@
+{'recall@': 0.218, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'laion-clip-512-normalized', 'search-time': 0.040494680404663086, 'training-time': 185.06784582138062, 'm': 16, 'k': 20, 'ef_search': 16, 'ef_construction': 16}
+	Command being timed: "python vsag_hgraph.py --dataset laion-clip-512-normalized --m 16 --ef_search 16 --ef_construction 16 --cpu 1"
+	User time (seconds): 182.02
+	System time (seconds): 5.93
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4855228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2312643
+	Voluntary context switches: 102
+	Involuntary context switches: 596
+	Swaps: 0
+	File system inputs: 64
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

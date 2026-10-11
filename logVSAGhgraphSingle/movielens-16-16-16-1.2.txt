@@ -1,0 +1,24 @@
+{'recall@': 0.8325, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'movielens', 'search-time': 0.05997204780578613, 'training-time': 0.565471887588501, 'm': 16, 'k': 20, 'ef_search': 16, 'ef_construction': 16}
+	Command being timed: "python vsag_hgraph.py --dataset movielens --m 16 --ef_search 16 --ef_construction 16 --cpu 1"
+	User time (seconds): 1.47
+	System time (seconds): 0.07
+	Percent of CPU this job got: 104%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 14306
+	Voluntary context switches: 136
+	Involuntary context switches: 241
+	Swaps: 0
+	File system inputs: 1200
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

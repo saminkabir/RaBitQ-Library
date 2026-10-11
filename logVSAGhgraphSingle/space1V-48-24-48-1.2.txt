@@ -1,0 +1,24 @@
+{'recall@': 0.5495, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'space1V', 'search-time': 0.052570343017578125, 'training-time': 1493.7815010547638, 'm': 48, 'k': 20, 'ef_search': 24, 'ef_construction': 48}
+	Command being timed: "python vsag_hgraph.py --dataset space1V --m 48 --ef_search 24 --ef_construction 48 --cpu 1"
+	User time (seconds): 1490.95
+	System time (seconds): 3.82
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:55.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1358004
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 1321901
+	Voluntary context switches: 135
+	Involuntary context switches: 2537
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

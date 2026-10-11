@@ -1,0 +1,24 @@
+{'recall@': 0.9985, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'bigann', 'search-time': 0.09720396995544434, 'training-time': 1473.5830664634705, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset bigann --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 1472.62
+	System time (seconds): 4.32
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:34.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1910652
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 1834258
+	Voluntary context switches: 205
+	Involuntary context switches: 2741
+	Swaps: 0
+	File system inputs: 20840
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

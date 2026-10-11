@@ -1,0 +1,24 @@
+{'recall@': 0.9995, 'model_name': 'VSAG-HGRAPH', 'dataset_name': 'llama-128-ip', 'search-time': 0.015851736068725586, 'training-time': 473.152316570282, 'm': 128, 'k': 20, 'ef_search': 128, 'ef_construction': 128}
+	Command being timed: "python vsag_hgraph.py --dataset llama-128-ip --m 128 --ef_search 128 --ef_construction 128 --cpu 1"
+	User time (seconds): 473.22
+	System time (seconds): 1.66
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:54.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 527876
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 293699
+	Voluntary context switches: 858
+	Involuntary context switches: 1166
+	Swaps: 0
+	File system inputs: 257072
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
