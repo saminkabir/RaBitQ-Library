@@ -6,7 +6,7 @@ import struct
 
 
 #base_path="./dataset/"
-base_path = "/home/cc/dataset/dataset/"
+base_path = "/home/cc/datasets/datasets/"
 #base_path = "/home/cc/OQG/example/dataset/"
 
 def get_datasets_list():
