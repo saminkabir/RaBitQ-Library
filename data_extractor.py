@@ -44,7 +44,7 @@ def get_data_generic(dataset):
     # also get some query vectors to search with
     xq = read_vecs(dataset+'/query.fvecs')
     # take just one query (there are many in sift_learn.fvecs)
-    gt = read_vecs(dataset+'/groundtruth.ivecs')
+    gt = read_vecs(dataset+'/groundtruth_ip.ivecs')
     return xb,xq,gt
     
 

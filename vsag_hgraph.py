@@ -12,7 +12,7 @@ def calculate_recall_at(ground_truth, I, k1, k2):
     return ps.k_recall_at(ground_truth, I, k1, k2)
 
 def hgraph_example(m, dataset_name, ef_search = 8, ef_construction = 64, cpu = 16):
-    data,query,gts=get_data_common(dataset_name)
+    data,query,gts=get_data_generic(dataset_name)
     dim = data.shape[1]
     num_elements = data.shape[0]
     ids = range(num_elements)
@@ -22,7 +22,7 @@ def hgraph_example(m, dataset_name, ef_search = 8, ef_construction = 64, cpu = 1
     index_params = json.dumps(
         {
             "dtype": "float32",
-            "metric_type": "l2",
+            "metric_type": "ip",
             "dim": dim,
             "index_param": {
                 "base_quantization_type": "sq8_uniform",
